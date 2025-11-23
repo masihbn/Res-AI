@@ -1,0 +1,83 @@
+{
+  "name": "Sharan Restaurant",
+  "tagline": "Italian Fastfood",
+  "description": "Masih is the GOAT",
+
+  "contact": {
+    "phone": {
+      "primary": "+1 819 919 8385",
+      "primaryRaw": "+18199198385",
+      "booking": "+98-911-5735090",
+      "bookingRaw": "+989115735090"
+    },
+    "email": {
+      "primary": "booking@sharan.com",
+      "booking": "booking@sharan.com"
+    }
+  },
+
+  "address": {
+    "street": "Rue du Mans",
+    "city": "Montreal",
+    "region": "Quebec",
+    "postalCode": "H1S 1Z9",
+    "country": "CA",
+    "full": "Rue du Mans, Montreal, QC H1S 1Z9, CA",
+    "fullMultiline": "Rue du Mans,<br>Montreal, QC H1S 1Z9, CA",
+    "mapsUrl": "https://maps.google.com"
+  },
+
+  "hours": {
+    "daily": "8:00 am to 10:00 pm",
+    "dailyShort": "Daily: 8:00 am to 10:00 pm",
+    "sidebar": "9:30 am - 2:30 pm",
+    "footer": "09:00 am - 01:00 pm",
+    "lunch": {
+      "days": "Mon - Sun",
+      "time": "11:00 am - 2:30 pm",
+      "full": "Mon - Sun: 11:00 am - 2:30 pm"
+    },
+    "dinner": {
+      "days": "Mon - Sun",
+      "time": "5:00 pm - 10:00 pm",
+      "full": "Mon - Sun: 5:00 pm - 10:00 pm"
+    },
+    "special": {
+      "description": "During winter daily from",
+      "start": "7:00 pm",
+      "end": "9:00 pm"
+    }
+  },
+
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "twitter": "",
+    "youtube": "",
+    "googleMaps": ""
+  },
+
+  "branding": {
+    "logoPath": "./assets/images/branding/logo.svg",
+    "logoWidth": 160,
+    "logoHeight": 50,
+    "faviconPath": "./favicon.svg"
+  },
+
+  "legal": {
+    "copyrightYear": "2025",
+    "copyrightHolder": "MB Flows",
+    "attribution": {
+      "text": "Crafted by MB Flows"
+    }
+  },
+
+  "promotions": {
+    "newsletter": {
+      "title": "Get News & Offers",
+      "subtitle": "Subscribe us & Get",
+      "discountPercent": 25,
+      "discountText": "25% Off."
+    }
+  }
+}
