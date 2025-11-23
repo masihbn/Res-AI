@@ -194,10 +194,10 @@
 
       </nav>
 
-      <a href="#reservation" class="btn btn-secondary">
-        <span class="text text-1">Find A Table</span>
+      <a href="#contact" class="btn btn-secondary">
+        <span class="text text-1">Contact Us</span>
 
-        <span class="text text-2" aria-hidden="true">Find A Table</span>
+        <span class="text text-2" aria-hidden="true">Contact Us</span>
       </a>
 
       <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
@@ -311,10 +311,10 @@
           <ion-icon name="chevron-forward"></ion-icon>
         </button>
 
-        <a href="#reservation" class="hero-btn has-after">
-          <img src="./assets/images/hero-icon.png" width="48" height="48" alt="booking icon">
+        <a href="#contact" class="hero-btn has-after">
+          <img src="./assets/images/hero-icon.png" width="48" height="48" alt="contact icon">
 
-          <span class="label-2 text-center span">Book A Table</span>
+          <span class="label-2 text-center span">Contact Us</span>
         </a>
 
       </section>
@@ -768,127 +768,100 @@
 
 
 
-      <!-- 
-        - #RESERVATION
+      <!--
+        - #CONTACT
       -->
 
-      <section class="reservation" id="reservation">
+      <section class="section contact-info text-center" aria-label="contact information" id="contact">
         <div class="container">
 
-          <div class="form reservation-form bg-black-10">
+          <p class="label-2 section-subtitle">Get In Touch</p>
 
-            <form action="" class="form-left">
+          <h2 class="headline-1 section-title">Contact Us</h2>
 
-              <h2 class="headline-1 text-center">Online Reservation</h2>
+          <p class="section-text">
+            We'd love to hear from you. Whether you have a question about our menu,
+            want to make a reservation, or just want to say hello, we're here for you.
+          </p>
 
-              <p class="form-text text-center">
-                Booking request <a href="tel:+88123123456" class="link">+88-123-123456</a>
-                or fill out the order form
-              </p>
+          <ul class="grid-list" style="margin-top: 50px;">
 
-              <div class="input-wrapper">
-                <input type="text" name="name" placeholder="Your Name" autocomplete="off" class="input-field">
+            <li>
+              <div class="feature-card text-center">
 
-                <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off" class="input-field">
-              </div>
-
-              <div class="input-wrapper">
-
-                <div class="icon-wrapper">
-                  <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
-
-                  <select name="person" class="input-field">
-                    <option value="1-person">1 Person</option>
-                    <option value="2-person">2 Person</option>
-                    <option value="3-person">3 Person</option>
-                    <option value="4-person">4 Person</option>
-                    <option value="5-person">5 Person</option>
-                    <option value="6-person">6 Person</option>
-                    <option value="7-person">7 Person</option>
-                  </select>
-
-                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                <div class="card-icon">
+                  <ion-icon name="location-outline" aria-hidden="true" style="font-size: 48px; color: var(--gold-crayola);"></ion-icon>
                 </div>
 
-                <div class="icon-wrapper">
-                  <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+                <h3 class="title-2 card-title">Our Location</h3>
 
-                  <input type="date" name="reservation-date" class="input-field">
+                <address class="label-1 card-text">
+                  Restaurant St, Delicious City,<br>
+                  London 9578, UK
+                </address>
 
-                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
-                </div>
-
-                <div class="icon-wrapper">
-                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
-
-                  <select name="person" class="input-field">
-                    <option value="08:00am">08 : 00 am</option>
-                    <option value="09:00am">09 : 00 am</option>
-                    <option value="010:00am">10 : 00 am</option>
-                    <option value="011:00am">11 : 00 am</option>
-                    <option value="012:00am">12 : 00 am</option>
-                    <option value="01:00pm">01 : 00 pm</option>
-                    <option value="02:00pm">02 : 00 pm</option>
-                    <option value="03:00pm">03 : 00 pm</option>
-                    <option value="04:00pm">04 : 00 pm</option>
-                    <option value="05:00pm">05 : 00 pm</option>
-                    <option value="06:00pm">06 : 00 pm</option>
-                    <option value="07:00pm">07 : 00 pm</option>
-                    <option value="08:00pm">08 : 00 pm</option>
-                    <option value="09:00pm">09 : 00 pm</option>
-                    <option value="10:00pm">10 : 00 pm</option>
-                  </select>
-
-                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
-                </div>
+                <a href="https://maps.google.com" target="_blank" class="btn-text hover-underline label-2" style="color: var(--gold-crayola); margin-top: 15px; display: inline-block;">
+                  Get Directions
+                </a>
 
               </div>
+            </li>
 
-              <textarea name="message" placeholder="Message" autocomplete="off" class="input-field"></textarea>
+            <li>
+              <div class="feature-card text-center">
 
-              <button type="submit" class="btn btn-secondary">
-                <span class="text text-1">Book A Table</span>
+                <div class="card-icon">
+                  <ion-icon name="call-outline" aria-hidden="true" style="font-size: 48px; color: var(--gold-crayola);"></ion-icon>
+                </div>
 
-                <span class="text text-2" aria-hidden="true">Book A Table</span>
-              </button>
+                <h3 class="title-2 card-title">Call Us</h3>
 
-            </form>
+                <a href="tel:+88123123456" class="body-1 contact-number hover-underline" style="color: var(--gold-crayola); display: block; margin-top: 10px;">
+                  +88-123-123456
+                </a>
 
-            <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
+              </div>
+            </li>
 
-              <h2 class="headline-1 text-center">Contact Us</h2>
+            <li>
+              <div class="feature-card text-center">
 
-              <p class="contact-label">Booking Request</p>
+                <div class="card-icon">
+                  <ion-icon name="mail-outline" aria-hidden="true" style="font-size: 48px; color: var(--gold-crayola);"></ion-icon>
+                </div>
 
-              <a href="tel:+88123123456" class="body-1 contact-number hover-underline">+88-123-123456</a>
+                <h3 class="title-2 card-title">Email Us</h3>
 
-              <div class="separator"></div>
+                <a href="mailto:booking@grilli.com" class="body-1 contact-number hover-underline" style="color: var(--gold-crayola); display: block; margin-top: 10px;">
+                  booking@grilli.com
+                </a>
 
-              <p class="contact-label">Location</p>
+              </div>
+            </li>
 
-              <address class="body-4">
-                Restaurant St, Delicious City, <br>
-                London 9578, UK
-              </address>
+            <li>
+              <div class="feature-card text-center">
 
-              <p class="contact-label">Lunch Time</p>
+                <div class="card-icon">
+                  <ion-icon name="time-outline" aria-hidden="true" style="font-size: 48px; color: var(--gold-crayola);"></ion-icon>
+                </div>
 
-              <p class="body-4">
-                Monday to Sunday <br>
-                11.00 am - 2.30pm
-              </p>
+                <h3 class="title-2 card-title">Opening Hours</h3>
 
-              <p class="contact-label">Dinner Time</p>
+                <p class="label-1 card-text">
+                  <strong>Lunch</strong><br>
+                  Mon - Sun: 11:00 am - 2:30 pm
+                </p>
 
-              <p class="body-4">
-                Monday to Sunday <br>
-                05.00 pm - 10.00pm
-              </p>
+                <p class="label-1 card-text" style="margin-top: 10px;">
+                  <strong>Dinner</strong><br>
+                  Mon - Sun: 5:00 pm - 10:00 pm
+                </p>
 
-            </div>
+              </div>
+            </li>
 
-          </div>
-
+          </ul>
         </div>
       </section>
 
