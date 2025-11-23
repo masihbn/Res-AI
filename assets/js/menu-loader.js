@@ -1,46 +1,51 @@
 /**
  * Menu Loader - Dynamically loads menu from config/menu.json
+ * Compatible with the new menu.json format: data.menu_categories
  */
 
 (function() {
   'use strict';
-
-  // Map dietary tags to display badges
-  const dietaryBadges = {
-    'vegetarian': 'Vegetarian',
-    'vegan': 'Vegan',
-    'gluten-free': 'Gluten-Free'
-  };
 
   // Format price to display format
   function formatPrice(price) {
     return '$' + price.toFixed(2);
   }
 
-  // Get badge text for item
-  function getBadge(item) {
-    if (item.popular) {
-      return 'Popular';
+  // Generate slug ID from category name
+  function slugify(text) {
+    return text
+      .toLowerCase()
+      .replace(/[àáâãäå]/g, 'a')
+      .replace(/[èéêë]/g, 'e')
+      .replace(/[ìíîï]/g, 'i')
+      .replace(/[òóôõö]/g, 'o')
+      .replace(/[ùúûü]/g, 'u')
+      .replace(/[ç]/g, 'c')
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '');
+  }
+
+  // Get badge HTML for item (from badges array)
+  function getBadgesHtml(item) {
+    if (!item.badges || item.badges.length === 0) {
+      return '';
     }
-    // Check for dietary badges
-    if (item.dietary && item.dietary.length > 0) {
-      if (item.dietary.includes('vegan')) return 'Vegan';
-      if (item.dietary.includes('vegetarian')) return 'Vegetarian';
-      if (item.dietary.includes('gluten-free')) return 'Gluten-Free';
-    }
-    return null;
+    // Show first badge only for cleaner UI
+    return `<span class="badge label-1">${item.badges[0]}</span>`;
   }
 
   // Create menu item HTML
   function createMenuItem(item) {
-    const badge = getBadge(item);
-    const badgeHtml = badge ? `<span class="badge label-1">${badge}</span>` : '';
+    const badgeHtml = getBadgesHtml(item);
+    const description = item.description || '';
+    const defaultImage = './assets/images/menu/menu-1.png';
+    const imageUrl = item.image || defaultImage;
 
     return `
       <li>
         <div class="menu-card hover:card">
-          <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
-            <img src="${item.image || './assets/images/menu/menu-1.png'}" width="100" height="100" loading="lazy" alt="${item.name}" class="img-cover">
+          <figure class="card-banner">
+            <img src="${imageUrl}" loading="lazy" alt="${item.name}" class="img-cover">
           </figure>
           <div>
             <div class="title-wrapper">
@@ -51,7 +56,7 @@
               <span class="span title-2">${formatPrice(item.price)}</span>
             </div>
             <p class="card-text label-1">
-              ${item.description}
+              ${description}
             </p>
           </div>
         </div>
@@ -66,13 +71,14 @@
       ? `<img src="./assets/images/shapes/shape-5.png" width="921" height="1036" loading="lazy" alt="shape" class="shape shape-2 move-anim">`
       : `<img src="./assets/images/shapes/shape-6.png" width="343" height="345" loading="lazy" alt="shape" class="shape shape-3 move-anim">`;
 
+    const categoryId = slugify(category.category_name);
     const itemsHtml = category.items.map(item => createMenuItem(item)).join('');
 
     return `
-      <section class="section menu${bgClass}" aria-label="${category.id}-menu" id="${category.id}">
+      <section class="section menu${bgClass}" aria-label="${categoryId}-menu" id="${categoryId}">
         <div class="container">
-          <p class="section-subtitle text-center label-2">${category.description}</p>
-          <h2 class="headline-1 section-title text-center">${category.name}</h2>
+          <p class="section-subtitle text-center label-2">Special Selection</p>
+          <h2 class="headline-1 section-title text-center">${category.category_name}</h2>
           <ul class="grid-list">
             ${itemsHtml}
           </ul>
@@ -84,7 +90,10 @@
 
   // Render the full menu
   function renderMenu(menuData, container) {
-    const sectionsHtml = menuData.categories.map((category, index) =>
+    // Support new format: data.menu_categories
+    const categories = menuData.data?.menu_categories || menuData.categories || [];
+
+    const sectionsHtml = categories.map((category, index) =>
       createMenuSection(category, index)
     ).join('');
 
@@ -93,15 +102,30 @@
 
   // Render popular items for homepage preview
   function renderMenuPreview(menuData, container, limit = 6) {
-    // Get all popular items
+    // Support new format: data.menu_categories
+    const categories = menuData.data?.menu_categories || menuData.categories || [];
+
+    // Get items with "Popular" badge or high ratings
     const popularItems = [];
-    menuData.categories.forEach(category => {
+    categories.forEach(category => {
       category.items.forEach(item => {
-        if (item.popular) {
+        // Check if item has "Popular" badge or high like percentage
+        const isPopular = (item.badges && item.badges.includes('Popular')) ||
+                         (item.like_percentage && item.like_percentage >= 90);
+        if (isPopular) {
           popularItems.push(item);
         }
       });
     });
+
+    // If no popular items found, take first items from each category
+    if (popularItems.length === 0) {
+      categories.forEach(category => {
+        if (category.items.length > 0) {
+          popularItems.push(category.items[0]);
+        }
+      });
+    }
 
     // Take first 'limit' items
     const previewItems = popularItems.slice(0, limit);
