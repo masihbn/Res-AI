@@ -2168,6 +2168,11 @@ textarea.input-field {
   width: 100%;
 }
 
+/* Section 2: Content first on all screen sizes (alternates text/image on mobile) */
+#birthdays .about-content {
+  order: -1;
+}
+
 /* Two-column layout for larger screens */
 @media (min-width: 992px) {
   .about.text-center .container {
@@ -2196,11 +2201,6 @@ textarea.input-field {
   /* Sections 1 & 3: Image LEFT, Text RIGHT */
   #weddings .about-banner,
   #group .about-banner {
-    order: -1;
-  }
-
-  /* Section 2: Image RIGHT, Text LEFT (already correct in HTML, just ensure order) */
-  #birthdays .about-content {
     order: -1;
   }
 }
