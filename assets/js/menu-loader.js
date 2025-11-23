@@ -34,18 +34,42 @@
     return `<span class="badge label-1">${item.badges[0]}</span>`;
   }
 
+  // SVG placeholder for menu items without images
+  function getPlaceholderSvg() {
+    return `
+      <svg class="img-cover menu-placeholder" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <rect width="100" height="100" fill="#1a1a1a"/>
+        <g fill="none" stroke="#d4a373" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <!-- Plate -->
+          <ellipse cx="50" cy="62" rx="22" ry="6"/>
+          <ellipse cx="50" cy="62" rx="17" ry="4"/>
+          <!-- Cloche/Dome -->
+          <path d="M28 62 Q28 45 50 42 Q72 45 72 62"/>
+          <ellipse cx="50" cy="42" rx="3" ry="2"/>
+          <!-- Steam -->
+          <path d="M42 38 Q40 33 42 28" opacity="0.6"/>
+          <path d="M50 36 Q48 31 50 26" opacity="0.6"/>
+          <path d="M58 38 Q56 33 58 28" opacity="0.6"/>
+        </g>
+      </svg>
+    `;
+  }
+
   // Create menu item HTML
   function createMenuItem(item) {
     const badgeHtml = getBadgesHtml(item);
     const description = item.description || '';
-    const defaultImage = './assets/images/menu/menu-1.png';
-    const imageUrl = item.image || defaultImage;
+    const hasImage = item.image && item.image.trim() !== '';
+
+    const imageHtml = hasImage
+      ? `<img src="${item.image}" loading="lazy" alt="${item.name}" class="img-cover">`
+      : getPlaceholderSvg();
 
     return `
       <li>
         <div class="menu-card hover:card">
           <figure class="card-banner">
-            <img src="${imageUrl}" loading="lazy" alt="${item.name}" class="img-cover">
+            ${imageHtml}
           </figure>
           <div>
             <div class="title-wrapper">
@@ -77,7 +101,6 @@
     return `
       <section class="section menu${bgClass}" aria-label="${categoryId}-menu" id="${categoryId}">
         <div class="container">
-          <p class="section-subtitle text-center label-2">Special Selection</p>
           <h2 class="headline-1 section-title text-center">${category.category_name}</h2>
           <ul class="grid-list">
             ${itemsHtml}
