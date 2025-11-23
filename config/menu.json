@@ -1,0 +1,291 @@
+{
+  "categories": [
+    {
+      "id": "appetizers",
+      "name": "Appetizers",
+      "description": "Start your meal with our delicious appetizers",
+      "items": [
+        {
+          "id": "app-001",
+          "name": "Bruschetta - Masih edition",
+          "description": "Grilled bread topped with fresh tomatoes, basil, garlic, and olive oil",
+          "price": 8.99,
+          "image": "./assets/images/menu/menu-1.png",
+          "dietary": ["vegetarian"],
+          "popular": true
+        },
+        {
+          "id": "app-002",
+          "name": "Mozzarella Sticks",
+          "description": "Crispy breaded mozzarella served with marinara sauce",
+          "price": 9.99,
+          "image": "./assets/images/menu/menu-2.png",
+          "dietary": ["vegetarian"],
+          "popular": false
+        },
+        {
+          "id": "app-003",
+          "name": "Chicken Wings",
+          "description": "Buffalo or BBQ wings served with celery and blue cheese dressing",
+          "price": 12.99,
+          "image": "./assets/images/menu/menu-3.png",
+          "dietary": [],
+          "popular": true
+        },
+        {
+          "id": "app-004",
+          "name": "Calamari",
+          "description": "Lightly fried squid rings served with lemon and aioli",
+          "price": 13.99,
+          "image": "./assets/images/menu/menu-4.png",
+          "dietary": [],
+          "popular": false
+        },
+        {
+          "id": "app-005",
+          "name": "Spinach Artichoke Dip",
+          "description": "Creamy blend of spinach and artichoke hearts served with tortilla chips",
+          "price": 10.99,
+          "image": "./assets/images/menu/menu-5.png",
+          "dietary": ["vegetarian"],
+          "popular": false
+        }
+      ]
+    },
+    {
+      "id": "salads",
+      "name": "Salads",
+      "description": "Fresh and healthy salad options",
+      "items": [
+        {
+          "id": "sal-001",
+          "name": "Caesar Salad",
+          "description": "Crisp romaine lettuce, parmesan cheese, croutons, and Caesar dressing",
+          "price": 11.99,
+          "image": "./assets/images/menu/menu-6.png",
+          "dietary": ["vegetarian"],
+          "popular": true
+        },
+        {
+          "id": "sal-002",
+          "name": "Greek Salad",
+          "description": "Fresh vegetables, feta cheese, olives, and olive oil dressing",
+          "price": 12.99,
+          "image": "./assets/images/menu/menu-1.png",
+          "dietary": ["vegetarian", "gluten-free"],
+          "popular": false
+        },
+        {
+          "id": "sal-003",
+          "name": "Grilled Chicken Salad",
+          "description": "Mixed greens with grilled chicken, tomatoes, cucumbers, and balsamic vinaigrette",
+          "price": 14.99,
+          "image": "./assets/images/menu/menu-2.png",
+          "dietary": ["gluten-free"],
+          "popular": true
+        },
+        {
+          "id": "sal-004",
+          "name": "Caprese Salad",
+          "description": "Fresh mozzarella, tomatoes, basil, and balsamic glaze",
+          "price": 13.99,
+          "image": "./assets/images/menu/menu-3.png",
+          "dietary": ["vegetarian", "gluten-free"],
+          "popular": false
+        }
+      ]
+    },
+    {
+      "id": "mains",
+      "name": "Main Courses",
+      "description": "Hearty and satisfying entrees",
+      "items": [
+        {
+          "id": "main-001",
+          "name": "Grilled Salmon",
+          "description": "Fresh Atlantic salmon grilled to perfection with lemon butter sauce, served with vegetables and rice",
+          "price": 24.99,
+          "image": "./assets/images/menu/menu-4.png",
+          "dietary": ["gluten-free"],
+          "popular": true
+        },
+        {
+          "id": "main-002",
+          "name": "Ribeye Steak",
+          "description": "12 oz premium ribeye steak cooked to your preference, served with mashed potatoes and asparagus",
+          "price": 32.99,
+          "image": "./assets/images/menu/menu-5.png",
+          "dietary": ["gluten-free"],
+          "popular": true
+        },
+        {
+          "id": "main-003",
+          "name": "Chicken Parmesan",
+          "description": "Breaded chicken breast topped with marinara sauce and melted cheese, served with pasta",
+          "price": 18.99,
+          "image": "./assets/images/menu/menu-6.png",
+          "dietary": [],
+          "popular": true
+        },
+        {
+          "id": "main-004",
+          "name": "Vegetable Pasta Primavera",
+          "description": "Fresh seasonal vegetables tossed with pasta in a light garlic and olive oil sauce",
+          "price": 16.99,
+          "image": "./assets/images/menu/menu-1.png",
+          "dietary": ["vegetarian", "vegan"],
+          "popular": false
+        },
+        {
+          "id": "main-005",
+          "name": "Beef Burger",
+          "description": "Half-pound Angus beef burger with lettuce, tomato, onion, and fries",
+          "price": 15.99,
+          "image": "./assets/images/menu/menu-2.png",
+          "dietary": [],
+          "popular": true
+        },
+        {
+          "id": "main-006",
+          "name": "Shrimp Scampi",
+          "description": "Jumbo shrimp sautéed in garlic butter sauce served over linguine",
+          "price": 22.99,
+          "image": "./assets/images/menu/menu-3.png",
+          "dietary": [],
+          "popular": false
+        },
+        {
+          "id": "main-007",
+          "name": "Margherita Pizza",
+          "description": "Classic pizza with tomato sauce, fresh mozzarella, and basil",
+          "price": 14.99,
+          "image": "./assets/images/menu/menu-4.png",
+          "dietary": ["vegetarian"],
+          "popular": true
+        },
+        {
+          "id": "main-008",
+          "name": "BBQ Ribs",
+          "description": "Slow-cooked baby back ribs with our signature BBQ sauce, served with coleslaw and fries",
+          "price": 26.99,
+          "image": "./assets/images/menu/menu-5.png",
+          "dietary": [],
+          "popular": false
+        }
+      ]
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts",
+      "description": "Sweet endings to your meal",
+      "items": [
+        {
+          "id": "des-001",
+          "name": "Tiramisu",
+          "description": "Classic Italian dessert with espresso-soaked ladyfingers and mascarpone cream",
+          "price": 8.99,
+          "image": "./assets/images/menu/menu-6.png",
+          "dietary": ["vegetarian"],
+          "popular": true
+        },
+        {
+          "id": "des-002",
+          "name": "Chocolate Lava Cake",
+          "description": "Warm chocolate cake with a molten center, served with vanilla ice cream",
+          "price": 9.99,
+          "image": "./assets/images/menu/menu-1.png",
+          "dietary": ["vegetarian"],
+          "popular": true
+        },
+        {
+          "id": "des-003",
+          "name": "Cheesecake",
+          "description": "New York style cheesecake with your choice of strawberry or chocolate topping",
+          "price": 7.99,
+          "image": "./assets/images/menu/menu-2.png",
+          "dietary": ["vegetarian"],
+          "popular": false
+        },
+        {
+          "id": "des-004",
+          "name": "Apple Pie",
+          "description": "Homemade apple pie served warm with vanilla ice cream",
+          "price": 7.99,
+          "image": "./assets/images/menu/menu-3.png",
+          "dietary": ["vegetarian"],
+          "popular": false
+        },
+        {
+          "id": "des-005",
+          "name": "Panna Cotta",
+          "description": "Silky Italian cream dessert topped with berry compote",
+          "price": 8.99,
+          "image": "./assets/images/menu/menu-4.png",
+          "dietary": ["vegetarian", "gluten-free"],
+          "popular": false
+        }
+      ]
+    },
+    {
+      "id": "drinks",
+      "name": "Beverages",
+      "description": "Refreshing drinks to complement your meal",
+      "items": [
+        {
+          "id": "drk-001",
+          "name": "Fresh Lemonade",
+          "description": "House-made lemonade with fresh lemons and mint",
+          "price": 4.99,
+          "image": "./assets/images/menu/menu-5.png",
+          "dietary": ["vegan", "gluten-free"],
+          "popular": true
+        },
+        {
+          "id": "drk-002",
+          "name": "Iced Tea",
+          "description": "Freshly brewed iced tea, sweetened or unsweetened",
+          "price": 3.99,
+          "image": "./assets/images/menu/menu-6.png",
+          "dietary": ["vegan", "gluten-free"],
+          "popular": false
+        },
+        {
+          "id": "drk-003",
+          "name": "Cappuccino",
+          "description": "Espresso with steamed milk and foam",
+          "price": 4.99,
+          "image": "./assets/images/menu/menu-1.png",
+          "dietary": ["vegetarian"],
+          "popular": true
+        },
+        {
+          "id": "drk-004",
+          "name": "Fresh Orange Juice",
+          "description": "Freshly squeezed orange juice",
+          "price": 5.99,
+          "image": "./assets/images/menu/menu-2.png",
+          "dietary": ["vegan", "gluten-free"],
+          "popular": false
+        },
+        {
+          "id": "drk-005",
+          "name": "Soft Drinks",
+          "description": "Coca-Cola, Sprite, Fanta, or Diet Coke",
+          "price": 2.99,
+          "image": "./assets/images/menu/menu-3.png",
+          "dietary": ["vegan", "gluten-free"],
+          "popular": true
+        },
+        {
+          "id": "drk-006",
+          "name": "Sparkling Water",
+          "description": "San Pellegrino sparkling mineral water",
+          "price": 3.99,
+          "image": "./assets/images/menu/menu-4.png",
+          "dietary": ["vegan", "gluten-free"],
+          "popular": false
+        }
+      ]
+    }
+  ]
+}
