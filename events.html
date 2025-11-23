@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--
+    - primary meta tags
+  -->
+  <title>Events & Organization - Grilli Restaurant</title>
+  <meta name="title" content="Events & Organization - Grilli Restaurant">
+  <meta name="description" content="Host your special events at Grilli - weddings, birthdays, corporate gatherings and more">
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+
+</head>
+
+<body id="top">
+
+  <!--
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Grilli</p>
+  </div>
+
+
+
+
+
+  <!--
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+          Restaurant St, Delicious City, London 9578, UK
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Daily : 8.00 am to 10.00 pm</span>
+      </div>
+
+      <a href="tel:+11234567890" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+1 123 456 7890</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:booking@restaurant.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">booking@restaurant.com</span>
+      </a>
+
+    </div>
+  </div>
+
+
+
+
+
+  <!--
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="index.html" class="logo">
+        <img src="./assets/images/logo.svg" width="160" height="50" alt="Grilli - Home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="index.html" class="logo">
+          <img src="./assets/images/logo.svg" width="160" height="50" alt="Grilli - Home">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="menu.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Menus</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="index.html#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">About Us</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="events.html" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Events</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="contact.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Contact</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visit Us</p>
+
+          <address class="body-4">
+            Restaurant St, Delicious City, <br>
+            London 9578, UK
+          </address>
+
+          <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
+
+          <a href="mailto:booking@grilli.com" class="body-4 sidebar-link">booking@grilli.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Booking Request</p>
+
+          <a href="tel:+88123123456" class="body-1 contact-number hover-underline">
+            +88-123-123456
+          </a>
+        </div>
+
+      </nav>
+
+      <a href="contact.html" class="btn btn-secondary">
+        <span class="text text-1">Book a Table</span>
+
+        <span class="text text-2" aria-hidden="true">Book a Table</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!--
+        - #HERO
+      -->
+
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-1.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Celebrate With Us</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Events & <br>
+              Organization
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Make your special moments unforgettable with our exceptional catering
+            </p>
+
+            <a href="#weddings" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Explore Events</span>
+
+              <span class="text text-2" aria-hidden="true">Explore Events</span>
+            </a>
+
+          </li>
+
+        </ul>
+
+        <a href="contact.html" class="hero-btn has-after">
+          <img src="./assets/images/hero-icon.png" width="48" height="48" alt="booking icon">
+
+          <span class="label-2 text-center span">Book Now</span>
+        </a>
+
+      </section>
+
+      <!--
+        - #WEDDING EVENTS
+      -->
+
+      <section class="section about text-center" aria-labelledby="wedding-label" id="weddings">
+        <div class="container">
+
+          <figure class="about-banner">
+            <div class="img-holder" style="--width: 350; --height: 450;">
+              <img src="./assets/images/event-1.jpg" width="350" height="450" loading="lazy" alt="Wedding celebration"
+                class="img-cover" data-parallax-item data-parallax-speed="1">
+            </div>
+          </figure>
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="wedding-label">Wedding & Engagement</p>
+
+            <h2 class="headline-1 section-title">The Celebration of Your Love</h2>
+
+            <p class="section-text">
+              Make your wedding or engagement celebration truly special with our customized menus
+              and exceptional service. We understand that this is one of the most important days of
+              your life, and we're committed to making it perfect.
+            </p>
+
+            <ul style="text-align: left; max-width: 500px; margin: 30px auto;">
+              <li class="body-4" style="padding: 10px 0; border-bottom: 1px solid var(--white-alpha-10);">
+                                Personalized menus tailored to your preferences
+              </li>
+              <li class="body-4" style="padding: 10px 0; border-bottom: 1px solid var(--white-alpha-10);">
+                                Private rooms available for intimate ceremonies
+              </li>
+              <li class="body-4" style="padding: 10px 0; border-bottom: 1px solid var(--white-alpha-10);">
+                                Full catering service for off-site events
+              </li>
+              <li class="body-4" style="padding: 10px 0; border-bottom: 1px solid var(--white-alpha-10);">
+                                Capacity up to 150 guests
+              </li>
+              <li class="body-4" style="padding: 10px 0;">
+                                Coordination with your other suppliers
+              </li>
+            </ul>
+
+            <a href="contact.html" class="btn btn-primary">
+              <span class="text text-1">Plan Your Wedding</span>
+
+              <span class="text text-2" aria-hidden="true">Plan Your Wedding</span>
+            </a>
+
+          </div>
+
+          <img src="./assets/images/shape-3.png" width="197" height="194" loading="lazy" alt="" class="shape">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--
+        - #BIRTHDAY EVENTS
+      -->
+
+      <section class="section about text-center" aria-labelledby="birthday-label" id="birthdays">
+        <div class="container">
+
+          <figure class="about-banner">
+            <div class="img-holder" style="--width: 350; --height: 450;">
+              <img src="./assets/images/event-2.jpg" width="350" height="450" loading="lazy" alt="Birthday celebration"
+                class="img-cover" data-parallax-item data-parallax-speed="1">
+            </div>
+          </figure>
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="birthday-label">Birthdays & Special Events</p>
+
+            <h2 class="headline-1 section-title">Flavorful Meetings for Your Celebrations</h2>
+
+            <p class="section-text">
+              Whether it's a birthday, engagement party, baptism, or cultural celebration,
+              we're here to make your event memorable. Our versatile spaces and customizable menus
+              ensure your celebration reflects your unique style with authentic flavors.
+            </p>
+
+            <ul style="text-align: left; max-width: 500px; margin: 30px auto;">
+              <li class="body-4" style="padding: 10px 0; border-bottom: 1px solid var(--white-alpha-10);">
+                                Full or partial venue reservation
+              </li>
+              <li class="body-4" style="padding: 10px 0; border-bottom: 1px solid var(--white-alpha-10);">
+                                Traditional buffet options available
+              </li>
+              <li class="body-4" style="padding: 10px 0; border-bottom: 1px solid var(--white-alpha-10);">
+                                Live music and DJ arrangements
+              </li>
+              <li class="body-4" style="padding: 10px 0; border-bottom: 1px solid var(--white-alpha-10);">
+                                Thematic decoration services
+              </li>
+              <li class="body-4" style="padding: 10px 0;">
+                                Professional event coordination
+              </li>
+            </ul>
+
+            <a href="contact.html" class="btn btn-primary">
+              <span class="text text-1">Plan Your Party</span>
+
+              <span class="text text-2" aria-hidden="true">Plan Your Party</span>
+            </a>
+
+          </div>
+
+          <img src="./assets/images/shape-3.png" width="197" height="194" loading="lazy" alt="" class="shape">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--
+        - #GROUP DINING
+      -->
+
+      <section class="section about text-center" aria-labelledby="group-label" id="group">
+        <div class="container">
+
+          <figure class="about-banner">
+            <div class="img-holder" style="--width: 350; --height: 450;">
+              <img src="./assets/images/event-3.jpg" width="350" height="450" loading="lazy" alt="Group dining"
+                class="img-cover" data-parallax-item data-parallax-speed="1">
+            </div>
+          </figure>
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="group-label">Group Dining</p>
+
+            <h2 class="headline-1 section-title">Welcome Your Groups in Style</h2>
+
+            <p class="section-text">
+              Whether it's a corporate event, family celebration, or friends' gathering,
+              we welcome your groups in a friendly atmosphere. Our flexible spaces and
+              diverse menu options make us ideal for any occasion.
+            </p>
+
+            <ul style="text-align: left; max-width: 500px; margin: 30px auto;">
+              <li class="body-4" style="padding: 10px 0; border-bottom: 1px solid var(--white-alpha-10);">
+                                Office delivery available
+              </li>
+              <li class="body-4" style="padding: 10px 0; border-bottom: 1px solid var(--white-alpha-10);">
+                                Group menus with fixed pricing
+              </li>
+              <li class="body-4" style="padding: 10px 0; border-bottom: 1px solid var(--white-alpha-10);">
+                                Flexible seating arrangements
+              </li>
+              <li class="body-4" style="padding: 10px 0; border-bottom: 1px solid var(--white-alpha-10);">
+                                Vegetarian and dietary options
+              </li>
+              <li class="body-4" style="padding: 10px 0;">
+                                Dedicated service for your group
+              </li>
+            </ul>
+
+            <a href="contact.html" class="btn btn-primary">
+              <span class="text text-1">Book Group Dining</span>
+
+              <span class="text text-2" aria-hidden="true">Book Group Dining</span>
+            </a>
+
+          </div>
+
+          <img src="./assets/images/shape-3.png" width="197" height="194" loading="lazy" alt="" class="shape">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--
+        - #CONTACT CTA
+      -->
+
+      <section class="section testi text-center has-bg-image"
+        style="background-image: url('./assets/images/testimonial-bg.jpg')" aria-label="contact">
+        <div class="container">
+
+          <p class="section-subtitle label-2">Event Coordination</p>
+
+          <h2 class="headline-1 section-title">Contact Our Events Team</h2>
+
+          <p class="section-text" style="max-width: 700px; margin: 20px auto 40px;">
+            Ready to plan your event? Contact us today to discuss your requirements.
+            Our dedicated events team will work with you to create a customized experience
+            that exceeds your expectations.
+          </p>
+
+          <div class="wrapper" style="margin-bottom: 30px;">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <div class="contact-label">Call For Event Booking</div>
+
+          <a href="tel:+88123123456" class="body-1 contact-number hover-underline">
+            +88-123-123456
+          </a>
+
+          <a href="mailto:booking@grilli.com" class="body-4 contact-link hover-underline" style="display: block; margin-top: 15px; color: var(--gold-crayola);">
+            booking@grilli.com
+          </a>
+
+          <div style="margin-top: 40px;">
+            <a href="contact.html" class="btn btn-primary">
+              <span class="text text-1">Contact Us</span>
+
+              <span class="text text-2" aria-hidden="true">Contact Us</span>
+            </a>
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!--
+    - #FOOTER
+  -->
+
+  <footer class="footer section has-bg-image text-center"
+    style="background-image: url('./assets/images/footer-bg.jpg')">
+    <div class="container">
+
+      <div class="footer-top grid-list">
+
+        <div class="footer-brand has-before has-after">
+
+          <a href="index.html" class="logo">
+            <img src="./assets/images/logo.svg" width="160" height="50" loading="lazy" alt="grilli home">
+          </a>
+
+          <address class="body-4">
+            Restaurant St, Delicious City, London 9578, UK
+          </address>
+
+          <a href="mailto:booking@grilli.com" class="body-4 contact-link">booking@grilli.com</a>
+
+          <a href="tel:+88123123456" class="body-4 contact-link">Booking Request : +88-123-123456</a>
+
+          <p class="body-4">
+            Open : 09:00 am - 01:00 pm
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <p class="title-1">Get News & Offers</p>
+
+          <p class="label-1">
+            Subscribe us & Get <span class="span">25% Off.</span>
+          </p>
+
+          <form action="" class="input-wrapper">
+            <div class="icon-wrapper">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+              <input type="email" name="email_address" placeholder="Your email" autocomplete="off" class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">
+              <span class="text text-1">Subscribe</span>
+
+              <span class="text text-2" aria-hidden="true">Subscribe</span>
+            </button>
+          </form>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="index.html" class="label-2 footer-link hover-underline">Home</a>
+          </li>
+
+          <li>
+            <a href="menu.html" class="label-2 footer-link hover-underline">Menus</a>
+          </li>
+
+          <li>
+            <a href="index.html#about" class="label-2 footer-link hover-underline">About Us</a>
+          </li>
+
+          <li>
+            <a href="events.html" class="label-2 footer-link hover-underline">Events</a>
+          </li>
+
+          <li>
+            <a href="contact.html" class="label-2 footer-link hover-underline">Contact</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Facebook</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Instagram</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Twitter</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Youtube</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Google Map</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2022 Grilli. All Rights Reserved | Crafted by <a href="https://github.com/codewithsadee"
+            target="_blank" class="link">codewithsadee</a>
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!--
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
