@@ -428,6 +428,37 @@
       </section>
 
 
+      
+      
+      <!-- 
+        - #MENU
+      -->
+
+      <section class="section menu bg-black-10" aria-label="menu-label" id="menu">
+        <div class="container">
+
+          <p class="section-subtitle text-center label-2">Special Selection</p>
+
+          <h2 class="headline-1 section-title text-center">Delicious Menu</h2>
+
+          
+          <ul class="grid-list" id="menu-preview">
+            <!-- Popular items will be dynamically loaded here -->
+          </ul>
+
+          <a href="menu.html" class="btn btn-primary">
+            <span class="text text-1">View All Menu</span>
+
+            <span class="text text-2" aria-hidden="true">View All Menu</span>
+          </a>
+
+          <img src="./assets/images/shapes/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+          <img src="./assets/images/shapes/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-3 move-anim">
+
+        </div>
+      </section>
 
 
 
@@ -486,99 +517,10 @@
 
 
 
-
-      <!-- 
-        - #SPECIAL DISH
-      -->
-
-      <section class="special-dish text-center" aria-labelledby="dish-label">
-
-        <div class="special-dish-banner">
-          <img src="./assets/images/about/special-dish-banner.jpg" width="940" height="900" loading="lazy" alt="special dish"
-            class="img-cover">
-        </div>
-
-        <div class="special-dish-content bg-black-10">
-          <div class="container">
-
-            <img src="./assets/images/badges/badge-1.png" width="28" height="41" loading="lazy" alt="badge" class="abs-img">
-
-            <p class="section-subtitle label-2">Special Dish</p>
-
-            <h2 class="headline-1 section-title">Lobster Tortellini</h2>
-
-            <p class="section-text">
-              Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the
-              industrys standard dummy text ever since the when an unknown printer took a galley of type.
-            </p>
-
-            <div class="wrapper">
-              <del class="del body-3">$40.00</del>
-
-              <span class="span body-1">$20.00</span>
-            </div>
-
-            <a href="menu.html" class="btn btn-primary">
-              <span class="text text-1">View All Menu</span>
-
-              <span class="text text-2" aria-hidden="true">View All Menu</span>
-            </a>
-
-          </div>
-        </div>
-
-        <img src="./assets/images/shapes/shape-4.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1">
-
-        <img src="./assets/images/shapes/shape-9.png" width="351" height="462" loading="lazy" alt="" class="shape shape-2">
-
-      </section>
-
-
-
-
-
-      <!-- 
-        - #MENU
-      -->
-
-      <section class="section menu" aria-label="menu-label" id="menu">
-        <div class="container">
-
-          <p class="section-subtitle text-center label-2">Special Selection</p>
-
-          <h2 class="headline-1 section-title text-center">Delicious Menu</h2>
-
-          <!-- Dynamic Menu Preview - Loaded from config/menu.json -->
-          <ul class="grid-list" id="menu-preview">
-            <!-- Popular items will be dynamically loaded here -->
-          </ul>
-
-          <p class="menu-text text-center">
-            <span data-config="hours.special.description">During winter daily from</span> <span class="span" data-config="hours.special.start">7:00 pm</span> to <span class="span" data-config="hours.special.end">9:00 pm</span>
-          </p>
-
-          <a href="menu.html" class="btn btn-primary">
-            <span class="text text-1">View All Menu</span>
-
-            <span class="text text-2" aria-hidden="true">View All Menu</span>
-          </a>
-
-          <img src="./assets/images/shapes/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
-            class="shape shape-2 move-anim">
-          <img src="./assets/images/shapes/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
-            class="shape shape-3 move-anim">
-
-        </div>
-      </section>
-
-
-
-
-
       <!-- 
         - #TESTIMONIALS
       -->
-
+<!--
       <section class="section testi text-center has-bg-image"
         style="background-image: url('./assets/images/backgrounds/testimonial-bg.jpg')" aria-label="testimonials">
         <div class="container">
@@ -605,6 +547,112 @@
 
         </div>
       </section>
+-->
+
+
+
+      <!--
+        - #EVENTS PREVIEW
+      -->
+
+      <section class="section events-preview text-center" aria-label="events">
+        <div class="container">
+
+          <p class="section-subtitle label-2">Celebrate With Us</p>
+
+          <h2 class="headline-1 section-title">Events & Organization</h2>
+
+          <p class="section-text" style="margin-bottom: 50px;">
+            Make your special moments unforgettable. From weddings to corporate gatherings,
+            we create memorable experiences with exceptional cuisine.
+          </p>
+
+          <ul class="grid-list" style="grid-template-columns: repeat(3, 1fr); gap: 20px;">
+
+            <li>
+              <div class="service-card">
+
+                <a href="events.html#weddings" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 200; --height: 220;">
+                    <img src="./assets/images/events/event-1.jpg" width="200" height="220" loading="lazy" alt="Wedding Events"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="events.html#weddings">Wedding Events</a>
+                  </h3>
+
+                  <a href="events.html#weddings" class="btn-text hover-underline label-2">Learn More</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="events.html#birthdays" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 200; --height: 220;">
+                    <img src="./assets/images/events/event-2.jpg" width="200" height="220" loading="lazy" alt="Birthday Events"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="events.html#birthdays">Birthdays & Parties</a>
+                  </h3>
+
+                  <a href="events.html#birthdays" class="btn-text hover-underline label-2">Learn More</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="events.html#group" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 200; --height: 220;">
+                    <img src="./assets/images/events/event-3.jpg" width="200" height="220" loading="lazy" alt="Group Dining"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="events.html#group">Group Dining</a>
+                  </h3>
+
+                  <a href="events.html#group" class="btn-text hover-underline label-2">Learn More</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="events.html" class="btn btn-primary" style="margin-top: 40px; margin-inline: auto;">
+            <span class="text text-1">View All Events</span>
+
+            <span class="text text-2" aria-hidden="true">View All Events</span>
+          </a>
+
+          <img src="./assets/images/shapes/shape-1.png" width="246" height="412" loading="lazy" alt="shape"
+            class="shape shape-1 move-anim">
+          <img src="./assets/images/shapes/shape-2.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+
+        </div>
+      </section>
 
 
 
@@ -614,7 +662,7 @@
         - #CONTACT
       -->
 
-      <section class="section contact-info text-center" aria-label="contact information" id="contact">
+      <section class="section contact-info bg-black-10 text-center" aria-label="contact information" id="contact">
         <div class="container">
 
           <p class="label-2 section-subtitle">Get In Touch</p>
