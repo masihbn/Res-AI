@@ -2,764 +2,864 @@
     "data": {
         "menu_categories": [
             {
-                "category_name": "Soupes",
+                "category_name": "Sandwiches",
                 "items": [
                     {
-                        "name": "Soupe Aux Lentilles",
-                        "price": 8,
-                        "like_percentage": 100,
-                        "rating_count": 8,
-                        "description": "Savory lentil soup, a comforting blend of spices and hearty lentils, perfect for a cozy meal.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/7f679139476c448ac19e723a8d608fc6/bc9c318a9c96996e2d990faf2b0c65f6.jpeg",
-                        "badges": []
-                    }
-                ]
-            },
-            {
-                "category_name": "Entrées Froides",
-                "items": [
-                    {
-                        "name": "Hummus",
-                        "price": 10,
+                        "name": "Sandwich végétarien / Vegetarian Sandwich",
+                        "price": 9.25,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Pois chiches mélangés avec du tahini, de l'ail et du citron pour une entrée savoureuse.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/7ed5e2e5d8c5cb3331aff1acd5b898dd/bc9c318a9c96996e2d990faf2b0c65f6.jpeg",
+                        "description": "Un sandwich végétarien savoureux, garni de légumes frais et d'ingrédients de qualité.",
+                        "image": "./assets/images/menu/sandwiches-sandwich-vegetarien.jpg",
                         "badges": []
                     },
                     {
-                        "name": "Ezme Épice",
-                        "price": 10,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Salade épicée de tomates, poivrons, oignons et herbes finement hachées.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/4bece24881691efaf1821c661be9809a/bc9c318a9c96996e2d990faf2b0c65f6.jpeg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Salade Russe",
-                        "price": 10,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Légumes cuits et pommes de terre enrobés de mayonnaise crémeuse et savoureuse.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/9083a1651344dc0bb37a166c3a49b1bf/bc9c318a9c96996e2d990faf2b0c65f6.jpeg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Cacik",
-                        "price": 10,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Yaourt turc, concombre râpé et herbes fraîches, pour une entrée légère et rafraîchissante.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/d6b8030dab318679d397023275109f29/bc9c318a9c96996e2d990faf2b0c65f6.jpeg",
-                        "badges": [
-                            "Popular"
-                        ]
-                    },
-                    {
-                        "name": "Aubergine À L'ail",
-                        "price": 10,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Aubergines grillées, mélangées à l'huile d'olive, herbes et yaourt, pour une texture crémeuse et un goût savoureux.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/39067c1db4309f743c567e16ca3ac7c4/bc9c318a9c96996e2d990faf2b0c65f6.jpeg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Baba Ghanoush",
-                        "price": 10,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Aubergines grillées en purée, mélangées avec du tahini, de l'ail et du citron pour une entrée savoureuse.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/52fe19377233a20de4eab2aa78d104ab/bc9c318a9c96996e2d990faf2b0c65f6.jpeg",
-                        "badges": [
-                            "Popular"
-                        ]
-                    },
-                    {
-                        "name": "Salade Aubergines",
-                        "price": 9,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Aubergines assaisonnées d'huile d'olive, citron et herbes fraîches, parfaites pour une entrée légère.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/5d7ed36d3e583a95441bb24ac012b6e4/bc9c318a9c96996e2d990faf2b0c65f6.jpeg",
-                        "badges": []
-                    }
-                ]
-            },
-            {
-                "category_name": "Entrées Chaudes",
-                "items": [
-                    {
-                        "name": "Sigara Boregi",
-                        "price": 10,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Feuilleté croustillant farci de fromage, en forme de cigare, pour une entrée savoureuse.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/52a38d60575036aec2e391bf6dc63c9d/bc9c318a9c96996e2d990faf2b0c65f6.jpeg",
-                        "badges": [
-                            "Popular"
-                        ]
-                    },
-                    {
-                        "name": "Guvecte Aux Crevettes",
-                        "price": 15,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Crevettes mijotées dans une sauce épicée, offrant une explosion de saveurs exquises.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/da8e026569438de154dcef328d9d8d1e/bc9c318a9c96996e2d990faf2b0c65f6.jpeg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Calmar Frite",
-                        "price": 15,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Tender fried calamari, crispy and golden, perfect for a delightful seafood treat.",
-                        "image": null,
-                        "badges": []
-                    }
-                ]
-            },
-            {
-                "category_name": "Les Assiettes Doner",
-                "items": [
-                    {
-                        "name": "Doner Poulet",
-                        "price": 20,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Poulet mariné et cuit à la broche, servi en tranches fines avec du riz, frites , salade choux rouge et d’oignons et du pain",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/f148bf9f3b8d26fe6f2cc2840e86e82a/70aa2a4db7f990373ca9c376323e3dea.jpeg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Doner Boeuf",
-                        "price": 21,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Bauf marine of cut la broche, servi en tranches fines avec du riz. Frites, salad choux rouge et deigens at du pain.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/f2908993c6ef68d6da8d02315c8cc9c8/70aa2a4db7f990373ca9c376323e3dea.jpeg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Doner Mixte",
-                        "price": 21,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Melange de Poulet et de bauf mind at cut brache servi en franches fines avec de riz. Frites. Salade choux rouge et d'oignons et du pain.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/63e1356c44c426742c1b3b0ad096a3da/70aa2a4db7f990373ca9c376323e3dea.jpeg",
-                        "badges": [
-                            "Popular"
-                        ]
-                    },
-                    {
-                        "name": "Iskender Poulet",
-                        "price": 23,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Paulet diner servi sur de pain, avec une sauce tomate maison épicée et du yaourt cré.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/49bf1859be52f2f9abeecb915f08eed1/bc9c318a9c96996e2d990faf2b0c65f6.jpeg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Iskender Bœuf",
-                        "price": 25,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Bauf der servi sur Du pait avec une sce tomate maison épice at Du Yaourt crimex.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/0f121be6a4fd45a488e9d6de43975a25/bc9c318a9c96996e2d990faf2b0c65f6.jpeg",
-                        "badges": [
-                            "Popular"
-                        ]
-                    },
-                    {
-                        "name": "Beyti Doner Poulet",
-                        "price": 22,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Poulet döner enroulé dans une pâte fine, grillé et servi sur du yaourt crémeux avec une sauce tomate maison épicée et du beurre.accompagnée de riz , frites et salade .",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/77dbf5145e687ff7127acf0d3ae60e21/70aa2a4db7f990373ca9c376323e3dea.jpeg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Beyti Bœuf",
-                        "price": 24,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Bœuf döner enroulé dans une pâte fine, grillé et servi sur du yaourt cremeux avec une sauce tomate maison épicée et du beurre . accompagnée de riz , frites et salade .",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/77dbf5145e687ff7127acf0d3ae60e21/70aa2a4db7f990373ca9c376323e3dea.jpeg",
-                        "badges": []
-                    }
-                ]
-            },
-            {
-                "category_name": "Grillades De Viandes",
-                "items": [
-                    {
-                        "name": "Kofte",
-                        "price": 27,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Boules de viande hachée épicée, grillées à la perfection, servies avec du boulgour ,des frites ,des légumes grillés ( piment,tomate, champignons, oignons) et du pain .",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/1c73a8be18987b29de7e78fa314fc30c/70aa2a4db7f990373ca9c376323e3dea.jpeg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Adana Kebab",
-                        "price": 29,
-                        "like_percentage": 66,
-                        "rating_count": 3,
-                        "description": "Viande hachée d’agneau épicée, en brochette et grillée, offrant un goût savoureux servies avec du boulgour et salade de choux accompagnées de légumes grillés et du pain",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/c69ef5a8fb9c1056c63cbbc1649c61e4/70aa2a4db7f990373ca9c376323e3dea.jpeg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Brochette D'Agneau",
-                        "price": 32,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Brochettes d’agneau marinées et grillées, offrant un goût riche et tendre servies avec du boulgour et salade de choux accompagnées de légumes grillés et du pain .",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/7957cbc5265dfb4397bc6c9f839630cd/70aa2a4db7f990373ca9c376323e3dea.jpeg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Brochette De Bœuf",
-                        "price": 30,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Succulentes brochettes de bœuf marinées et grillées, servies avec du boulgour et salade de choux accompagnées de légumes grillés et du pain",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/7957cbc5265dfb4397bc6c9f839630cd/70aa2a4db7f990373ca9c376323e3dea.jpeg",
-                        "badges": []
-                    }
-                ]
-            },
-            {
-                "category_name": "Grillades De Poulet",
-                "items": [
-                    {
-                        "name": "Kanat Au Poulet",
-                        "price": 26,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Ailes de poulet marinées et grillées, tendres et pleines de saveurs ,servies avec du boulgour,frites ,des légumes grillés ( piment,tomate, champignons, oignons) et du pain .",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/27acafd02cb1fd2046357c74b3c4b3b1/70aa2a4db7f990373ca9c376323e3dea.jpeg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Brochettes De Poulet",
-                        "price": 27,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Brochettes de poulet marinées, grillées, tendres et savoureuses. servies avec du boulgour et salade de choux accompagnées de légumes grillés et du pain",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/9919ae718c79935f9a282211fcd4b18f/70aa2a4db7f990373ca9c376323e3dea.jpeg",
-                        "badges": [
-                            "Popular"
-                        ]
-                    },
-                    {
-                        "name": "Adana poulet",
-                        "price": 28,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Version poulet du célèbre Adana kebab, avec une viande hachée de poulet épicée, grillée à la perfection. servies avec du boulgour et salade de choux et salad coban accompagnées de légumes grillés et du pain",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/2a09d20b074e53ebad3df4f2433cb473/70aa2a4db7f990373ca9c376323e3dea.jpeg",
-                        "badges": []
-                    }
-                ]
-            },
-            {
-                "category_name": "Les Grillades Spéciales Du Pasha",
-                "items": [
-                    {
-                        "name": "Beyti Adana Poulet",
-                        "price": 26,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Poulet haché épicé enroulé dans une fine pâte, grillé puis recouverte d’une sauce tomate maison et servi avec yogourt du boulgour et des légumes.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/9fee43ff43839c4b86bd95bb628baead/70aa2a4db7f990373ca9c376323e3dea.jpeg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Beyti Adana",
-                        "price": 27,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Viande hachée d’agneau épicée, enroulée dans une fine pâte, puis grillée et servie avec une sauce tomate maison sur le dessus, accompagnée de yaourt et de boulgour.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/9fee43ff43839c4b86bd95bb628baead/70aa2a4db7f990373ca9c376323e3dea.jpeg",
-                        "badges": [
-                            "Popular"
-                        ]
-                    },
-                    {
-                        "name": "Bursa Pideli Kofte",
-                        "price": 28,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Köfte servi sur du pain pita, accompagné de sauce tomate maison et un yogourt crémeux.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/f745f45617531b65a93be19eda4ca2dc/bc9c318a9c96996e2d990faf2b0c65f6.jpeg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Ali Nazik Kofte",
-                        "price": 28,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Köfte servie sur du yaourt crémeux mélangé avec des aubergines, puis recouverte d’une sauce tomate maison qui apporte une belle richesse au plat.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/329cec0d3813232435b45abb01dc7d78/bc9c318a9c96996e2d990faf2b0c65f6.jpeg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Ali Nazik Agneau",
-                        "price": 30,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Tendre agneau grillé servi sur une base de yaourt et aubergines à l’ail,puis recouverte d’une sauce tomate maison qui apporte une belle richesse au plat.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/52a83ad60e8866b21529145e15f72cdd/bc9c318a9c96996e2d990faf2b0c65f6.jpeg",
-                        "badges": [
-                            "Popular"
-                        ]
-                    }
-                ]
-            },
-            {
-                "category_name": "Les Grillades À Partager",
-                "items": [
-                    {
-                        "name": "Mixte Grill (2 Personnes)",
-                        "price": 60,
-                        "like_percentage": 93,
-                        "rating_count": 15,
-                        "description": "1 bâton Adana ,1 bâton brochette agneau , 1 bâton brochette poulet , Beyti sarma poulet ,4mcx ailes de poulet servi avec riz et boulgour , salade de choux ,salade Coban et du pain .",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/0f3fddeb2858b7fbb4c1e2bcc4a38061/bc9c318a9c96996e2d990faf2b0c65f6.jpeg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Mixte Grill (4 Personnes)",
-                        "price": 120,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "2 bâtons Adana ,2 bâtons brochette agneau ,2 bâtons brochette poulet , Beyti sarma poulet ,8mcx ailes de poulet  servi avec riz et boulgour Salade de choux ,salade coban et du pain .",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/5a8429b07006658af8b97735dc98efc4/bc9c318a9c96996e2d990faf2b0c65f6.jpeg",
-                        "badges": []
-                    }
-                ]
-            },
-            {
-                "category_name": "Plats À La Poêle",
-                "items": [
-                    {
-                        "name": "Sac Tava",
-                        "price": 24,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Plat turc traditionnel de viande sautée avec des légumes(tomates , poivrons, oignons)et des épices, cuite dans une poêle spéciale appelée “saç”.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/e39eea7cefa1baed9ba5237b3554f73f/bc9c318a9c96996e2d990faf2b0c65f6.jpeg",
-                        "badges": [
-                            "Popular"
-                        ]
-                    },
-                    {
-                        "name": "Guvec",
-                        "price": 25,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Plat mijoté de viande, de légumes (tomates, oignons,champignons,poivrons de l’ail) et d’épices, cuit lentement dans un plat en terre cuite, pour un goût riche et savoureux.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/53660a8b0d375463704fe3c87c010566/bc9c318a9c96996e2d990faf2b0c65f6.jpeg",
-                        "badges": []
-                    }
-                ]
-            },
-            {
-                "category_name": "Durum",
-                "items": [
-                    {
-                        "name": "Durum Doner Au Poulet",
+                        "name": "Capicollo Sandwich",
                         "price": 12,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Poulet grillée de votre choix enroulée dans un pain pita ou lavash avec des légumes frais ( laitue, tomates, oignons ) et sauce à l’ail , pour une option rapide et savoureuse.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/11e039cd54e79a5157a817fd784955a1/bc9c318a9c96996e2d990faf2b0c65f6.jpeg",
-                        "badges": [
-                            "Popular"
-                        ]
-                    },
-                    {
-                        "name": "Durum Doner Au Boeuf",
-                        "price": 13,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Bœuf grillée de votre choix enroulée dans un pain pita ou lavash avec des légumes frais ( laitue, tomates, oignons ) et sauce à l’ail , pour une option rapide et savoureuse.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/c3b01efe60a96c97ed3a08d4459588d1/bc9c318a9c96996e2d990faf2b0c65f6.jpeg",
+                        "description": "Savourez un sandwich capicollo, garni de charcuterie italienne et de légumes frais, pour une expérience authentique.",
+                        "image": "./assets/images/menu/sandwiches-capicollo-sandwich.jpg",
                         "badges": []
                     },
                     {
-                        "name": "Durum Doner Mixte",
-                        "price": 13,
+                        "name": "Sandwich au poulet / Chicken Sandwich",
+                        "price": 10.25,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Viande grillée de votre choix enroulée dans un pain pita ou lavash avec des légumes frais ( laitue, tomates, oignons ) et sauce à l’ail , pour une option rapide et savoureuse.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/c3b01efe60a96c97ed3a08d4459588d1/bc9c318a9c96996e2d990faf2b0c65f6.jpeg",
+                        "description": "Sandwich au poulet tendre et savoureux, parfait pour une pause gourmande à tout moment.",
+                        "image": "./assets/images/menu/sandwiches-chicken-sandwich.jpg",
                         "badges": []
                     },
                     {
-                        "name": "Durum Brochette Au Poulet",
-                        "price": 13,
+                        "name": "Sandwich au Poulet Croustillant / Crispy Chicken Sandwich",
+                        "price": 12,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Tender chicken brochette served in a crispy durum wrap.",
-                        "image": null,
+                        "description": "Poulet croustillant dans un sandwich, une explosion de saveurs et de textures à savourer.",
+                        "image": "./assets/images/menu/sandwiches-crispy-chicken-sandwich.jpg",
                         "badges": []
                     },
                     {
-                        "name": "Durum Brochette Kofte",
-                        "price": 13,
+                        "name": "Sandwich à la côtelette de poulet / Chicken Cutlet Sandwich",
+                        "price": 12.5,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Savoury Turkish-style meatballs wrapped in crispy durum bread.",
-                        "image": null,
+                        "description": "Escalope de poulet, laitue, tomate, oignons caramélisés, aubergines épicées marinées, piments forts, mayonnaise au pesto, glaçage balsamique.",
+                        "image": "./assets/images/menu/sandwiches-chicken-cutlet-sandwich.jpg",
                         "badges": []
                     },
                     {
-                        "name": "Durum Adana Poulet",
-                        "price": 13,
+                        "name": "Sandwich au poulet BBQ / BBQ Chicken Sandwich",
+                        "price": 12,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Spicy minced chicken wrapped in a crispy durum bread.",
-                        "image": null,
+                        "description": "Sandwich au poulet BBQ tendre et juteux, parfait pour une expérience culinaire savoureuse.",
+                        "image": "./assets/images/menu/sandwiches-bbq-chicken-sandwich.jpg",
                         "badges": []
                     },
                     {
-                        "name": "Durum Adana",
-                        "price": 14,
+                        "name": "Steak Sandwich",
+                        "price": 10.75,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Spicy minced lamb wrapped in a crispy flatbread.",
-                        "image": null,
-                        "badges": [
-                            "Popular"
-                        ]
+                        "description": "Sandwich au steak tendre, accompagné de légumes frais.",
+                        "image": "./assets/images/menu/sandwiches-steak-sandwich.jpg",
+                        "badges": []
                     },
                     {
-                        "name": "Durum Brochette Agneau",
-                        "price": 14,
+                        "name": "Sandwich au saucisse / Sausage Sandwich",
+                        "price": 10.25,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Tender lamb skewers served in a crispy durum wrap.",
-                        "image": null,
+                        "description": "Savourez un sandwich au saucisse, une fusion parfaite de saveurs authentiques et réconfortantes.",
+                        "image": "./assets/images/menu/sandwiches-sausage-sandwich.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Sandwich au thon / Tuna Sandwich",
+                        "price": 10.25,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Délicieux sandwich au thon, idéal pour une pause gourmande à tout moment de la journée.",
+                        "image": "./assets/images/menu/sandwiches-tuna-sandwich.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Steak & Capicollo Sandwich",
+                        "price": 12.5,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Sandwich savoureux avec steak tendre et capicollo.",
+                        "image": "./assets/images/menu/sandwiches-steak-capicollo-sandwich.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Sandwich à la côtelette de veau / Veal Cutlet Sandwich",
+                        "price": 12.5,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Sandwich savoureux avec escalope de veau tendre, une spécialité à déguster.",
+                        "image": "./assets/images/menu/sandwiches-veal-cutlet-sandwich.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Milano Special Sandwich",
+                        "price": 12.5,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Sandwich savoureux avec steak, capicollo et poivrons, offrant une explosion de saveurs italiennes.",
+                        "image": "./assets/images/menu/sandwiches-milano-special-sandwich.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Végétalienne (Beyond) Sandwich au Saucisse / Vegan Sausage (Beyond) Sandwich",
+                        "price": 13.75,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Sandwich végétalien à base de saucisse Beyond Meat.",
+                        "image": "./assets/images/menu/sandwiches-vegan-sausage-sandwich.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Végétalienne (Beyond) Sandwich au Poulet Croustillant / Vegan Crispy Chicken (Beyond) Sandwich",
+                        "price": 13.75,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Sandwich végétalien avec poulet croustillant Beyond Meat.",
+                        "image": "./assets/images/menu/sandwiches-vegan-crispy-chicken-sandwich.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Sandwich au Poulet Croustillant 7\" / 7\" Crispy Chicken Sandwich",
+                        "price": 12,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "7\" Poulet croustillant dans un sandwich, une explosion de saveurs et de textures à savourer.",
+                        "image": "./assets/images/menu/sandwiches-7-crispy-chicken-sandwich.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "12\" Sandwich au Poulet Croustillant / 12\" Crispy Chicken Sandwich",
+                        "price": 16.5,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "12\" Poulet croustillant dans un sandwich, une explosion de saveurs et de textures à savourer.",
+                        "image": "./assets/images/menu/sandwiches-7-crispy-chicken-sandwich.jpg",
                         "badges": []
                     }
                 ]
             },
             {
-                "category_name": "Sandwich",
+                "category_name": "Salade / Salad",
                 "items": [
                     {
-                        "name": "Sandwich Doner Poulet",
-                        "price": 18,
-                        "like_percentage": 66,
-                        "rating_count": 9,
-                        "description": "Poulet grillée de votre choix servie dans du pain maison,accompagnée de légumes frais (laitue , tomates, oignons) et sauce à l’ail , pour une option pratique et délicieuse.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/2fe5f1452f76fedb7efff2a147df2e64/bc9c318a9c96996e2d990faf2b0c65f6.jpeg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Sandwich Doner Bœuf",
-                        "price": 19,
-                        "like_percentage": 76,
-                        "rating_count": 17,
-                        "description": "Bœuf grillée de votre choix servie dans du pain maison,accompagnée de légumes frais (laitue , tomates, oignons) et sauce à l’ail , pour une option pratique et délicieuse.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/2fe5f1452f76fedb7efff2a147df2e64/bc9c318a9c96996e2d990faf2b0c65f6.jpeg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Sandwich Doner Mixte",
-                        "price": 13,
+                        "name": "Salade maison / Homemade Salad",
+                        "price": 8.75,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Mixed doner meat served in a sandwich.",
-                        "image": null,
+                        "description": "Salade fraîche et savoureuse, préparée avec des ingrédients maison pour une expérience culinaire authentique.",
+                        "image": "./assets/images/menu/salade-homemade-salad.jpg",
                         "badges": []
                     },
                     {
-                        "name": "Sandwich Kofte",
-                        "price": 13,
+                        "name": "Salade de bocconcini / Bocconcini Salad",
+                        "price": 14.75,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Juicy Turkish-style meatballs served in a sandwich.",
-                        "image": null,
+                        "description": "Bocconcini, olives, et tomates fraîches, rehaussés de basilic et d'une vinaigrette légère.",
+                        "image": "./assets/images/menu/salade-bocconcini-salad.jpg",
                         "badges": []
-                    }
-                ]
-            },
-            {
-                "category_name": "Burger",
-                "items": [
+                    },
                     {
-                        "name": "Burger Poulet",
+                        "name": "Salade de poulet / Chicken Salad",
+                        "price": 14.75,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Salade de poulet grillé fraîche avec laitue croquante, idéale pour un repas léger et savoureux.",
+                        "image": "./assets/images/menu/salade-chicken-salad.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Salade au Poulet Croustillant / Crispy Chicken Salad",
+                        "price": 15.75,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Poulet croustillant sur salade verte fraîche, parfait pour une touche de croquant et de fraîcheur.",
+                        "image": "./assets/images/menu/salade-crispy-chicken-salad.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Salade de thon / Tuna Salad",
+                        "price": 14.75,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Salade fraîche de thon, parfaite pour une pause légère et savoureuse.",
+                        "image": "./assets/images/menu/salade-tuna-salad.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Salade de saucisse / Sausage Salad",
+                        "price": 14.75,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Salade de saucisse avec des saveurs équilibrées, idéale pour une expérience culinaire simple et délicieuse.",
+                        "image": "./assets/images/menu/salade-sausage-salad.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Salade de steak / Steak Salad",
+                        "price": 15.25,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Salade fraîche avec steak juteux, légumes et vinaigrette savoureuse.",
+                        "image": "./assets/images/menu/salade-steak-salad.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Salade de côte de veau / Veal Cutlet Salad",
                         "price": 17,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Nos burgers sont garnis de laitue , tomates, oignons et mayonnaise.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/6b4f04833bf1488c92248a3737c5a695/bc9c318a9c96996e2d990faf2b0c65f6.jpeg",
-                        "badges": [
-                            "Popular"
-                        ]
+                        "description": "Salade raffinée avec escalope de veau tendre, offrant une expérience gustative délicate et équilibrée.",
+                        "image": "./assets/images/menu/salade-veal-cutlet-salad.jpg",
+                        "badges": []
                     },
                     {
-                        "name": "Burger Bœuf",
-                        "price": 18,
+                        "name": "Vegetalienne (Beyond) Salade de Saucisse / Vegan Sausage (Beyond) Salad",
+                        "price": 17.25,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Nos burgers sont garnis de laitue , tomates, oignons et mayonnaise.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/dff83614412718ae874a2b4b2d748022/bc9c318a9c96996e2d990faf2b0c65f6.jpeg",
+                        "description": "Salade végétalienne avec saucisse Beyond Meat.",
+                        "image": "./assets/images/menu/salade-vegan-sausage-salad.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Vegetalienne (Beyond) Salade de Poulet Croustillant / Vegan Crispy Chicken (Beyond) Salad",
+                        "price": 17.25,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Salade végétalienne avec poulet croustillant Beyond Meat.",
+                        "image": "./assets/images/menu/salade-vegan-crispy-chicken-salad.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Salade au Poulet BBQ / BBQ Chicken Salad",
+                        "price": 15.75,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Salade fraîche avec poulet BBQ savoureux.",
+                        "image": "./assets/images/menu/salade-bbq-chicken-salad.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Salade à la côtelette de poulet / Chicken Cutlet Salad",
+                        "price": 16.25,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Salade avec escalope de poulet croustillante.",
+                        "image": "./assets/images/menu/salade-chicken-cutlet-salad.jpg",
                         "badges": []
                     }
                 ]
             },
             {
-                "category_name": "Notre Four",
+                "category_name": "À côtés / Sides",
                 "items": [
                     {
-                        "name": "Lahmacun",
-                        "price": 15,
+                        "name": "Frites Regulières / Regular Fries",
+                        "price": 5.25,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Thin, crispy flatbread topped with a savory blend of minced meat, vegetables, and spices.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/099e8c8b9d1067a30dbf787f15bfbc48/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "description": "Délicieuses frites croustillantes, idéales pour accompagner vos plats préférés.",
+                        "image": "./assets/images/menu/sides-regular-fries.jpg",
                         "badges": []
                     },
                     {
-                        "name": "Pide Au Fromage",
-                        "price": 18,
+                        "name": "Rondelles d'oignon / Onion Rings",
+                        "price": 6.75,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Savoury Turkish-style bread filled with melted cheese.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/05966af693c9ff1b13c5805e3f172aca/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "description": "Rondelles d'oignon croustillantes, parfaites pour accompagner vos plats préférés.",
+                        "image": "./assets/images/menu/sides-onion-rings.jpg",
                         "badges": []
                     },
                     {
-                        "name": "Pide Champignons",
-                        "price": 19,
+                        "name": "Pépites de poulet / Chicken Nuggets",
+                        "price": 5,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Savoury Turkish-style flatbread topped with mushrooms.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/5a7c98089a1c62f93f6cf8306dac37bb/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "description": "Délicieuses pépites de poulet, parfaites pour une pause gourmande.",
+                        "image": "./assets/images/menu/sides-chicken-nuggets.jpg",
                         "badges": []
                     },
                     {
-                        "name": "Pide Au Sujuk Et Fromage",
-                        "price": 20,
+                        "name": "Pépites de \"Mac & Cheese\" / \"Mac & Cheese\" Nuggets",
+                        "price": 5,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Savourez un pide garni de sujuk épicé et fromage fondant, une spécialité turque irrésistible.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/ae018d5cd93eadb4a0ea536b069cc890/70aa2a4db7f990373ca9c376323e3dea.jpeg",
-                        "badges": [
-                            "Popular"
-                        ]
-                    },
-                    {
-                        "name": "Pide Doner Poulet",
-                        "price": 20,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Doner de poulet savoureux sur pain pide, un pain plat turc, offrant une délicieuse fusion de saveurs.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/16304c7bcfb06afa616d43e866ca7eeb/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "description": "4 (mcx / Pcs).",
+                        "image": "./assets/images/menu/sides-mac-cheese-nuggets.jpg",
                         "badges": []
                     },
                     {
-                        "name": "Pide Viande Hachée",
-                        "price": 22,
+                        "name": "Poutine régulier / Regular Poutine",
+                        "price": 9.75,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Pain plat savoureux garni de bœuf haché assaisonné, offrant un avant-goût des saveurs turques traditionnelles.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/beef09bf58b406fc4027b5ca8516537a/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "description": "Délicieuses frites croustillantes garnies de fromage en grains fondant.",
+                        "image": "./assets/images/menu/sides-regular-poutine.jpg",
                         "badges": []
                     },
                     {
-                        "name": "Pide Viande Fumee",
-                        "price": 22,
+                        "name": "Milano Poutine",
+                        "price": 14.25,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Turkish flatbread with smoked meat, delivering a rich, savory taste.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/809614b1c17094c7a0db56d41dfff0d2/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "description": "Frites croustillantes garnies de fromage en grains fondant.",
+                        "image": "./assets/images/menu/sides-milano-poutine.jpg",
                         "badges": []
                     },
                     {
-                        "name": "Pain Maison",
+                        "name": "Frites Grand / Large Fries",
+                        "price": 8.25,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Délicieuses frites croustillantes, idéales pour accompagner vos plats préférés.",
+                        "image": "./assets/images/menu/sides-large-fries.jpg",
+                        "badges": []
+                    }
+                ]
+            },
+            {
+                "category_name": "Pâtisseries / Pastries",
+                "items": [
+                    {
+                        "name": "Petit biscuit aux pépites de chocolat / Small Chocolate Chip Cookie",
+                        "price": 1.75,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Biscuit aux pépites de chocolat, idéal pour une pause sucrée.",
+                        "image": "./assets/images/menu/pastries-small-chocolate-chip-cookie.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Petit biscuit macadamia / Small Macadamia Cookie",
                         "price": 2,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": null,
-                        "image": null,
+                        "description": "Délicieux biscuit aux noix de macadamia.",
+                        "image": "./assets/images/menu/pastries-small-macadamia-cookie.jpg",
                         "badges": []
                     },
                     {
-                        "name": "Pain Turc Lavas",
-                        "price": 2,
+                        "name": "Jumbo Oatmeal Cookie / Biscuit JUMBO à l'avoine",
+                        "price": 5,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": null,
-                        "image": null,
+                        "description": "Délicieux biscuit à l'avoine, généreux et moelleux, parfait pour une pause gourmande.",
+                        "image": "./assets/images/menu/pastries-jumbo-oatmeal-cookie.jpg",
                         "badges": []
                     },
                     {
-                        "name": "Pide Doner Bœuf",
-                        "price": 21,
+                        "name": "Bomba à la crème / Custard Bomba",
+                        "price": 5.75,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Doner de bœuf savoureux sur pain pide, un délice turc aux saveurs riches et à la texture satisfaisante.",
-                        "image": null,
-                        "badges": []
-                    }
-                ]
-            },
-            {
-                "category_name": "Salades",
-                "items": [
-                    {
-                        "name": "Salade Saison",
-                        "price": 13,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Mélange de migumes frais de saison, simples af savoureux avec one vinaigrette gre.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/8276c4d0561edf234327f335490186fe/bc9c318a9c96996e2d990faf2b0c65f6.jpeg",
+                        "description": "Délicieuse pâtisserie à la crème, garnie d'une onctueuse crème pâtissière.",
+                        "image": "./assets/images/menu/pastries-custard-bomba.jpg",
                         "badges": []
                     },
                     {
-                        "name": "Salade Coban",
-                        "price": 13,
+                        "name": "Bomba à la Nutella / Nutella Bomba",
+                        "price": 5.75,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Salade fraiche de tomates concombres oignons pivens, assaisonnée d'huile d'olive et de citron.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/a06ea01a323f8e7725c297125218b929/bc9c318a9c96996e2d990faf2b0c65f6.jpeg",
-                        "badges": [
-                            "Popular"
-                        ]
-                    }
-                ]
-            },
-            {
-                "category_name": "Desserts",
-                "items": [
-                    {
-                        "name": "Kunefe",
-                        "price": 12,
-                        "like_percentage": 100,
-                        "rating_count": 6,
-                        "description": "A sweet Turkish dessert with layers of shredded pastry, cheese, and syrup, offering a delightful blend of textures.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/495c57b28bf8f36bf423e76e094bf3ff/bc9c318a9c96996e2d990faf2b0c65f6.jpeg",
+                        "description": "Délicieuse pâtisserie au Nutella, parfaite pour les amateurs de chocolat.",
+                        "image": "./assets/images/menu/pastries-nutella-bomba.jpg",
                         "badges": []
                     },
                     {
-                        "name": "4 Mcx Baklava",
-                        "price": 10,
+                        "name": "Biscuit jumbo aux pépites de chocolat / Jumbo Chocolate Chip Cookie",
+                        "price": 5.75,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Layered pastry filled with nuts.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/198296c3a34154874e6bfe2cbbb1c61b/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "description": "Soft and chewy cookie filled with chocolate chips.",
+                        "image": "./assets/images/menu/pastries-jumbo-chocolate-chip-cookie.jpg",
                         "badges": []
                     },
                     {
-                        "name": "Dilim Baklava",
-                        "price": 10,
+                        "name": "Bâton de nutella / Nutella Stick",
+                        "price": 5.25,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Layered pastry filled with nuts.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/125ce5c75ad77be8323c5b9fb5cfb616/bc9c318a9c96996e2d990faf2b0c65f6.jpeg",
+                        "description": "Délicieux bâton croustillant garni de Nutella onctueux.",
+                        "image": "./assets/images/menu/pastries-nutella-stick.jpg",
                         "badges": []
                     },
                     {
-                        "name": "Sutlac",
+                        "name": "Heavenly Taste Biscotti double chocolat aux amandes / Double Almond Chocolate Biscotti",
+                        "price": 5.25,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Biscotti au double chocolat avec amandes.",
+                        "image": "./assets/images/menu/pastries-double-almond-chocolate-biscotti.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Cannoli (chaque / Each)",
+                        "price": 4.5,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Délicieuse pâtisserie italienne avec une coque croustillante et une garniture de crème de ricotta sucrée.",
+                        "image": "./assets/images/menu/pastries-cannoli.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Zeppole (chaque / Each)",
+                        "price": 5.75,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Beignet italien traditionnel.",
+                        "image": "./assets/images/menu/pastries-zeppole.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Mini Cannoli (douzaine / Dozen)",
+                        "price": 18.75,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Délicieuses mini-cannoli avec une coque croustillante et une garniture crémeuse.",
+                        "image": "./assets/images/menu/pastries-mini-cannoli.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Demi douzaine grande cannoli / Half Dozen Large Cannoli",
+                        "price": 25,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Six grands cannoli croustillants, garnis de crème de ricotta sucrée.",
+                        "image": "./assets/images/menu/pastries-half-dozen-large-cannoli.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Grande douzaine cannoli / Large Dozen Cannoli",
+                        "price": 48,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Douzaine de cannoli italiens croustillants, garnis de ricotta sucrée et crémeuse.",
+                        "image": "./assets/images/menu/pastries-cannoli.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Demi-Douzaine Zeppole / Half Dozen Zeppole",
+                        "price": 34.5,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Délicieux beignets italiens, légers et aérés, saupoudrés de sucre glace.",
+                        "image": "./assets/images/menu/pastries-half-dozen-zeppole.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Oreo Cheese Cake / Gâteau Fromage Oreo",
+                        "price": 7.75,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Gâteau au fromage avec Oreo.",
+                        "image": "./assets/images/menu/pastries-oreo-cheesecake.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Pistachio Cheese Cake / Gâteau Fromage Pistache",
+                        "price": 7.75,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Délicieux gâteau au fromage crémeux, subtilement parfumé à la pistache.",
+                        "image": "./assets/images/menu/pastries-pistachio-cheesecake.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Tiramisu",
+                        "price": 7.75,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Dessert italien classique au café et mascarpone.",
+                        "image": "./assets/images/menu/pastries-tiramisu.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Ferrero Rocher Cake / Gâteau Ferrero Rocher",
+                        "price": 7.75,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Gâteau au chocolat Ferrero Rocher.",
+                        "image": "./assets/images/menu/pastries-ferrero-rocher-cake.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Gateau aux Caramel Salé / Salted Caramel Cake",
+                        "price": 7.75,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Délicieux gâteau moelleux au caramel salé, une touche sucrée-salée irrésistible.",
+                        "image": "./assets/images/menu/pastries-salted-caramel-cake.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Red Velvet Cake / Gâteau Red Velvet",
+                        "price": 7.75,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Gâteau rouge velouté, doux et moelleux.",
+                        "image": "./assets/images/menu/pastries-red-velvet-cake.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Xango",
                         "price": 8,
-                        "like_percentage": 100,
-                        "rating_count": 3,
-                        "description": "Traditional Turkish rice pudding dessert.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/4ba7d426b7995944514c1d3ea0f6f879/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Dessert frit à la crème.",
+                        "image": "./assets/images/menu/pastries-xango.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Chausson aux pommes / Apple Turnover",
+                        "price": 4.25,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Pâte feuilletée croustillante garnie de pommes sucrées.",
+                        "image": "./assets/images/menu/pastries-apple-turnover.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Nutella Lobster Tail / Queue de Homard Nutella",
+                        "price": 5.75,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Pâtisserie feuilletée garnie de Nutella.",
+                        "image": "./assets/images/menu/pastries-nutella-lobster-tail.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Caffè crema",
+                        "price": 6.5,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Délicieuse pâtisserie à la crème de café.",
+                        "image": "./assets/images/menu/pastries-caffe-crema.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Croissant Nature / Plain Croissant",
+                        "price": 4.25,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Croissant au beurre classique et feuilleté.",
+                        "image": "./assets/images/menu/pastries-plain-croissant.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Croissant au Chocolat / Chocolate Croissant",
+                        "price": 4.5,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Croissant feuilleté garni de chocolat.",
+                        "image": "./assets/images/menu/pastries-chocolate-croissant.jpg",
                         "badges": []
                     }
                 ]
             },
             {
-                "category_name": "Extras",
+                "category_name": "Café / Coffee",
                 "items": [
                     {
-                        "name": "Pain Maison",
-                        "price": 2,
+                        "name": "Espresso",
+                        "price": 3,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": null,
-                        "image": null,
+                        "description": "Un café riche et intense, parfait pour un coup de boost rapide.",
+                        "image": "./assets/images/menu/coffee-espresso.jpg",
                         "badges": []
                     },
                     {
-                        "name": "Boulgour",
-                        "price": 10,
+                        "name": "Allongé",
+                        "price": 3.25,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": null,
-                        "image": null,
+                        "description": "Espresso allongé avec plus d'eau.",
+                        "image": "./assets/images/menu/coffee-espresso.jpg",
                         "badges": []
                     },
                     {
-                        "name": "Riz",
-                        "price": 10,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": null,
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Frites",
-                        "price": 8,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": null,
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Pommes Maison",
-                        "price": 8,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": null,
-                        "image": null,
-                        "badges": []
-                    }
-                ]
-            },
-            {
-                "category_name": "Boisson Froide",
-                "items": [
-                    {
-                        "name": "Eau",
-                        "price": 2,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Fresh water.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Boisson Gazeuse",
-                        "price": 2.75,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Fizzy drink.",
-                        "image": null,
-                        "badges": [
-                            "Popular"
-                        ]
-                    },
-                    {
-                        "name": "Boisson Gazeuse Turque",
+                        "name": "Americano",
                         "price": 3.5,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Fizzy Turkish drink.",
-                        "image": null,
+                        "description": "Espresso dilué avec de l'eau chaude.",
+                        "image": "./assets/images/menu/coffee-americano.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Latte",
+                        "price": 4,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Espresso avec lait vapeur crémeux.",
+                        "image": "./assets/images/menu/coffee-latte.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Cappuccino",
+                        "price": 4,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Espresso avec lait vapeur et mousse de lait.",
+                        "image": "./assets/images/menu/coffee-cappuccino.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Chocolat Chaud / Hot Chocolate",
+                        "price": 4,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Délicieux chocolat chaud, parfait pour réchauffer vos journées.",
+                        "image": "./assets/images/menu/coffee-hot-chocolate.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Mokaccino",
+                        "price": 4.25,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Espresso avec chocolat et lait vapeur.",
+                        "image": "./assets/images/menu/coffee-mokaccino.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Thé / Tea",
+                        "price": 3.5,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Thé chaud classique.",
+                        "image": "./assets/images/menu/coffee-tea.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Thé cammomile / Chamomile Tea",
+                        "price": 3.5,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Thé à la camomille apaisant.",
+                        "image": "./assets/images/menu/coffee-chamomile-tea.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Thé vert / Green Tea",
+                        "price": 3.5,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Thé vert sain et rafraîchissant.",
+                        "image": "./assets/images/menu/coffee-green-tea.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Latte Glacé / Iced Latte",
+                        "price": 4,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Café glacé rafraîchissant, mélange parfait d'espresso et de lait sur glace.",
+                        "image": "./assets/images/menu/coffee-iced-latte.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "1L Espresso Glacé / 1L Iced Espresso",
+                        "price": 14.95,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Un espresso glacé rafraîchissant, parfait pour une pause café estivale.",
+                        "image": "./assets/images/menu/coffee-iced-espresso.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "1 lb de café (GRAINS) / 1 lb of coffee (BEANS)",
+                        "price": 19.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Grains de café premium.",
+                        "image": "./assets/images/menu/coffee-beans.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "1 lb de café (MOULU) / 1 lb of coffee (GROUND)",
+                        "price": 19.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Café moulu premium.",
+                        "image": "./assets/images/menu/coffee-ground.jpg",
+                        "badges": []
+                    }
+                ]
+            },
+            {
+                "category_name": "Breuvages / Beverages",
+                "items": [
+                    {
+                        "name": "Coke",
+                        "price": 3,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Coca-Cola classique.",
+                        "image": "./assets/images/menu/beverages-coke.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Pepsi Zero",
+                        "price": 3,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Pepsi sans sucre.",
+                        "image": "./assets/images/menu/beverages-pepsi-zero.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "7 Up",
+                        "price": 3,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Boisson gazeuse citron-lime.",
+                        "image": "./assets/images/menu/beverages-7up.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "7 Up diète / Diet 7 Up",
+                        "price": 3,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "7 Up sans sucre.",
+                        "image": "./assets/images/menu/beverages-diet-7up.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Canada Dry",
+                        "price": 3,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Ginger ale rafraîchissant.",
+                        "image": "./assets/images/menu/beverages-canada-dry.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Bouteille d'eau / Water Bottle",
+                        "price": 3,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Bouteille d'eau fraîche pour une hydratation pure et simple.",
+                        "image": "./assets/images/menu/beverages-water-bottle.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Limonata San Pellegrino",
+                        "price": 3.75,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Limonade pétillante italienne.",
+                        "image": "./assets/images/menu/beverages-limonata.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Araniciata San Pellegrino",
+                        "price": 3.75,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Orangeade pétillante italienne.",
+                        "image": "./assets/images/menu/beverages-aranciata.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Pompelmo San Pellegrino",
+                        "price": 3.75,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Boisson pétillante au pamplemousse.",
+                        "image": "./assets/images/menu/beverages-pompelmo.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Rossa San Pellegrino",
+                        "price": 3.75,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Boisson pétillante à l'orange sanguine.",
+                        "image": "./assets/images/menu/beverages-rossa.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "FUZE Thé glacé / Iced Tea",
+                        "price": 3.5,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Thé glacé rafraîchissant.",
+                        "image": "./assets/images/menu/beverages-fuze-iced-tea.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Brio",
+                        "price": 3.5,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Boisson riche et onctueuse, parfaite pour une pause gourmande.",
+                        "image": "./assets/images/menu/beverages-brio.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "San Benedetto (Thé glacé au citron / Lemon Iced Tea)",
+                        "price": 4.25,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Thé glacé italien au citron.",
+                        "image": "./assets/images/menu/beverages-san-benedetto-lemon.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "San Benedetto (thé glacé au pêches / Peach Iced Tea)",
+                        "price": 4.25,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Thé glacé italien à la pêche.",
+                        "image": "./assets/images/menu/beverages-san-benedetto-peach.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Snapple (thé glacé au pêches / Peach Iced Tea)",
+                        "price": 4.25,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Thé glacé Snapple à la pêche.",
+                        "image": "./assets/images/menu/beverages-snapple-peach.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Margherita (eau / Water)",
+                        "price": 3.75,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Eau fraîche et pure, parfaite pour accompagner votre repas.",
+                        "image": "./assets/images/menu/beverages-margherita-water.jpg",
+                        "badges": []
+                    }
+                ]
+            },
+            {
+                "category_name": "Autre / Other",
+                "items": [
+                    {
+                        "name": "Piments Forts / Hot Peppers",
+                        "price": 6.25,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Piments forts pour une touche épicée et savoureuse à vos plats.",
+                        "image": "./assets/images/menu/other-hot-peppers.jpg",
                         "badges": []
                     }
                 ]
@@ -767,7 +867,7 @@
         ]
     },
     "metadata": {
-        "request_id": "aeb2994b-ac61-47ad-bd87-b0f1a52044e3",
+        "request_id": "cafe-milano-scrape",
         "generated_query": null,
         "screenshot": null
     }

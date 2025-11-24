@@ -1,60 +1,60 @@
 {
-  "name": "Sharan Restaurant",
-  "tagline": "Italian Fastfood",
-  "description": "Masih is the GOAT",
+  "name": "Cafe Milano",
+  "tagline": "The Best Moments Happen Between Sips",
+  "description": "Café Milano is as much about friendly company as it is quality coffee and homespun flavours. Pull up a seat and indulge in tasty conversation. Since 1971, Café Milano has been keeping Montrealers caffeinated, connected, and well-fed. We're proud of our local history and look forward to fostering friendships for another 50 years.",
 
   "contact": {
     "phone": {
-      "primary": "+1 819 919 8385",
-      "primaryRaw": "+18199198385",
-      "booking": "+1 819 919 8385",
-      "bookingRaw": "+18199198385"
+      "primary": "(514) 328-0561",
+      "primaryRaw": "+15143280561",
+      "booking": "(514) 328-0561",
+      "bookingRaw": "+15143280561"
     },
     "email": {
-      "primary": "booking@sharan.com",
-      "booking": "booking@sharan.com"
+      "primary": "info@cafemilano.ca",
+      "booking": "info@cafemilano.ca"
     }
   },
 
   "address": {
-    "street": "Rue du Mans",
-    "city": "Montreal",
-    "region": "Quebec",
-    "postalCode": "H1S 1Z9",
+    "street": "5188 rue Jarry Est",
+    "city": "Montréal",
+    "region": "QC",
+    "postalCode": "H1R 1Y4",
     "country": "CA",
-    "full": "Rue du Mans, Montreal, QC H1S 1Z9, CA",
-    "fullMultiline": "Rue du Mans,<br>Montreal, QC H1S 1Z9, CA",
-    "mapsUrl": "https://maps.google.com"
+    "full": "5188 rue Jarry Est, Montréal, QC H1R 1Y4",
+    "fullMultiline": "5188 rue Jarry Est<br>Montréal, QC H1R 1Y4",
+    "mapsUrl": "https://www.google.com/maps/place/Caf%C3%A9+Milano+Montr%C3%A9al/@45.5821387,-73.5951497,17z/data=!3m1!4b1!4m5!3m4!1s0x4cc91eeeaca4eaed:0x88450fd2d3d44588!8m2!3d45.582135!4d-73.592961"
   },
 
   "hours": {
-    "daily": "8:00 am to 10:00 pm",
-    "dailyShort": "Daily: 8:00 am to 10:00 pm",
-    "sidebar": "9:30 am - 2:30 pm",
-    "footer": "09:00 am - 01:00 pm",
+    "daily": "7:00 AM - 6:00 PM",
+    "dailyShort": "7AM-6PM",
+    "sidebar": "Mon-Sun: 7:00 - 18:00",
+    "footer": "Daily : 7:00 AM - 6:00 PM",
     "lunch": {
-      "days": "Mon - Sun",
-      "time": "11:00 am - 2:30 pm",
-      "full": "Mon - Sun: 11:00 am - 2:30 pm"
+      "days": "Monday to Sunday",
+      "time": "11:00 AM - 3:00 PM",
+      "full": "Monday to Sunday, 11:00 AM - 3:00 PM"
     },
     "dinner": {
-      "days": "Mon - Sun",
-      "time": "5:00 pm - 10:00 pm",
-      "full": "Mon - Sun: 5:00 pm - 10:00 pm"
+      "days": "Monday to Sunday",
+      "time": "3:00 PM - 6:00 PM",
+      "full": "Monday to Sunday, 3:00 PM - 6:00 PM"
     },
     "special": {
-      "description": "During winter daily from",
-      "start": "7:00 pm",
-      "end": "9:00 pm"
+      "description": "",
+      "start": "",
+      "end": ""
     }
   },
 
   "social": {
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/cafemilanoinc",
+    "instagram": "https://www.instagram.com/cafemilanomtl/",
     "twitter": "",
     "youtube": "",
-    "googleMaps": ""
+    "googleMaps": "https://www.google.com/maps/place/Caf%C3%A9+Milano+Montr%C3%A9al/@45.5821387,-73.5951497,17z/data=!3m1!4b1!4m5!3m4!1s0x4cc91eeeaca4eaed:0x88450fd2d3d44588!8m2!3d45.582135!4d-73.592961"
   },
 
   "branding": {
@@ -66,7 +66,7 @@
 
   "legal": {
     "copyrightYear": "2025",
-    "copyrightHolder": "MB Flows",
+    "copyrightHolder": "Cafe Milano",
     "attribution": {
       "text": "Crafted by MB Flows"
     }
@@ -76,8 +76,14 @@
     "newsletter": {
       "title": "Get News & Offers",
       "subtitle": "Subscribe us & Get",
-      "discountPercent": 25,
-      "discountText": "25% Off."
+      "discountPercent": 15,
+      "discountText": "15% Off."
     }
+  },
+
+  "about": {
+    "story": "Since 1971, Café Milano has been keeping Montrealers caffeinated, connected, and well-fed. We're proud of our local history and look forward to fostering friendships for another 50 years.",
+    "cuisine_type": "Italian",
+    "established_year": "1971"
   }
 }

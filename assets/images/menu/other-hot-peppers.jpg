@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>NoSuchKey</Code><Message>code:not-found message:tpath not found: /prod/image-proc/processed_images/5b815fdd79717e24a0fe3c37b39bf2f3/a19bb09692310dfd41e49a96c424b3a6.jpeg</Message><Resource>/prod/image-proc/processed_images/5b815fdd79717e24a0fe3c37b39bf2f3/a19bb09692310dfd41e49a96c424b3a6.jpeg</Resource><RequestId>7579d693-dc8d-4cb7-8df7-3776b3d60008</RequestId></Error>
