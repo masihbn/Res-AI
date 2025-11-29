@@ -1,7 +1,7 @@
 ---
 description: Duplicate a restaurant business - scrape menu from Uber Eats and business info from website
 argument-hint: <website-url> <ubereats-url>
-allowed-tools: Bash, Read, Write, Edit, WebFetch, Glob, Grep
+allowed-tools: Bash, Read, Write, Edit, WebFetch, WebSearch, Glob, Grep
 ---
 
 # Dupe Business Command
@@ -198,9 +198,40 @@ Map the scraped data to the `business.json` structure:
 }
 ```
 
-### Step 2.3: Handle Missing Data
+### Step 2.3: Handle Missing Hours Data
 
-If certain fields cannot be scraped:
+**IMPORTANT**: If the AgentQL response returns `null` for hours fields (weekday_hours, weekend_hours, special_hours):
+
+1. **Use WebSearch** to find the business hours online:
+   - Search query: `"{business_name}" "{address}" opening hours` or `"{business_name}" "{city}" hours`
+   - Use all available context (name, address, city) to identify the correct business
+   - Look for hours on Google Business Profile, Yelp, TripAdvisor, or the restaurant's website
+
+2. **Extract and format hours** into the required structure:
+   ```json
+   "hours": {
+     "daily": "11:00 AM - 10:00 PM",
+     "dailyShort": "11AM-10PM",
+     "sidebar": "Mon-Sun: 11:00 - 22:00",
+     "footer": "Daily : 11:00 AM - 10:00 PM",
+     "lunch": {
+       "days": "Monday to Friday",
+       "time": "11:00 AM - 3:00 PM",
+       "full": "Monday to Friday, 11:00 AM - 3:00 PM"
+     },
+     "dinner": {
+       "days": "Daily",
+       "time": "5:00 PM - 10:00 PM",
+       "full": "Daily, 5:00 PM - 10:00 PM"
+     }
+   }
+   ```
+
+3. **If hours vary by day**, use the most common range for "daily" field and note variations in the report
+
+### Step 2.4: Handle Other Missing Data
+
+If other fields cannot be scraped:
 - Use WebFetch to manually browse specific pages (/about, /contact, /events)
 - Look for common patterns in footer, header, contact sections
 - For any field that truly cannot be found, use a sensible placeholder and note it in the final report
