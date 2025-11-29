@@ -1,20 +1,13 @@
 ---
 description: Duplicate a restaurant business - scrape menu from Uber Eats and business info from website
-argument-hint: <website-url> <ubereats-url>
 allowed-tools: Bash, Read, Write, Edit, WebFetch, Glob, Grep
 ---
 
 # Dupe Business Command
 
-You are duplicating a restaurant's data into this website template. You have two URLs:
-- **Restaurant Website**: $1
-- **Uber Eats Store**: $2
+You are duplicating a restaurant's data into this website template. 
 
 ## Pre-flight Checks
-
-First, validate the arguments:
-- If `$1` is empty or missing, ask the user: "Please provide the restaurant website URL as the first argument"
-- If `$2` is empty or missing, ask the user: "Please provide the Uber Eats store URL as the second argument"
 
 Read the current config files to understand the structure:
 - `config/menu.json` - current menu structure
@@ -22,31 +15,15 @@ Read the current config files to understand the structure:
 
 ---
 
-## Phase 1: Scrape Menu from Uber Eats
+## Phase 1: Update Menu 
 
-### Step 1.1: Fetch Menu Data via AgentQL
+### Step 1.1: Read Menu
 
-Run this curl command to scrape menu data from Uber Eats:
-
-```bash
-curl -X POST "https://api.agentql.com/v1/query-data" \
-  -H "X-API-Key: FXoD2wW5Ra64qMWD8_MSLWRQyXFgZv3jVhPF8Q-w1jn8bqqaMpI74Q" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "query": "{ menu_categories(All menu sections like Appetizers, Main Course, etc.)[] { category_name(The heading text of the menu section) items[] { name(The menu item name) price(integer item price numeric value) like_percentage(integer percentage rating like 85) rating_count(integer count in parentheses like 14) description(Any supporting description text for the item) image(a link to item's image) badges(Any tags such as Halal, Popular, etc.)[] } } }",
-    "url": "$2",
-    "params": {
-      "wait_for": 0,
-      "is_scroll_to_bottom_enabled": true,
-      "mode": "standard",
-      "is_screenshot_enabled": false
-    }
-  }'
-```
+Read the menu.json file.
 
 ### Step 1.2: Process Menu Response
 
-1. Parse the JSON response from AgentQL
+1. Parse the menu.json file
 2. Extract the `data.menu_categories` array
 3. For each menu item with an image URL:
    - Download the image to `assets/images/menu/`
@@ -86,31 +63,15 @@ Write the processed data to `config/menu.json` with this structure:
 
 ---
 
-## Phase 2: Scrape Restaurant Website
+## Phase 2: Update Business Information
 
-### Step 2.1: Scrape Business Info via AgentQL
+### Step 2.1: Read Business.json
 
-Run this curl to get business information from the restaurant's website:
-
-```bash
-curl -X POST "https://api.agentql.com/v1/query-data" \
-  -H "X-API-Key: FXoD2wW5Ra64qMWD8_MSLWRQyXFgZv3jVhPF8Q-w1jn8bqqaMpI74Q" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "query": "{ business { name tagline description } contact { phone email address { street city region postal_code country } } hours { weekday_hours weekend_hours special_hours } social { facebook instagram twitter youtube google_maps } events[] { title description } about { story cuisine_type established_year } }",
-    "url": "$1",
-    "params": {
-      "wait_for": 0,
-      "is_scroll_to_bottom_enabled": true,
-      "mode": "standard",
-      "is_screenshot_enabled": false
-    }
-  }'
-```
+Read the business.json file.
 
 ### Step 2.2: Process Business Data
 
-Map the scraped data to the `business.json` structure:
+Map the data from `business.json` to the following structure:
 
 ```json
 {
@@ -198,14 +159,10 @@ Map the scraped data to the `business.json` structure:
 }
 ```
 
-### Step 2.3: Handle Missing Data
+### Step 2.3: Update business.json
 
-If certain fields cannot be scraped:
-- Use WebFetch to manually browse specific pages (/about, /contact, /events)
-- Look for common patterns in footer, header, contact sections
-- For any field that truly cannot be found, use a sensible placeholder and note it in the final report
+Update 'business.json' file with the new structure
 
----
 
 ## Phase 3: Download Images
 
@@ -246,8 +203,6 @@ Provide a summary:
 
 ### Restaurant Info
 - Name: {name}
-- Website: $1
-- Uber Eats: $2
 
 ### Menu Stats
 - Categories: {count}

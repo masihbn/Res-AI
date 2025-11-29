@@ -2,864 +2,1747 @@
     "data": {
         "menu_categories": [
             {
-                "category_name": "Sandwiches",
+                "category_name": "Les Soupes et les Entrées / Soups and Appetizers",
                 "items": [
                     {
-                        "name": "Sandwich végétarien / Vegetarian Sandwich",
-                        "price": 9.25,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Un sandwich végétarien savoureux, garni de légumes frais et d'ingrédients de qualité.",
-                        "image": "./assets/images/menu/sandwiches-sandwich-vegetarien.jpg",
+                        "name": "Soupe à l'Oignon Gratinée / French Onion Soup",
+                        "price": 9.99,
+                        "like_percentage": 66,
+                        "rating_count": 3,
+                        "description": "Rich, caramelized onions in a savory broth, topped with croutons and melted cheese.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Capicollo Sandwich",
-                        "price": 12,
+                        "name": "Bâtonnets au Fromage / Cheese Sticks",
+                        "price": 9.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Savourez un sandwich capicollo, garni de charcuterie italienne et de légumes frais, pour une expérience authentique.",
-                        "image": "./assets/images/menu/sandwiches-capicollo-sandwich.jpg",
+                        "description": "Crispy sticks filled with melted cheese.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Sandwich au poulet / Chicken Sandwich",
-                        "price": 10.25,
+                        "name": "Pain à l'Ail / Garlic Bread",
+                        "price": 5.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Sandwich au poulet tendre et savoureux, parfait pour une pause gourmande à tout moment.",
-                        "image": "./assets/images/menu/sandwiches-chicken-sandwich.jpg",
+                        "description": "Freshly baked bread infused with garlic.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Sandwich au Poulet Croustillant / Crispy Chicken Sandwich",
-                        "price": 12,
+                        "name": "Pain à l'Ail Gratiné / Gratinated Garlic Bread",
+                        "price": 7.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Poulet croustillant dans un sandwich, une explosion de saveurs et de textures à savourer.",
-                        "image": "./assets/images/menu/sandwiches-crispy-chicken-sandwich.jpg",
+                        "description": "Rich, buttery bread infused with garlic.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Sandwich à la côtelette de poulet / Chicken Cutlet Sandwich",
-                        "price": 12.5,
+                        "name": "Ailes de Poulet / Chicken Wings",
+                        "price": 10.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Escalope de poulet, laitue, tomate, oignons caramélisés, aubergines épicées marinées, piments forts, mayonnaise au pesto, glaçage balsamique.",
-                        "image": "./assets/images/menu/sandwiches-chicken-cutlet-sandwich.jpg",
+                        "description": "Tender and juicy chicken wings.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Sandwich au poulet BBQ / BBQ Chicken Sandwich",
-                        "price": 12,
+                        "name": "Filet de Poitrine de Poulet (4mcx) / Chicken Breast Fillet (4pcs)",
+                        "price": 9.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Sandwich au poulet BBQ tendre et juteux, parfait pour une expérience culinaire savoureuse.",
-                        "image": "./assets/images/menu/sandwiches-bbq-chicken-sandwich.jpg",
+                        "description": null,
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Steak Sandwich",
-                        "price": 10.75,
+                        "name": "Calmars Frits / Fried Squid",
+                        "price": 16.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Sandwich au steak tendre, accompagné de légumes frais.",
-                        "image": "./assets/images/menu/sandwiches-steak-sandwich.jpg",
+                        "description": "Servi avec sauce de mayonnaise épicée et citron. / Served with spicy mayonnaise and lemon sauce.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Sandwich au saucisse / Sausage Sandwich",
-                        "price": 10.25,
+                        "name": "Trempette aux Épinards et Artichauts  / Spinach and Artichoke Dip",
+                        "price": 13.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Savourez un sandwich au saucisse, une fusion parfaite de saveurs authentiques et réconfortantes.",
-                        "image": "./assets/images/menu/sandwiches-sausage-sandwich.jpg",
+                        "description": "Servi avec des tortillas de maïs et salsa. / Served with corn tortillas and salsa.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Sandwich au thon / Tuna Sandwich",
-                        "price": 10.25,
+                        "name": "Nachos",
+                        "price": 19.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Délicieux sandwich au thon, idéal pour une pause gourmande à tout moment de la journée.",
-                        "image": "./assets/images/menu/sandwiches-tuna-sandwich.jpg",
+                        "description": "Tortillas de maïs croustillant, fromage Monterey Jack, melted cheddar cheese, green onions, tomatoes, black olives, and jelapeño corn. Served with sour cream and salsa. / Crispy corn tortillas, Monterey Jack, melted cheddar cheese, green onions, tomatoes, black olives, and jelapeño corn. Served with sour cream and salsa.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Steak & Capicollo Sandwich",
-                        "price": 12.5,
+                        "name": "Quesadillas aux Légumes / Vegetable Quesadillas",
+                        "price": 11.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Sandwich savoureux avec steak tendre et capicollo.",
-                        "image": "./assets/images/menu/sandwiches-steak-capicollo-sandwich.jpg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Sandwich à la côtelette de veau / Veal Cutlet Sandwich",
-                        "price": 12.5,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Sandwich savoureux avec escalope de veau tendre, une spécialité à déguster.",
-                        "image": "./assets/images/menu/sandwiches-veal-cutlet-sandwich.jpg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Milano Special Sandwich",
-                        "price": 12.5,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Sandwich savoureux avec steak, capicollo et poivrons, offrant une explosion de saveurs italiennes.",
-                        "image": "./assets/images/menu/sandwiches-milano-special-sandwich.jpg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Végétalienne (Beyond) Sandwich au Saucisse / Vegan Sausage (Beyond) Sandwich",
-                        "price": 13.75,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Sandwich végétalien à base de saucisse Beyond Meat.",
-                        "image": "./assets/images/menu/sandwiches-vegan-sausage-sandwich.jpg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Végétalienne (Beyond) Sandwich au Poulet Croustillant / Vegan Crispy Chicken (Beyond) Sandwich",
-                        "price": 13.75,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Sandwich végétalien avec poulet croustillant Beyond Meat.",
-                        "image": "./assets/images/menu/sandwiches-vegan-crispy-chicken-sandwich.jpg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Sandwich au Poulet Croustillant 7\" / 7\" Crispy Chicken Sandwich",
-                        "price": 12,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "7\" Poulet croustillant dans un sandwich, une explosion de saveurs et de textures à savourer.",
-                        "image": "./assets/images/menu/sandwiches-7-crispy-chicken-sandwich.jpg",
-                        "badges": []
-                    },
-                    {
-                        "name": "12\" Sandwich au Poulet Croustillant / 12\" Crispy Chicken Sandwich",
-                        "price": 16.5,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "12\" Poulet croustillant dans un sandwich, une explosion de saveurs et de textures à savourer.",
-                        "image": "./assets/images/menu/sandwiches-7-crispy-chicken-sandwich.jpg",
+                        "description": "Tortillas, salsa, mélange de légumes sautés et fromage Monterey Jack. Servi avec une crème sûre. / Tortillas, salsa, sautéed vegetable mix, and Monterey Jack cheese. Served with sour cream.",
+                        "image": null,
                         "badges": []
                     }
                 ]
             },
             {
-                "category_name": "Salade / Salad",
+                "category_name": "Les Salades / The Salads",
                 "items": [
                     {
-                        "name": "Salade maison / Homemade Salad",
-                        "price": 8.75,
+                        "name": "Salade Jardin / Garden Salad",
+                        "price": 9.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Salade fraîche et savoureuse, préparée avec des ingrédients maison pour une expérience culinaire authentique.",
-                        "image": "./assets/images/menu/salade-homemade-salad.jpg",
+                        "description": "Laitue, tomates, concombre, oignons, croûtons à l'ail, carottes râpées, piments verts, olives noires, fromage Monterey Jack et accompagnée d'une vinaigrette balsamique. Servi avec pain à l'ail. / Lettuce, tomatoes, cucumber, onions, garlic croutons, grated carrots, green peppers, black olives, Monterey Jack cheese, and served with a balsamic vinaigrette. Served with garlic bread.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Salade de bocconcini / Bocconcini Salad",
-                        "price": 14.75,
+                        "name": "Salade Grecque / Greek Salad",
+                        "price": 12.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Bocconcini, olives, et tomates fraîches, rehaussés de basilic et d'une vinaigrette légère.",
-                        "image": "./assets/images/menu/salade-bocconcini-salad.jpg",
+                        "description": "Laitue, tomates, concombre, olives noires, poivrons verts, oignons rouges, fromage feta et vinaigrette grecque. Servi avec pain à l'ail. / Lettuce, tomatoes, cucumber, black olives, green peppers, red onions, feta cheese, and Greek vinaigrette. Served with garlic bread.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Salade de poulet / Chicken Salad",
-                        "price": 14.75,
+                        "name": "Salade César / Cesar Salad",
+                        "price": 11.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Salade de poulet grillé fraîche avec laitue croquante, idéale pour un repas léger et savoureux.",
-                        "image": "./assets/images/menu/salade-chicken-salad.jpg",
+                        "description": "Laitue romaine, croûtons à l'ail, parmesan, bacon et vinaigrette césar crémeux. Servi avec pain à l'ail. / Romaine lettuce, garlic croutons, parmesan, bacon, and creamy Caesar dressing. Served with garlic bread.",
+                        "image": null,
+                        "badges": [
+                            "Popular"
+                        ]
+                    },
+                    {
+                        "name": "Salade Santa Fe / Santa Fe Salad",
+                        "price": 19.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Laitue, tomates, tortillas au mais croustillants fromage Monterey Jack, poulet grillé, salsa et créme sûre. Servi avec pain à l'ail. / Lettuce, tomatoes, crispy corn tortillas with Monterey Jack cheese, grilled chicken, salsa, and sour cream. Served with garlic bread.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Salade au Poulet Croustillant / Crispy Chicken Salad",
-                        "price": 15.75,
+                        "name": "Salade Avocat et Bacon / Avocado and Bacon Salad",
+                        "price": 19.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Poulet croustillant sur salade verte fraîche, parfait pour une touche de croquant et de fraîcheur.",
-                        "image": "./assets/images/menu/salade-crispy-chicken-salad.jpg",
+                        "description": "Poulet grillé et bacon avec laitue, avocat, tomates, concombres et maïs. Servi avec pain à l'ail. / Grilled chicken and bacon with lettuce, avocado, tomatoes, cucumbers, and corn. Served with garlic bread.",
+                        "image": null,
+                        "badges": []
+                    }
+                ]
+            },
+            {
+                "category_name": "Sous-marins / Submarines",
+                "items": [
+                    {
+                        "name": "Sous-marin \"Joseph\" / \"Joseph\" Submarine",
+                        "price": 17.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Piments verts, oignons, champignons, fromage mozzarella, viande fumée, laitue et tomates. Servi avec salade de choux et frites. / Green peppers, onions, mushrooms, mozzarella cheese, smoked meat, lettuce, and tomatoes. Served with coleslaw and fries.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Salade de thon / Tuna Salad",
-                        "price": 14.75,
+                        "name": "Sous-marin Mexicain / Mexican Submarine",
+                        "price": 16.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Salade fraîche de thon, parfaite pour une pause légère et savoureuse.",
-                        "image": "./assets/images/menu/salade-tuna-salad.jpg",
+                        "description": "Bœuf haché, oignons piments verts, bananes, mozzarella, tomates et sauce piquant. Servi avec salade de choux et frites. / Ground beef, green pepper onions, bananas, mozzarella, tomatoes, and hot sauce. Served with coleslaw and fries.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Salade de saucisse / Sausage Salad",
-                        "price": 14.75,
+                        "name": "Sous-marin la Vedette / The Vedette Submarine",
+                        "price": 16.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Salade de saucisse avec des saveurs équilibrées, idéale pour une expérience culinaire simple et délicieuse.",
-                        "image": "./assets/images/menu/salade-sausage-salad.jpg",
+                        "description": "Steak, pepperoni, oignons, piments rouges, mozzarella, laitue et tomates. Servi avec salade de choux et frites. / Steak, pepperoni, onions, red peppers, mozzarella, lettuce, and tomatoes. Served with coleslaw and fries.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Salade de steak / Steak Salad",
-                        "price": 15.25,
+                        "name": "Sous-marin \"Philly\" / \"Philly\" Submarine",
+                        "price": 17.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Salade fraîche avec steak juteux, légumes et vinaigrette savoureuse.",
-                        "image": "./assets/images/menu/salade-steak-salad.jpg",
+                        "description": "Tranche mince de steak, oignons rouges, poivrons verts, champignons sautés, laitue, tomates et fromage mozzarella. Servi avec salade de choux et frites. / Thin slice of steak, red onions, green peppers, sautéed mushrooms, lettuce, tomatoes, and mozzarella cheese. Served with coleslaw and fries.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Salade de côte de veau / Veal Cutlet Salad",
-                        "price": 17,
+                        "name": "Sous-marin au Poulet Grillé / Grilled Chicken Submarine",
+                        "price": 18.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Salade raffinée avec escalope de veau tendre, offrant une expérience gustative délicate et équilibrée.",
-                        "image": "./assets/images/menu/salade-veal-cutlet-salad.jpg",
+                        "description": "Poulet grillé, bacon, fromage cheddar et Monterey Jack, oignons rouges sautés, laitue et tomates. Servi avec salade de choux et frites. / Grilled chicken, bacon, cheddar, and Monterey Jack cheese, sautéed red onions, lettuce, and tomatoes. Served with coleslaw and fries.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Vegetalienne (Beyond) Salade de Saucisse / Vegan Sausage (Beyond) Salad",
-                        "price": 17.25,
+                        "name": "Sous-marin \"Italien\" / “Italian” submarine",
+                        "price": 19.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Salade végétalienne avec saucisse Beyond Meat.",
-                        "image": "./assets/images/menu/salade-vegan-sausage-salad.jpg",
+                        "description": "Piments verts, oignons, champignons, capicollo, saucisse italienne et mozzarella. Servi avec salade de choux et frites. / Green peppers, onions, mushrooms, capicollo, Italian sausage, and mozzarella. Served with coleslaw and fries.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Vegetalienne (Beyond) Salade de Poulet Croustillant / Vegan Crispy Chicken (Beyond) Salad",
-                        "price": 17.25,
+                        "name": "Sous-marin \"Végétarien\" / \"Vegetarian\" Submarine",
+                        "price": 16.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Salade végétalienne avec poulet croustillant Beyond Meat.",
-                        "image": "./assets/images/menu/salade-vegan-crispy-chicken-salad.jpg",
+                        "description": "Piments verts, oignons, champignons, courgettes, olives, tomates et mozzarella. Servi avec salade de choux et frites. / Green peppers, onions, mushrooms, zucchini, olives, tomatoes, and mozzarella. Served with coleslaw and fries.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Salade au Poulet BBQ / BBQ Chicken Salad",
-                        "price": 15.75,
+                        "name": "Sous-marin \"Québécois\" / \"Quebec\" Submarine",
+                        "price": 16.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Salade fraîche avec poulet BBQ savoureux.",
-                        "image": "./assets/images/menu/salade-bbq-chicken-salad.jpg",
+                        "description": "Pepperoni, bacon, piments verts, champignons, I oignons, fromage mozzarella, laitue et tomates. Servi avec salade de choux et frites. / Pepperoni, bacon, green peppers, mushrooms, onions, mozzarella cheese, lettuce, and tomatoes. Served with coleslaw and fries.",
+                        "image": null,
+                        "badges": [
+                            "Popular"
+                        ]
+                    },
+                    {
+                        "name": "Sous-marin \"Arrabiata\" / \"Arrabiata\" Submarine",
+                        "price": 16.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Pepperoni, viande fumée, piments forts, oignons, fromage mozzarella, laitue et tomates. Servi avec salade de choux et frites. / Pepperoni, smoked meat, hot peppers, onions, mozzarella cheese, lettuce, and tomatoes. Served with coleslaw and fries.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Salade à la côtelette de poulet / Chicken Cutlet Salad",
+                        "name": "Sous-marin \"U.S.A\" / \"U.S.A\" Submarine",
+                        "price": 16.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Capiccolo, oignons, piments verts, champignons, fromage mozzarella, laitue et tomates. Servi avec salade de choux et frites. / Capiccolo, onions, green peppers, mushrooms, mozzarella cheese, lettuce, and tomatoes. Served with coleslaw and fries.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Sous-marin Steak plus Steak / Steak plus Steak Submarine",
+                        "price": 18.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Steak plus steak, oignons, piments verts, champignons, fromage mozzarella, laitue et tomates. Servi avec salade de choux et frites. / Steak plus steak, onions, green peppers, mushrooms, mozzarella cheese, lettuce, and tomatoes. Served with coleslaw and fries.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Sous-marin \"Waterloo\" / \"Waterloo\" Submarine",
+                        "price": 17.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Steak, mushrooms, piments verts, fromage mozzarella, laitue et tomates. Servi avec salade de choux et frites. / Steak, mushrooms, green peppers, mozzarella cheese, lettuce, and tomatoes. Served with coleslaw and fries.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Sous-marin Porc Grillé / Grilled Pork Submarine",
+                        "price": 18.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Porc, piments verts, oignons, champignons, fromage mozzarella, laitue et tomates. Servi avec salade de choux et frites. / Pork, green peppers, onions, mushrooms, mozzarella cheese, lettuce, and tomatoes. Served with coleslaw and fries.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Sous-marin avec Fish'N'Chips / Submarine with Fish'N'Chips",
+                        "price": 25.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Fish'N'Chips, piments forts, mayonnaise épicée et fromage mozzarella. Servi avec salade de choux et frites. / Fish'N'Chips, hot peppers, spicy mayonnaise, and mozzarella cheese. Served with coleslaw and fries.",
+                        "image": null,
+                        "badges": []
+                    }
+                ]
+            },
+            {
+                "category_name": "Wraps, Clubs et Sandwichs / Wraps, Clubs and Sandwiches",
+                "items": [
+                    {
+                        "name": "Wrap \"Joseph\" /  \"Joseph\" Wrap",
+                        "price": 20.95,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Viande fumée, fromage suisse, laitue tomates, oignons et sauce marinée Joseph. Servi avec une salade de choux et frites. / Smoked meat, Swiss cheese, tomato lettuce, onions, and Joseph marinated sauce. Served with coleslaw and fries.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Wrap Fajitas /  Fajitas Wrap",
+                        "price": 20.95,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Poulet grillé, fromage Monterey Jack, laitue, tomates, oignons, avocats et sauce mayonnaise avec une crème sûre salsa. Servi avec une salade de choux et frites. / Grilled chicken, Monterey Jack cheese, lettuce, tomatoes, onions, avocado, and mayonnaise sauce with sour cream salsa. Served with coleslaw and fries.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Wrap Cajun au Poulet / Cajun Chicken Wrap",
+                        "price": 18.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Poulet grillé cajun, fromage Monterey Jack, laitue, tomates, oignons et sauce mayonnaise. Servi avec une salade de choux et frites. / Cajun grilled chicken, Monterey Jack cheese, lettuce, tomatoes, onions,, and mayonnaise sauce. Served with coleslaw and fries.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Wrap Végétarienne / Vegetarian Wrap",
+                        "price": 17.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Fromage Monterey Jack, piments, oignons, courgettes, tomates, laitue, jalapeno et sauce mayonnaise. Servi avec une salade de choux et frites. / Monterey Jack cheese, peppers, onions, zucchini, tomatoes, lettuce, jalapeno, and mayonnaise sauce. Served with coleslaw and fries.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Wrap au Saumon / Salmon Wrap",
+                        "price": 19.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Saumon grillé, sauce teriyaki, laitue, poivrons rouges et grains de sésame grillées avec sauce mayonnaise épicée. Servi avec une salade de choux et frites. / Grilled salmon, teriyaki sauce, lettuce, red peppers, and toasted sesame seeds with spicy mayonnaise sauce. Served with coleslaw and fries.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Club \"Joseph\" / \"Joseph\" Club",
+                        "price": 21.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Viande fumée, fromage suisse, pain blanc grillé, bacon, laitue, tomates et sauce marinées Joseph. Servi avec une salade de choux et frites. / Smoked meat, Swiss cheese, grilled white bread, bacon, lettuce, tomatoes, and Joseph marinated sauce. Served with coleslaw and fries.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Club Sandwich",
+                        "price": 20.95,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Pain blanc grillé, poulet, bacon, laitue et tomates. Servi avec une salade de choux et frites. / Toasted white bread, chicken, bacon, lettuce, and tomatoes. Served with coleslaw and fries.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Hot Chicken",
+                        "price": 18.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Poulet, sauce \"hot chicken\" et petits pois. Servi avec une salade de choux et frites. / Chicken, hot chicken sauce, and peas. Served with coleslaw and fries.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Assiette \"B.L.T\" / “B.L.T” Plate",
+                        "price": 16.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Pain blanc grillé, bacon, laitue et tomates. Servi avec une salade de choux et frites. / Toasted white bread, bacon, lettuce, and tomatoes. Served with coleslaw and fries.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Assiette Grilled Cheese / Grilled Cheese Plate",
+                        "price": 16.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Fromage cheddar et bacon. Servi avec une salade de choux et frites. / Cheddar cheese and bacon. Served with coleslaw and fries.",
+                        "image": null,
+                        "badges": []
+                    }
+                ]
+            },
+            {
+                "category_name": "Hamburgers de Bœuf (7oz) / Beef Burgers (7oz)",
+                "items": [
+                    {
+                        "name": "Hamburger Classique Fromage / Classic Cheese Hamburger",
+                        "price": 17.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Fromage cheddar, tomates, oignons rouges et laitue. Servi avec frites de pommes de terre et salade de choux. / Cheddar cheese, tomatoes, red onions, and lettuce. Served with potato fries and coleslaw.",
+                        "image": "./assets/images/menu/hamburgers-de-boeuf-7oz-beef-burgers-7oz-hamburger-classique-fromage-classic-cheese-hamburger.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Hamburger Classique / Classic Hamburger",
+                        "price": 16.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Tomates, oignons rouges et laitue. Servi avec frites de pommes de terre et salade de choux. / Tomatoes, red onions, and lettuce. Served with potato fries and coleslaw.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Hamburger Italienne / Italian Hamburger",
+                        "price": 16.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Sauce à la viande. Servi avec frites de pommes de terre et salade de choux. / Meat sauce. Served with potato fries and coleslaw.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Hamburger Big Bopper / Big Bopper Hamburger",
+                        "price": 18.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Fromage suisse, oignons sautés, champignons, tomates et laitue. Servi avec frites de pommes de terre et salade de choux. / Swiss cheese, sautéed onions, mushrooms, tomatoes, and lettuce. Served with potato fries and coleslaw.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Hamburger Jimmy Dean / Jimmy Dean Hamburger",
+                        "price": 18.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Fromage cheddar, bacon, tomates, oignons et laitue. Servi avec frites de pommes de terre et salade de choux. / Cheddar cheese, bacon, tomatoes, onions, and lettuce. Served with potato fries and coleslaw.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Hamburger Texas / Texas Hamburger",
+                        "price": 18.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Fromage Monterey Jack, bacon, tomates, rondelles d'oignons et sauce B.B.Q. Servi avec frites de pommes de terre et salade de choux. / Monterey Jack cheese, bacon, tomatoes, onion rings, and B.B.Q. sauce. Served with potato fries and coleslaw.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Hamburger Hot \"Marilyn\" / Hot \"Marilyn\" Hamburger",
+                        "price": 19.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Fromage Monterey Jack, bacon, tomates, oignons sautés et mayonnaise épicée. Servi avec frites de pommes de terre et salade de choux. / Monterey Jack cheese, bacon, tomatoes, sautéed onions, and spicy mayonnaise. Served with potato fries and coleslaw.",
+                        "image": null,
+                        "badges": []
+                    }
+                ]
+            },
+            {
+                "category_name": "Poutines",
+                "items": [
+                    {
+                        "name": "Poutine Hot Chicken / Hot Chicken Poutine",
+                        "price": 17.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Poitrine de poulet et petits pois. / Chicken breast and peas.",
+                        "image": "./assets/images/menu/poutines-poutine-hot-chicken-hot-chicken-poutine.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Poutine Joseph / Joseph Poutine",
+                        "price": 17.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Viande fumée. / Smoked meat.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Poutine Classique / Classic Poutine",
+                        "price": 12.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Bacon, jambon et champignons. / Bacon, ham, and mushrooms.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Poutine Québécoise / Quebec Poutine",
+                        "price": 15.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Bacon, jambon et champignons. / Bacon, ham, and mushrooms.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Poutine Philly Steak / Philly Steak Poutine",
+                        "price": 18.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Tranches minces de steak (angus), oignons rouges sautés, poivrons verts et champignons avec sauce au poivre. / Thin slices of steak (angus), sautéed red onions, green peppers, and  mushrooms with pepper sauce.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Poutine Italienne  / Italian Poutine",
+                        "price": 15.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Sauce à la viande. / Meat sauce.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Poutine Western / Western Poutine",
+                        "price": 17.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Jambon, oignons et piments banane. / Ham, onions, and banana peppers.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Poutine Mexicaine / Mexican Poutine",
+                        "price": 19.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Bœuf haché, oignons frits, piments verts et fromage en grain avec sauce BBQ. / Ground beef, fried onions, green peppers, and cheese curds with BBQ sauce.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Poutine Toute Garnie / All Dressed Poutine",
+                        "price": 19.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Sauce à la viande, pepperoni, champignons et piments verts. / Meat sauce, pepperoni, mushrooms, and green peppers.",
+                        "image": null,
+                        "badges": []
+                    }
+                ]
+            },
+            {
+                "category_name": "Les à-côtés / Sides",
+                "items": [
+                    {
+                        "name": "Frites / Fries",
+                        "price": 5.49,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Thinly sliced potatoes, cooked to a crispy perfection.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Frites de Patates Douces / Sweet Potato Fries",
+                        "price": 6.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Thinly sliced sweet potatoes, crispy on the outside and fluffy within.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Rondelles d'Oignon / Onion Rings",
+                        "price": 7.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Crispy onion slices, perfect accompaniment to your meal.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Cornichons / Pickles",
+                        "price": 4.5,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Tangy and crunchy accompaniment to your meal.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Salade de Chou / Coleslaw",
+                        "price": 4.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Crunchy shredded cabbage in a creamy dressing.",
+                        "image": null,
+                        "badges": []
+                    }
+                ]
+            },
+            {
+                "category_name": "La Meilleure Joseph Pizza / The Best Joseph Pizza",
+                "items": [
+                    {
+                        "name": "Pizza Nature / Plain Pizza",
+                        "price": 12.75,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": null,
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Pizza Champignons  / Mushroom Pizza",
+                        "price": 13.75,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": null,
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Pizza Pepperoni / Pepperoni Pizza",
+                        "price": 14.45,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Savoury pepperoni on a classic pizza base.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Pizza Deli Joseph / Deli Joseph Pizza",
+                        "price": 14.45,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Toute garnie avec viande fumée. / All garnished with smoked meat.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Pizza Toute Garnie / All Dressed Pizza",
+                        "price": 15.45,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Pepperoni, champignons et piments verts. / Pepperoni, mushrooms, and green peppers.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Pizza Québécoise / Quebecois Pizza",
+                        "price": 15.45,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Jambon, champignons, bacon et piments verts. / Ham, mushrooms, bacon, and green peppers.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Pizza Canadienne / Canadian Pizza",
+                        "price": 15.45,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Viande hachée, piments verts et champignons. / Minced meat, green peppers, and mushrooms.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Pizza Western / Western Pizza",
+                        "price": 15.45,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Steak, piments verts et champignons. / Steak, green peppers, and mushrooms.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Pizza Végétarienne / Vegetarian Pizza",
+                        "price": 16.45,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Piments verts, olives vertes, champignons, oignons et tomates. / Green peppers, green olives, mushrooms, onions, and tomatoes.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Pizza Saucisses Italiennes / Italian Sausage Pizza",
+                        "price": 15.45,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Pepperoni, saucisses italiennes, champignons et piments verts. / Pepperoni, Italian sausages, mushrooms, and green peppers.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Pizza Deluxe / Deluxe Pizza",
+                        "price": 15.45,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Toute garnie avec bacon et oignons. / All dressed with bacon and onions.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Pizza Spéciale Grecque / Special Greek Pizza",
+                        "price": 15.45,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Olives verts, champignons, oignons, tomates et fromage feta. / Green olives, mushrooms, onions, tomatoes, and feta cheese.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Pizza Fruits de Mer / Pizza Seafood",
+                        "price": 16.45,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Sauce tomate, crevettes, pétoncles, crabe et fromage. / Tomato sauce, shrimp, scallops, crab, and cheese.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Pizza l'Arrabiata / Arrabiata Pizza",
+                        "price": 15.45,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Sauce tomate, champignons, bœuf haché, piments forts et fromage. / Tomato sauce, mushrooms, ground beef, hot peppers, and cheese.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Pizza Fou de la Viande / Crazy for Meat Pizza",
+                        "price": 15.45,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Pepperoni, bacon, saucisses italiennes, jambon et viande fumée. / Pepperoni, bacon, Italian sausages, ham, and smoked meat.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Pizza Napolitaine / Neapolitan pizza",
+                        "price": 13.45,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Sauce, tomates, oignons, anchois et fromage. / Sauce, tomatoes, onions, anchovies, and cheese.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Pizza Hawaïenne  / Hawaiian Pizza",
+                        "price": 14.45,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Jambon et ananas. / Ham and pineapple.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Pizza au Poulet / Chicken Pizza",
                         "price": 16.25,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Salade avec escalope de poulet croustillante.",
-                        "image": "./assets/images/menu/salade-chicken-cutlet-salad.jpg",
+                        "description": "Poulet, champignons et piments rouges. / Chicken, mushrooms, and red peppers.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Pizza Ghetti",
+                        "price": 18.95,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Spaghetti and pizza combined in a unique dish.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Pizza César / Caesar Pizza",
+                        "price": 18.95,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Classic Caesar-style pizza with a rich, tangy flavour.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Pizza Familiale / Family Pizza",
+                        "price": 45.95,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Large pizza, 2 frites et 1 grosse salade César. / Large pizza, 2 fries, and 1 large Caesar salad.",
+                        "image": null,
                         "badges": []
                     }
                 ]
             },
             {
-                "category_name": "À côtés / Sides",
+                "category_name": "Viande Fumée / Smoked Meat",
                 "items": [
                     {
-                        "name": "Frites Regulières / Regular Fries",
-                        "price": 5.25,
+                        "name": "Le Joseph / The Joseph",
+                        "price": 19.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Délicieuses frites croustillantes, idéales pour accompagner vos plats préférés.",
-                        "image": "./assets/images/menu/sides-regular-fries.jpg",
+                        "description": "Pain hamburger, viande fumée, fromage suisse et sauce marinée Joseph. Servi avec salade de choux, un cornichon et des frites. / Hamburger bun, smoked meat, Swiss cheese, and Joseph marinated sauce. Served with coleslaw, a pickle, and fries.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Rondelles d'oignon / Onion Rings",
-                        "price": 6.75,
+                        "name": "La Star Spéciale / The Special Star",
+                        "price": 18.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Rondelles d'oignon croustillantes, parfaites pour accompagner vos plats préférés.",
-                        "image": "./assets/images/menu/sides-onion-rings.jpg",
+                        "description": "Viande fumée et moutarde sur pain de siegle. Servi avec salade de choux, un cornichon et des frites. / Smoked meat and mustard on siege bread. Served with coleslaw, a pickle, and fries.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Pépites de poulet / Chicken Nuggets",
-                        "price": 5,
+                        "name": "Le Géant / The Giant",
+                        "price": 22.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Délicieuses pépites de poulet, parfaites pour une pause gourmande.",
-                        "image": "./assets/images/menu/sides-chicken-nuggets.jpg",
+                        "description": "Viande fumée sur pain de siegle géant. Servi avec salade de choux, un cornichon et des frites. / Smoked meat on giant siege bread. Served with coleslaw, a pickle, and fries.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Pépites de \"Mac & Cheese\" / \"Mac & Cheese\" Nuggets",
-                        "price": 5,
+                        "name": "Assiette Viande Fumée / Smoked Meat Plate",
+                        "price": 24.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "4 (mcx / Pcs).",
-                        "image": "./assets/images/menu/sides-mac-cheese-nuggets.jpg",
+                        "description": "Viande fumée et 4 tranches de pain de siegle. Servi avec salade de choux, un cornichon et des frites. / Smoked meat, and 4 slices of siegle bread. Served with coleslaw, a pickle, and fries.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Poutine régulier / Regular Poutine",
-                        "price": 9.75,
+                        "name": "Elvis",
+                        "price": 22.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Délicieuses frites croustillantes garnies de fromage en grains fondant.",
-                        "image": "./assets/images/menu/sides-regular-poutine.jpg",
+                        "description": "Viande fumée, bacon, fromage cheddar et avec mayonnaise épicée sur le pain bretzel. Servi avec salade de choux, un cornichon et des frites. / Smoked meat, bacon, cheddar cheese, and spicy mayonnaise on pretzel bread. Served with coleslaw, a pickle, and fries.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Milano Poutine",
-                        "price": 14.25,
+                        "name": "BBQ Jack",
+                        "price": 20.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Frites croustillantes garnies de fromage en grains fondant.",
-                        "image": "./assets/images/menu/sides-milano-poutine.jpg",
+                        "description": "Viande fumée, fromage Monterey Jack, oignons sautés et avec sauce BBQ. Sweet Baby Ray's sur le pain bretzel. Servi avec salade de choux, un cornichon et des frites. / Smoked meat, Monterey Jack cheese, sautéed onions, and with BBQ sauce. Sweet Baby Ray's on pretzel bread. Served with coleslaw, a pickle, and fries.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Frites Grand / Large Fries",
-                        "price": 8.25,
+                        "name": "Sandwich à la Viande Fumée / Smoked Meat Sandwich",
+                        "price": 16.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Délicieuses frites croustillantes, idéales pour accompagner vos plats préférés.",
-                        "image": "./assets/images/menu/sides-large-fries.jpg",
+                        "description": "Viande fumée sur de pain de siegle. Servi avec salade de choux, un cornichon et des frites. / Smoked meat on siege bread. Served with coleslaw, a pickle, and fries.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Reubens",
+                        "price": 21.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Viande fumée, fromage suisse et choucroute avec sauce russe sur pain de bretzel. Servi avec salade de choux, un cornichon et des frites. / Smoked meat, Swiss cheese, and sauerkraut with Russian sauce on pretzel bread. Served with coleslaw, a pickle, and fries.",
+                        "image": null,
                         "badges": []
                     }
                 ]
             },
             {
-                "category_name": "Pâtisseries / Pastries",
+                "category_name": "Pâtes / Pasta",
                 "items": [
                     {
-                        "name": "Petit biscuit aux pépites de chocolat / Small Chocolate Chip Cookie",
-                        "price": 1.75,
+                        "name": "Spaghetti avec Sauce aux Tomates / Spaghetti with Tomato Sauce",
+                        "price": 10.49,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Biscuit aux pépites de chocolat, idéal pour une pause sucrée.",
-                        "image": "./assets/images/menu/pastries-small-chocolate-chip-cookie.jpg",
+                        "description": "Servi avec pail à l'ail. / Served with garlic bread.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Petit biscuit macadamia / Small Macadamia Cookie",
-                        "price": 2,
+                        "name": "Spaghetti avec Sauce à la Viande / Spaghetti with Meat Sauce",
+                        "price": 12.95,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Délicieux biscuit aux noix de macadamia.",
-                        "image": "./assets/images/menu/pastries-small-macadamia-cookie.jpg",
+                        "description": "Servi avec pail à l'ail. / Served with garlic bread.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Jumbo Oatmeal Cookie / Biscuit JUMBO à l'avoine",
-                        "price": 5,
+                        "name": "Spaghetti à la Viande Fumée / Smoked Meat Spaghetti",
+                        "price": 15.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Délicieux biscuit à l'avoine, généreux et moelleux, parfait pour une pause gourmande.",
-                        "image": "./assets/images/menu/pastries-jumbo-oatmeal-cookie.jpg",
+                        "description": "Servi avec pail à l'ail. / Served with garlic bread.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Bomba à la crème / Custard Bomba",
-                        "price": 5.75,
+                        "name": "Lasagne au Four Gratinée / Baked Lasagna Gratinated",
+                        "price": 14.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Délicieuse pâtisserie à la crème, garnie d'une onctueuse crème pâtissière.",
-                        "image": "./assets/images/menu/pastries-custard-bomba.jpg",
+                        "description": "Servi avec pail à l'ail. / Served with garlic bread.",
+                        "image": null,
+                        "badges": [
+                            "Popular"
+                        ]
+                    },
+                    {
+                        "name": "Fettuccine Alfredo",
+                        "price": 19.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Bacon, oignons verts, parmesan, œuf et crème 35%. Servi avec pail à l'ail. / Bacon, green onions, parmesan, egg, and 35% cream. Served with garlic bread.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Bomba à la Nutella / Nutella Bomba",
-                        "price": 5.75,
+                        "name": "Fettuccini Carbonara",
+                        "price": 19.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Délicieuse pâtisserie au Nutella, parfaite pour les amateurs de chocolat.",
-                        "image": "./assets/images/menu/pastries-nutella-bomba.jpg",
+                        "description": "Bacon, oignons verts, parmesan, œufs et crème 35%. Servi avec pail à l'ail. / Bacon, green onions, parmesan, eggs, and 35% cream. Served with garlic bread.",
+                        "image": null,
+                        "badges": [
+                            "Popular"
+                        ]
+                    },
+                    {
+                        "name": "Fettuccine Primavera",
+                        "price": 19.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Légumes sautés, piments, oignons, brocolis, choute fleur et courgettes avec sauce aux tomates. Servi avec pail à l'ail. / Sautéed vegetables, peppers, onions, broccoli, cauliflower, and zucchini with tomato sauce. Served with garlic bread.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Biscuit jumbo aux pépites de chocolat / Jumbo Chocolate Chip Cookie",
-                        "price": 5.75,
+                        "name": "Fettuccine Alfredo au Poulet / Chicken Fettuccine Alfredo",
+                        "price": 22.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Soft and chewy cookie filled with chocolate chips.",
-                        "image": "./assets/images/menu/pastries-jumbo-chocolate-chip-cookie.jpg",
+                        "description": "Légumes sautés, brocolis, choute fleur, piments rouges et poulet. Servi avec pail à l'ail. / Sautéed vegetables, broccoli, cauliflower, red peppers, and chicken. Served with garlic bread.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Bâton de nutella / Nutella Stick",
-                        "price": 5.25,
+                        "name": "Fettuccine à la Joseph avec Crevettes / Joseph Fettuccine with Shrimp",
+                        "price": 26.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Délicieux bâton croustillant garni de Nutella onctueux.",
-                        "image": "./assets/images/menu/pastries-nutella-stick.jpg",
+                        "description": "Crevettes, légumes sautés, piments, oignons, brocolis, choute fleur et courgettes avec sauce aux tomates. Servi avec pail à l'ail. / Shrimp, sautéed vegetables, peppers, onions, broccoli, cauliflower, and zucchini with tomato sauce. Served with garlic bread.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Heavenly Taste Biscotti double chocolat aux amandes / Double Almond Chocolate Biscotti",
-                        "price": 5.25,
+                        "name": "Penne à la Gigi",
+                        "price": 20.95,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Biscotti au double chocolat avec amandes.",
-                        "image": "./assets/images/menu/pastries-double-almond-chocolate-biscotti.jpg",
+                        "description": "Pennes, pancetta et champignons avec sauce rosée. Servi avec pail à l'ail. / Penne, pancetta, and mushrooms with rosé sauce. Served with garlic bread.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Cannoli (chaque / Each)",
-                        "price": 4.5,
+                        "name": "Tortellini Rosé Farcies au Fromage / Rosé Tortellini Stuffed with Cheese",
+                        "price": 19.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Délicieuse pâtisserie italienne avec une coque croustillante et une garniture de crème de ricotta sucrée.",
-                        "image": "./assets/images/menu/pastries-cannoli.jpg",
+                        "description": "Avec sauce rosée, oignons verts et tomates coupés en dés. Servi avec pail à l'ail. / With rosé sauce, green onions, and diced tomatoes. Served with garlic bread.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Zeppole (chaque / Each)",
-                        "price": 5.75,
+                        "name": "Linguini aux Fruits de Mer / Seafood Linguini",
+                        "price": 23.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Beignet italien traditionnel.",
-                        "image": "./assets/images/menu/pastries-zeppole.jpg",
+                        "description": "Crevettes, pétoncles et chaire de crabe avec sauce rosée. Servi avec pail à l'ail. / Shrimp, scallops, and crab meat with rosé sauce. Served with garlic bread.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Mini Cannoli (douzaine / Dozen)",
-                        "price": 18.75,
+                        "name": "Mac\"N\" Cheese",
+                        "price": 20.95,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Délicieuses mini-cannoli avec une coque croustillante et une garniture crémeuse.",
-                        "image": "./assets/images/menu/pastries-mini-cannoli.jpg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Demi douzaine grande cannoli / Half Dozen Large Cannoli",
-                        "price": 25,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Six grands cannoli croustillants, garnis de crème de ricotta sucrée.",
-                        "image": "./assets/images/menu/pastries-half-dozen-large-cannoli.jpg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Grande douzaine cannoli / Large Dozen Cannoli",
-                        "price": 48,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Douzaine de cannoli italiens croustillants, garnis de ricotta sucrée et crémeuse.",
-                        "image": "./assets/images/menu/pastries-cannoli.jpg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Demi-Douzaine Zeppole / Half Dozen Zeppole",
-                        "price": 34.5,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Délicieux beignets italiens, légers et aérés, saupoudrés de sucre glace.",
-                        "image": "./assets/images/menu/pastries-half-dozen-zeppole.jpg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Oreo Cheese Cake / Gâteau Fromage Oreo",
-                        "price": 7.75,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Gâteau au fromage avec Oreo.",
-                        "image": "./assets/images/menu/pastries-oreo-cheesecake.jpg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Pistachio Cheese Cake / Gâteau Fromage Pistache",
-                        "price": 7.75,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Délicieux gâteau au fromage crémeux, subtilement parfumé à la pistache.",
-                        "image": "./assets/images/menu/pastries-pistachio-cheesecake.jpg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Tiramisu",
-                        "price": 7.75,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Dessert italien classique au café et mascarpone.",
-                        "image": "./assets/images/menu/pastries-tiramisu.jpg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Ferrero Rocher Cake / Gâteau Ferrero Rocher",
-                        "price": 7.75,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Gâteau au chocolat Ferrero Rocher.",
-                        "image": "./assets/images/menu/pastries-ferrero-rocher-cake.jpg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Gateau aux Caramel Salé / Salted Caramel Cake",
-                        "price": 7.75,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Délicieux gâteau moelleux au caramel salé, une touche sucrée-salée irrésistible.",
-                        "image": "./assets/images/menu/pastries-salted-caramel-cake.jpg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Red Velvet Cake / Gâteau Red Velvet",
-                        "price": 7.75,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Gâteau rouge velouté, doux et moelleux.",
-                        "image": "./assets/images/menu/pastries-red-velvet-cake.jpg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Xango",
-                        "price": 8,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Dessert frit à la crème.",
-                        "image": "./assets/images/menu/pastries-xango.jpg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Chausson aux pommes / Apple Turnover",
-                        "price": 4.25,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Pâte feuilletée croustillante garnie de pommes sucrées.",
-                        "image": "./assets/images/menu/pastries-apple-turnover.jpg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Nutella Lobster Tail / Queue de Homard Nutella",
-                        "price": 5.75,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Pâtisserie feuilletée garnie de Nutella.",
-                        "image": "./assets/images/menu/pastries-nutella-lobster-tail.jpg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Caffè crema",
-                        "price": 6.5,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Délicieuse pâtisserie à la crème de café.",
-                        "image": "./assets/images/menu/pastries-caffe-crema.jpg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Croissant Nature / Plain Croissant",
-                        "price": 4.25,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Croissant au beurre classique et feuilleté.",
-                        "image": "./assets/images/menu/pastries-plain-croissant.jpg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Croissant au Chocolat / Chocolate Croissant",
-                        "price": 4.5,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Croissant feuilleté garni de chocolat.",
-                        "image": "./assets/images/menu/pastries-chocolate-croissant.jpg",
+                        "description": "Servi avec pail à l'ail. / Served with garlic bread.",
+                        "image": null,
                         "badges": []
                     }
                 ]
             },
             {
-                "category_name": "Café / Coffee",
+                "category_name": "Poulet / Chicken",
                 "items": [
                     {
-                        "name": "Espresso",
-                        "price": 3,
+                        "name": "Poulet Parmesan / Chicken Parmesan",
+                        "price": 21.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Un café riche et intense, parfait pour un coup de boost rapide.",
-                        "image": "./assets/images/menu/coffee-espresso.jpg",
+                        "description": "Poitrine de poulet panée avec sauce tomate et fromage mozzarella fondue. Servis avec spaghetti de sauce tomate et 1 mcx de pain à l'ail. / Breaded chicken breast with tomato sauce and melted mozzarella cheese. Served with spaghetti with tomato sauce and 1 pcs of garlic bread.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Allongé",
-                        "price": 3.25,
+                        "name": "Poulet Général Tao / General Tao chicken",
+                        "price": 22.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Espresso allongé avec plus d'eau.",
-                        "image": "./assets/images/menu/coffee-espresso.jpg",
+                        "description": "Poulet tempura, poivron rouge et vert, oignons, oignons verts, riz collant, sauce asiatique Tao et garni de nouilles croustillantes. / Tempura chicken, red, and green pepper, onions, green onions, sticky rice, Tao Asian sauce, and topped with crispy noodles.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Americano",
-                        "price": 3.5,
+                        "name": "Poulet Santa Fe / Santa Fe Chicken",
+                        "price": 22.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Espresso dilué avec de l'eau chaude.",
-                        "image": "./assets/images/menu/coffee-americano.jpg",
+                        "description": "Poitrine de poulet mariné grillé, courgettes, poivrons rouges grillés, fromage feta et sauce miel moutarde. Servi avec légumes et pommes de terre. / Grilled marinated chicken breast, zucchini, grilled red peppers, feta cheese, and honey mustard sauce. Served with vegetables and potatoes.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Latte",
-                        "price": 4,
+                        "name": "Assiette de Poulet Grillé (2 mcx) / Grilled Chicken Plate (2 pcs)",
+                        "price": 20.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Espresso avec lait vapeur crémeux.",
-                        "image": "./assets/images/menu/coffee-latte.jpg",
+                        "description": "Poitrine de poulet grillé, sauce miel moutarde. Servi avec légumes, frites ou riz. / Grilled chicken breast and honey mustard sauce. Served with vegetables, fries, or rice.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Cappuccino",
-                        "price": 4,
+                        "name": "Fajitas au Poulet / Chicken Fajitas",
+                        "price": 20.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Espresso avec lait vapeur et mousse de lait.",
-                        "image": "./assets/images/menu/coffee-cappuccino.jpg",
+                        "description": "Poulet grillé, poivrons et oignons sautés avec sauce salsa. Servi sur un poêlon chaud. / Grilled chicken, sautéed peppers, and onions with salsa sauce. Served on a hot skillet.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Chocolat Chaud / Hot Chocolate",
-                        "price": 4,
+                        "name": "Combo Fajitas pour (2) Personnes / Fajita Combo for (2) People",
+                        "price": 33.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Délicieux chocolat chaud, parfait pour réchauffer vos journées.",
-                        "image": "./assets/images/menu/coffee-hot-chocolate.jpg",
+                        "description": "Poulet, steak surlonge, poivrons et oignons sautés avec sauce salsa. Accompagné de laitue, tomate, fromage Monterey Jack, crème sûre et guacamole de 8 mcx de tortillas. / Chicken, sirloin steak, sautéed peppers, and onions with salsa sauce. Served with lettuce, tomato, Monterey Jack cheese, sour cream, and guacamole from 8 pieces of tortillas.",
+                        "image": null,
+                        "badges": []
+                    }
+                ]
+            },
+            {
+                "category_name": "Souvlakis et Brochettes / Souvlakis and Skewers",
+                "items": [
+                    {
+                        "name": "Brochette de Poulet / Chicken Kebab",
+                        "price": 21.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Brochette de poulet avec oignons rouges et poivrons. Servie avec sauce BBQ salade maison, riz et pommes de terre maison. / Chicken skewer with red onions, and peppers. Served with BBQ sauce, homemade salad, rice, and homemade potatoes.",
+                        "image": "./assets/images/menu/souvlakis-et-brochettes-souvlakis-and-skewers-brochette-de-poulet-chicken-kebab.jpg",
                         "badges": []
                     },
                     {
-                        "name": "Mokaccino",
-                        "price": 4.25,
+                        "name": "Assiette de Souvlaki au Porc / Pork Souvlaki Plate",
+                        "price": 18.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Espresso avec chocolat et lait vapeur.",
-                        "image": "./assets/images/menu/coffee-mokaccino.jpg",
+                        "description": "2 brochettes de porc marinées Servies avec salade maison grecque, sauce tzatziki, riz et pommes de terre maison. / 2 marinated pork skewers Served with house Greek salad, tzatziki sauce, rice, and house potatoes.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Assiette Combo Souvlaki / Souvlaki Combo Plate",
+                        "price": 20.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "1 brochette de poulet et 1 brochette de porc. Servies avec salade grecque maison, sauce tzatziki, riz et pommes de terre maison. / 1 chicken skewer and 1 pork skewer. Served with homemade Greek salad, tzatziki sauce, rice, and homemade potatoes.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Brochette de Filet Mignon / Filet Mignon Skewer",
+                        "price": 23.99,
+                        "like_percentage": 100,
+                        "rating_count": 5,
+                        "description": "Brochette de filet mignon avec oignons rouges et poivrons. Servie avec sauce au poivre salade maison, riz et pommes de terre maison. / Filet mignon skewer with red onions and peppers. Served with house salad pepper sauce, rice, and house potatoes.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Brochette de Crevettes / Shrimp Brochette",
+                        "price": 22.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "2 brochettes de crevettes. Servies avec beurre à l'ail, citron salade maison, riz et pommes de terre maison. / 2 shrimp skewers. Served with garlic butter and lemon house salad, rice, and house potatoes.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Brochette de Saumon / Salmon Skewer",
+                        "price": 22.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "2 brochettes de saumon. Servies avec sauce hollandaise au citron salade maison, riz et pommes de terre maison. / 2 salmon skewers. Served with lemon hollandaise sauce, house salad, rice, and house potatoes.",
+                        "image": null,
+                        "badges": []
+                    }
+                ]
+            },
+            {
+                "category_name": "Côtes Levées / Ribs",
+                "items": [
+                    {
+                        "name": "Steak d'Entrecôte (12oz) / Entrecote Steak (12oz)",
+                        "price": 29.99,
+                        "like_percentage": 75,
+                        "rating_count": 4,
+                        "description": "Avec sauce au poivre. Servi avec légumes, riz et choix de patates. / With pepper sauce. Served with vegetables, rice, and choice of potatoes.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Bifteck Surlonge (9oz) / Sirloin Steak (9oz)",
+                        "price": 27.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Avec sauce au poivre. Servi avec légumes, riz et choix de patates. / With pepper sauce. Served with vegetables, rice, and choice of potatoes.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Hamburger Steak",
+                        "price": 18.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Bœuf haché (12 oz), oignons frits et une sauce BBQ. Servi avec légumes, riz et choix de patates. / Ground beef (12 oz), fried onions, and BBQ sauce. Served with vegetables, rice, and choice of potatoes.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Côtes Levées Entier / Whole Ribs",
+                        "price": 28.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Avec sauce Baby Ray's. Servies avec salade de choux, frites ou riz. / With Baby Ray's sauce. Served with coleslaw, fries, or rice.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Demi Côtes Levées / Half Ribs",
+                        "price": 21.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Avec sauce Baby Ray's. Servies avec salade de choux, frites ou riz. / With Baby Ray's sauce. Served with coleslaw, fries, or rice.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Combo (#1)",
+                        "price": 29.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Demi-côtes levées et 5 crevettes avec sauce Baby Ray's. Servies avec salade de choux, frites ou riz. / Half ribs and 5 shrimp with Baby Ray's sauce. Served with coleslaw, fries, or rice.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Combo (#2)",
+                        "price": 29.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Demi-côtes levées et poulet grillé avec sauce Baby Ray's. Servies avec salade de choux, frites ou riz. / Half ribs and grilled chicken with Baby Ray's sauce. Served with coleslaw, fries, or rice.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Combo (#3)",
+                        "price": 28.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Demi-côtes levées et ailes de poulet avec sauce Baby Ray's. Servies avec salade de choux, frites ou riz. / Half ribs and chicken wings with Baby Ray's sauce. Served with coleslaw, fries, or rice.",
+                        "image": null,
+                        "badges": []
+                    }
+                ]
+            },
+            {
+                "category_name": "Poissons / Fish",
+                "items": [
+                    {
+                        "name": "Saumon Grillé / Grilled Salmon",
+                        "price": 22.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Filet de saumon grillé avec une sauce hollandaise. Servi avec légumes et riz. / Grilled salmon fillet with Hollandaise sauce. Served with vegetables and rice.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Filet de Sole / Fillet of Sole",
+                        "price": 20.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Servi avec légumes et purée de pommes de terre à l'ail ou riz. / Served with vegetables, and garlic mashed potatoes, or rice.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Filet de Amandine / Amandine Fillet",
+                        "price": 22.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Servi par-dessus avec amandes, légumes et purée de pommes de terre à l'ail ou riz. / Served on top with almonds, vegetables, and garlic mashed potatoes, or rice.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Assiette de Crevettes Papillon / Butterfly Shrimp Plate",
+                        "price": 25.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Servies avec riz, légumes et beurre à l'ail. / Served with rice, vegetables, and garlic butter.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Fish 'N'Chips Maison / Homemade Fish 'N' Chips",
+                        "price": 19.95,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Servi avec sauce tartare, frites et salade de choux. / Served with tartar sauce, fries, and coleslaw.",
+                        "image": null,
+                        "badges": []
+                    }
+                ]
+            },
+            {
+                "category_name": "Desserts",
+                "items": [
+                    {
+                        "name": "Sundae",
+                        "price": 6.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Rich and creamy dessert treat",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Gâteau au Fromage aux Fraises / Strawberry Cheesecake",
+                        "price": 9.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Rich strawberry cheesecake with a creamy fromage filling.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Gâteau au Chocolat Céline / Celine Chocolate Cake",
+                        "price": 9.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Rich, decadent chocolate cake.",
+                        "image": null,
+                        "badges": [
+                            "Popular"
+                        ]
+                    },
+                    {
+                        "name": "Tarte Croustade aux Pommes / Apple Crisp Pie",
+                        "price": 7.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Tender apples in a crispy pastry crust.",
+                        "image": null,
+                        "badges": []
+                    }
+                ]
+            },
+            {
+                "category_name": "Boissons / Drinks",
+                "items": [
+                    {
+                        "name": "Café  / Coffee",
+                        "price": 2.95,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Rich and smooth coffee to start your day.",
+                        "image": null,
                         "badges": []
                     },
                     {
                         "name": "Thé / Tea",
+                        "price": 2.95,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Hot beverage made from tea leaves.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Chocolat Chaud / Hot Chocolate",
                         "price": 3.5,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Thé chaud classique.",
-                        "image": "./assets/images/menu/coffee-tea.jpg",
+                        "description": "Rich, velvety hot chocolate to warm your day.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Thé cammomile / Chamomile Tea",
+                        "name": "Lait / Milk",
+                        "price": 3.15,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Fresh milk.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Lait au Chocolat / Chocolate milk",
                         "price": 3.5,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Thé à la camomille apaisant.",
-                        "image": "./assets/images/menu/coffee-chamomile-tea.jpg",
+                        "description": "Rich and creamy milk infused with chocolate.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Thé vert / Green Tea",
-                        "price": 3.5,
+                        "name": "Jus Assortis / Assorted Juices",
+                        "price": 3.15,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Thé vert sain et rafraîchissant.",
-                        "image": "./assets/images/menu/coffee-green-tea.jpg",
+                        "description": "Assorted fruit and vegetable juices.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Latte Glacé / Iced Latte",
-                        "price": 4,
+                        "name": "Perrier",
+                        "price": 4.25,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Café glacé rafraîchissant, mélange parfait d'espresso et de lait sur glace.",
-                        "image": "./assets/images/menu/coffee-iced-latte.jpg",
+                        "description": null,
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "1L Espresso Glacé / 1L Iced Espresso",
-                        "price": 14.95,
+                        "name": "Boisson Gazeuse / Soft Drink",
+                        "price": 3.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Un espresso glacé rafraîchissant, parfait pour une pause café estivale.",
-                        "image": "./assets/images/menu/coffee-iced-espresso.jpg",
+                        "description": null,
+                        "image": null,
+                        "badges": [
+                            "Popular"
+                        ]
+                    }
+                ]
+            },
+            {
+                "category_name": "Smoothies / Smoothies",
+                "items": [
+                    {
+                        "name": "Smoothie Champs à Grand Maman / Fields at Grand Maman Smoothie",
+                        "price": 9.95,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Fraise et bleuets. / Strawberry and blueberries.",
+                        "image": "./assets/images/menu/smoothies-smoothies-smoothie-champs-a-grand-maman-fields-at-grand-maman-smoothie.jpg",
                         "badges": []
                     },
                     {
-                        "name": "1 lb de café (GRAINS) / 1 lb of coffee (BEANS)",
-                        "price": 19.99,
+                        "name": "Smoothie Fiji / Fiji Smoothie",
+                        "price": 9.95,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Grains de café premium.",
-                        "image": "./assets/images/menu/coffee-beans.jpg",
+                        "description": "Fraise et banane. / Strawberry and banana.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "1 lb de café (MOULU) / 1 lb of coffee (GROUND)",
-                        "price": 19.99,
+                        "name": "Smoothie Langue Bleue / Blue Tongue Smoothie",
+                        "price": 9.95,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Café moulu premium.",
-                        "image": "./assets/images/menu/coffee-ground.jpg",
+                        "description": "Bleuets et banane. / Blueberries and banana.",
+                        "image": null,
                         "badges": []
                     }
                 ]
             },
             {
-                "category_name": "Breuvages / Beverages",
+                "category_name": "Bénédictines / Benedictines",
                 "items": [
                     {
-                        "name": "Coke",
-                        "price": 3,
+                        "name": "Bene Classique / Classic Bene",
+                        "price": 14.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Coca-Cola classique.",
-                        "image": "./assets/images/menu/beverages-coke.jpg",
+                        "description": "2 œufs pochés avec jambon et nappés de sauce hollandaise. Servi sur un muffin anglais avec pommes de terre déjeuner, des fruits frais et café. / 2 poached eggs with spinach, Swiss cheese, and topped with Hollandaise sauce. Served on an English muffin with breakfast potatoes, fresh fruit, and coffee.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Pepsi Zero",
-                        "price": 3,
+                        "name": "Bene Florentine / Florentine Bene",
+                        "price": 15.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Pepsi sans sucre.",
-                        "image": "./assets/images/menu/beverages-pepsi-zero.jpg",
+                        "description": "2 œufs pochés avec épinards, fromage suisse et nappés de sauce hollandaise. Servi sur un muffin anglais avec pommes de terre déjeuner, des fruits frais et café. / 2 poached eggs with spinach, Swiss cheese, and topped with Hollandaise sauce. Served on an English muffin with breakfast potatoes, fresh fruit and coffee.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "7 Up",
-                        "price": 3,
+                        "name": "Bene Philly Steak / Philly Steak Bene",
+                        "price": 16.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Boisson gazeuse citron-lime.",
-                        "image": "./assets/images/menu/beverages-7up.jpg",
+                        "description": "2 œufs pochés avec steak philly, oignons, champignons, fromage suisse et nappés de sauce hollandaise et B.B.Q. Servi sur un muffin anglais avec pommes de terre déjeuner, des fruits frais et café. / 2 poached eggs with philly steak, onions, mushrooms, Swiss cheese and topped with Hollandaise sauce, and B.B.Q. Served on an English muffin with breakfast potatoes, fresh fruit, and coffee.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "7 Up diète / Diet 7 Up",
-                        "price": 3,
+                        "name": "Bene Joseph / Joseph Bene",
+                        "price": 16.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "7 Up sans sucre.",
-                        "image": "./assets/images/menu/beverages-diet-7up.jpg",
+                        "description": "2 œufs pochés avec viande fumée, fromage suisse et nappés de sauce hollandaise. Servi sur un muffin anglais avec pommes de terre déjeuner, des fruits frais et café. / 2 poached eggs with smoked salmon and topped with Hollandaise sauce. Served on an English muffin with breakfast potatoes, fresh fruit, and coffee.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Canada Dry",
-                        "price": 3,
+                        "name": "Bene Lox / Lox Bene",
+                        "price": 16.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Ginger ale rafraîchissant.",
-                        "image": "./assets/images/menu/beverages-canada-dry.jpg",
+                        "description": "2 œufs pochés avec saumon fumé et nappés de sauce hollandaise. Servi sur un muffin anglais avec pommes de terre déjeuner, des fruits frais et café. / 2 poached eggs with avocado, bacon, diced tomatoes, and topped with Hollandaise sauce. Served on an English muffin with breakfast potatoes, fresh fruit, and coffee.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Bouteille d'eau / Water Bottle",
-                        "price": 3,
+                        "name": "Bene Avocat / Avocado Bene",
+                        "price": 15.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Bouteille d'eau fraîche pour une hydratation pure et simple.",
-                        "image": "./assets/images/menu/beverages-water-bottle.jpg",
+                        "description": "2 œufs pochés avec avocat, bacon, tomates en dés et nappés de sauce hollandaise. Servi sur un muffin anglais avec pommes de terre déjeuner, des fruits frais et café. / 1 egg with smoked meat, tomatoes, onions, lettuce, and marinated Joseph salmon. Served with potatoes, and coffee.",
+                        "image": null,
+                        "badges": [
+                            "Popular"
+                        ]
+                    }
+                ]
+            },
+            {
+                "category_name": "Bagelettes",
+                "items": [
+                    {
+                        "name": "Bagel Joseph / Joseph Bagel",
+                        "price": 16.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "1 œuf avec viande fumé, tomates, oignons, laitue et saumon marinée joseph. Servi avec patates et café. / 1 egg with smoked meat, tomatoes, onions, lettuce, and marinated salmon joseph. Served with potatoes and coffee.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Limonata San Pellegrino",
-                        "price": 3.75,
+                        "name": "Bagel-eggspress",
+                        "price": 12.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Limonade pétillante italienne.",
-                        "image": "./assets/images/menu/beverages-limonata.jpg",
+                        "description": "2 oeufs avec bacon, laitue, tomates, fromage cheddar et mayonnaise. Servi avec patates et café. / 2 eggs with bacon, lettuce, tomatoes, cheddar cheese, and mayonnaise. Served with potatoes and coffee.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Araniciata San Pellegrino",
-                        "price": 3.75,
+                        "name": "Bagel au Saumon Fumé / Smoked Salmon Bagel",
+                        "price": 15.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Orangeade pétillante italienne.",
-                        "image": "./assets/images/menu/beverages-aranciata.jpg",
+                        "description": "Saumon fumé avec fromage à la crème, tomates, oignons rouges et câpres. Servi avec patates et café. / Smoked salmon with cream cheese, tomatoes, red onions, and capers. Served with potatoes and coffee.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Pompelmo San Pellegrino",
-                        "price": 3.75,
+                        "name": "Bagel au Sesame / Sesame Bagel",
+                        "price": 4.5,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Boisson pétillante au pamplemousse.",
-                        "image": "./assets/images/menu/beverages-pompelmo.jpg",
+                        "description": "Servi avec patates et café. / Served with potatoes and coffee.",
+                        "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Rossa San Pellegrino",
-                        "price": 3.75,
+                        "name": "Bagel avec Fromage à la Créme / Bagel with Cream Cheese",
+                        "price": 7.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Boisson pétillante à l'orange sanguine.",
-                        "image": "./assets/images/menu/beverages-rossa.jpg",
-                        "badges": []
-                    },
-                    {
-                        "name": "FUZE Thé glacé / Iced Tea",
-                        "price": 3.5,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Thé glacé rafraîchissant.",
-                        "image": "./assets/images/menu/beverages-fuze-iced-tea.jpg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Brio",
-                        "price": 3.5,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Boisson riche et onctueuse, parfaite pour une pause gourmande.",
-                        "image": "./assets/images/menu/beverages-brio.jpg",
-                        "badges": []
-                    },
-                    {
-                        "name": "San Benedetto (Thé glacé au citron / Lemon Iced Tea)",
-                        "price": 4.25,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Thé glacé italien au citron.",
-                        "image": "./assets/images/menu/beverages-san-benedetto-lemon.jpg",
-                        "badges": []
-                    },
-                    {
-                        "name": "San Benedetto (thé glacé au pêches / Peach Iced Tea)",
-                        "price": 4.25,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Thé glacé italien à la pêche.",
-                        "image": "./assets/images/menu/beverages-san-benedetto-peach.jpg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Snapple (thé glacé au pêches / Peach Iced Tea)",
-                        "price": 4.25,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Thé glacé Snapple à la pêche.",
-                        "image": "./assets/images/menu/beverages-snapple-peach.jpg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Margherita (eau / Water)",
-                        "price": 3.75,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Eau fraîche et pure, parfaite pour accompagner votre repas.",
-                        "image": "./assets/images/menu/beverages-margherita-water.jpg",
+                        "description": "Servi avec patates et café. / Served with potatoes and coffee.",
+                        "image": null,
                         "badges": []
                     }
                 ]
             },
             {
-                "category_name": "Autre / Other",
+                "category_name": "Poélons au Gratin / Gratin Skillet",
                 "items": [
                     {
-                        "name": "Piments Forts / Hot Peppers",
-                        "price": 6.25,
+                        "name": "Joseph",
+                        "price": 17.99,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Piments forts pour une touche épicée et savoureuse à vos plats.",
-                        "image": "./assets/images/menu/other-hot-peppers.jpg",
+                        "description": "2 œufs pochés avec pommes de terre maison, viande fumée, bacon et fromage en grains nappés de sauce brune. Servi avec café. / 2 poached eggs with homemade potatoes, smoked meat, bacon, and cheese curds topped with brown sauce. Served with coffee.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Végétarienne / Vegetarian",
+                        "price": 17.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "2 œufs avec pommes de terre maison, poivrons rouges et verts, tomates, oignons, champignons et fromage cheddar. Servi avec café. / 2 eggs with homemade potatoes, red and green peppers, tomatoes, onions, mushrooms, and cheddar cheese. Served with coffee.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Québécoise / Quebecois",
+                        "price": 17.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "2 œufs avec pommes de terre maison, bacon, saucisses, oignons verts, fromage cheddar et en grains. Servi avec café. / 2 eggs with homemade potatoes. bacon, sausage, green onions, cheddar cheese, and curds. Served with coffee.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Sud-Ouest / Southwest",
+                        "price": 17.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "2 œufs avec pommes de terre maison, oignons, poivrons verts rouges, jambon, maïs, salsa et Monterey Jack avec mayonnaise épicée. Servi avec café. / 2 Eggs with homemade potatoes, onions, red and green peppers, ham, corn, salsa, and Monterey Jack with spicy mayonnaise. Served with coffee.",
+                        "image": null,
+                        "badges": []
+                    }
+                ]
+            },
+            {
+                "category_name": "Les Wraps / The Wraps",
+                "items": [
+                    {
+                        "name": "Wrap Joseph",
+                        "price": 18.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Avec tortilla remplie de trois oeufs brouilles avec viande fumée, fromage suisse, laitue tomates, oignons et sauce marinée joseph. Servi avec café. / With tortilla filled with three scrambled eggs with smoked meat, Swiss cheese, lettuce, tomatoes, onions, and Joseph marinated sauce. Served with coffee.",
+                        "image": "./assets/images/menu/les-wraps-the-wraps-wrap-joseph.jpg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Wrap Déjeuner / Breakfast Wrap",
+                        "price": 17.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Avec tortilla remplie de trois oeufs brouilles, salsa, bacon, ou jambon, ou saucisses et fromage monterey jack. Servi avec café. / With tortilla filled with three scrambled eggs, salsa, bacon, or ham, or sausage, and monterey jack cheese. Served with coffee.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Wrap Végétarienne / Vegetarian Wrap",
+                        "price": 16.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Avec tortilla remplie de trois oeufs brouilles, oignons, laitue, tomates, champignons, salsa et fromage monterey jack. Servi avec café. / With tortilla filled with three scrambled eggs, onions, lettuce, tomatoes, mushrooms, salsa, and monterey jack cheese. Served with coffee.",
+                        "image": null,
+                        "badges": []
+                    }
+                ]
+            },
+            {
+                "category_name": "Les Festins Joseph / The Joseph Feasts",
+                "items": [
+                    {
+                        "name": "Gourmand Géant / Giant Gourmet",
+                        "price": 21.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "2 œufs avec bacon, jambon, saucisse et cretons. Servi avec patates maison, fèves au lard, fruit frais, rôties et café. / 2 eggs with bacon, ham, sausage, and cretons. Served with homemade potatoes, baked beans, fresh fruit, toast, and coffee.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Le Plateau / The tray",
+                        "price": 21.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "2 œufs avec pancakes avec choix de bacon ou jambon ou saucisses et cretons. Servi avec patates maison, fèves au lard, fruit frais, rôties et café. / 2 eggs with pancakes with choice of bacon, or ham, or sausages, and cretons. Served with homemade potatoes, baked beans, fresh fruit, toast, and coffee.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Joseph",
+                        "price": 21.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "2 œufs avec viande fumée et choix de bacon, jambon, ou saucisses. Servi avec patates maison, féves au lard, fruit frais, rôties et café. / 2 eggs with smoked meat and choice of bacon, ham, or sausage. Served with homemade potatoes, baked beans, fresh fruit, toast and coffee.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Travailleur / Worker",
+                        "price": 21.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "2 œufs avec 1 pancake, 1 pain doré avec bacon, jambon, saucisses, fèves au lard, cheddar et cretons. Servi avec patates maison, fèves au lard, fruit frais, rôties et café. / 2 eggs with 1 pancake, 1 French toast with bacon, ham, sausages, baked beans, cheddar, and cretons. Served with homemade potatoes, baked beans, fresh fruit, toast, and coffee.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Lac St-Jean",
+                        "price": 21.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "2 œufs avec  crêpes aux bleuets et cretons. Servi avec patates maison, fèves au lard, fruits frais, rôties et café. / 2 eggs with blueberry pancakes and cretons. Served with homemade potatoes, baked beans, fresh fruit, toast, and coffee.",
+                        "image": null,
+                        "badges": []
+                    }
+                ]
+            },
+            {
+                "category_name": "Yogourts (0%) / Yogurts (0%)",
+                "items": [
+                    {
+                        "name": "Bol de Fruits Frais / Fresh Fruit Bowl",
+                        "price": 8.5,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Fresh seasonal fruits served in a bowl.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Fruits Frais et Miel / Fresh Fruits and Honey",
+                        "price": 11.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Fresh yogurt topped with a mix of seasonal fruits and a drizzle of honey.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Parfait au Yogourt Granola Fruits Frais et Miel / Yogurt Perfect Granola Fresh Fruits and Honey",
+                        "price": 13.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Fresh yogurt layered with granola, fresh fruits, and a drizzle of honey.",
+                        "image": null,
+                        "badges": []
+                    }
+                ]
+            },
+            {
+                "category_name": "Salés / Salty",
+                "items": [
+                    {
+                        "name": "(1) Oeuf avec Fromage Cheddar et Jambon / (1) Egg with Cheddar Cheese and Ham",
+                        "price": 16.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Servi avec patates et café. / Served with potatoes and coffee.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "(1) Oeuf avec Jambon et Champignons / (1) Egg with Ham and Mushrooms",
+                        "price": 16.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Servi avec patates et café. / Served with potatoes and coffee.",
+                        "image": null,
+                        "badges": []
+                    }
+                ]
+            },
+            {
+                "category_name": "Les Omlettes / Omlettes",
+                "items": [
+                    {
+                        "name": "Omelette Joseph / Joseph Omelette",
+                        "price": 17.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Viande fumée et fromage suisse. Servi avec nos pommes de terre, des fruits et des pain rôties. / Smoked meat and Swiss cheese. Served with our potatoes, fruit, and toast.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Omelette au Fromage Cheddar / Cheddar Cheese Omelette",
+                        "price": 14.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Servi avec nos pommes de terre, des fruits et des pain rôties. / Served with our potatoes, fruit, and toast.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Omelette Western / Western Omelette",
+                        "price": 15.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "3 œufs, piments, oignons et jambon. Servi avec nos pommes de terre, des fruits et des pain rôties. / 3 eggs, peppers, onions, and ham. Served with our potatoes, fruit, and toast.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Omelette Végétarienne / Vegetarian Omelette",
+                        "price": 16.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Piments, oignons, champignons, tomates et brocolis. Servi avec nos pommes de terre, des fruits et des pain rôties. / Peppers, onions, mushrooms, tomatoes, and broccoli. Served with our potatoes, fruit, and toast.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Omelette aux Épinards / Spinach Omelette",
+                        "price": 16.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Épinards et fromage suisse. Servi avec nos pommes de terre, des fruits et des pain rôties. / Spinach and Swiss cheese. Served with our potatoes, fruit, and toast.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Omelette au Jambon / Ham Omlette",
+                        "price": 15.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Avec fromage suisse. Servi avec nos pommes de terre, des fruits et des pain rôties. / With Swiss cheese. Served with our potatoes, fruit, and toast.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Omelette aux (4) Viandes / (4) Meat Omelette",
+                        "price": 17.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Bacon, saucisses, jambon, viande fumée et fromage suisse. Servi avec nos pommes de terre, des fruits et des pain rôties. / Bacon, sausages, ham, smoked meat, and Swiss cheese. Served with our potatoes, fruit, and toast.",
+                        "image": null,
+                        "badges": []
+                    }
+                ]
+            },
+            {
+                "category_name": "Les Œufs / Eggs",
+                "items": [
+                    {
+                        "name": "Œufs / Eggs",
+                        "price": 10.99,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Servi avec fruits, pommes de terre déjeuner, rôties et café. / Served with fruit, breakfast potatoes, toast, and coffee.",
+                        "image": "./assets/images/menu/les-oeufs-eggs-oeufs-eggs.jpg",
                         "badges": []
                     }
                 ]
@@ -867,7 +1750,7 @@
         ]
     },
     "metadata": {
-        "request_id": "cafe-milano-scrape",
+        "request_id": "476d9884-2576-40fa-801f-9b0ff07c97d0",
         "generated_query": null,
         "screenshot": null
     }
