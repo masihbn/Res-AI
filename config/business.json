@@ -1,83 +1,43 @@
 {
-  "name": "Joseph Restaurant",
-  "tagline": "Authentic Dining Experience",
-  "description": "Joseph Restaurant offers an exceptional dining experience with a diverse menu featuring French and international cuisine. Located in Montreal's vibrant East End, we pride ourselves on quality ingredients and authentic flavors.",
-
-  "contact": {
-    "phone": {
-      "primary": "(514) 419-7555",
-      "primaryRaw": "+15144197555",
-      "booking": "(514) 419-7555",
-      "bookingRaw": "+15144197555"
+  "data": {
+    "business": {
+      "name": "Café Victoria's",
+      "tagline": null,
+      "description": "Italian / Café • Sandwiches • Salads • Comfort Food • Group Friendly • $"
     },
-    "email": {
-      "primary": "info@josephrestaurant.com",
-      "booking": "reservations@josephrestaurant.com"
-    }
-  },
-
-  "address": {
-    "street": "5250 Rue Jarry Est",
-    "city": "Montréal",
-    "region": "QC",
-    "postalCode": "H1R 3A9",
-    "country": "CA",
-    "full": "5250 Rue Jarry Est, Montréal, QC H1R 3A9",
-    "fullMultiline": "5250 Rue Jarry Est<br>Montréal, QC H1R 3A9",
-    "mapsUrl": "https://maps.google.ca/maps?q=Joseph Restaurant, 5250 Rue Jarry Est, H1R 3A9"
-  },
-
-  "hours": {
-    "daily": "6:30 AM - 10:00 PM",
-    "dailyShort": "6:30AM-10PM",
-    "sidebar": "Mon-Sun: 06:30 - 22:00",
-    "footer": "Daily : 6:30 AM - 10:00 PM",
-    "lunch": {
-      "days": "Monday to Friday",
-      "time": "11:00 AM - 3:00 PM",
-      "full": "Monday to Friday, 11:00 AM - 3:00 PM"
+    "contact": {
+      "phone": "+1 514-327-7877",
+      "email": null,
+      "address": {
+        "street": "8600 Boul. Langelier",
+        "city": "Montreal (Saint-Léonard)",
+        "region": "QC",
+        "postal_code": "H1P 2Y7",
+        "country": "Canada"
+      }
     },
-    "dinner": {
-      "days": "Daily",
-      "time": "5:00 PM - 10:00 PM",
-      "full": "Daily, 5:00 PM - 10:00 PM"
+    "hours": {
+      "weekday_hours": "Mon–Fri 5:30 a.m. – 3:00 a.m.", 
+      "weekend_hours": "Sat–Sun 5:00 a.m. – 3:00 a.m.",
+      "special_hours": null
     },
-    "special": {
-      "description": "",
-      "start": "",
-      "end": ""
+    "social": {
+      "facebook": "https://www.facebook.com/cafevictorias/",
+      "instagram": "https://www.instagram.com/cafevictorias/",
+      "twitter": null,
+      "youtube": null,
+      "google_maps": null
+    },
+    "events": [],
+    "about": {
+      "story": null,
+      "cuisine_type": "Italian, Café, Sandwiches, Salads, Comfort Food",
+      "established_year": null
     }
   },
-
-  "social": {
-    "facebook": "",
-    "instagram": "https://josephrestaurant.com/",
-    "twitter": "https://josephrestaurant.com/",
-    "youtube": "https://josephrestaurant.com/",
-    "googleMaps": "https://maps.google.ca/maps?q=Joseph Restaurant, 5250 Rue Jarry Est, H1R 3A9"
-  },
-
-  "branding": {
-    "logoPath": "./assets/images/logo.png",
-    "logoWidth": 160,
-    "logoHeight": 50,
-    "faviconPath": "./favicon.ico"
-  },
-
-  "legal": {
-    "copyrightYear": "2024",
-    "copyrightHolder": "Joseph Restaurant",
-    "attribution": {
-      "text": "Starter template by codewithsadee"
-    }
-  },
-
-  "promotions": {
-    "newsletter": {
-      "title": "Subscribe Newsletter",
-      "subtitle": "Get updates on specials and events",
-      "discountPercent": 15,
-      "discountText": "15% OFF"
-    }
+  "metadata": {
+    "request_id": "1e58367d-bbc2-43f9-a7f7-f43eab63d8bc",
+    "generated_query": null,
+    "screenshot": null
   }
 }
