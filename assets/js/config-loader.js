@@ -22,12 +22,13 @@
   const loadConfig = async () => {
     try {
       const basePath = getBasePath();
-      const response = await fetch(`${basePath}config/business.json`);
+      const response = await fetch(`${basePath}config/business.json?v=${Date.now()}`);
       if (!response.ok) {
         throw new Error(`Failed to load config: ${response.status}`);
       }
       const config = await response.json();
-      applyConfig(config);
+      // Use config.data if it exists, otherwise use config directly
+      applyConfig(config.data || config);
     } catch (error) {
       console.error('Error loading business configuration:', error);
       // Still reveal content with fallback values if config fails to load
@@ -126,7 +127,7 @@
     // Reveal all config elements by adding class to html element
     document.documentElement.classList.add('config-loaded');
 
-    // Dispatch a custom event when config is loaded
+    // Dispatch a custom event when config is loaded (config already unwrapped in applyConfig)
     window.dispatchEvent(new CustomEvent('configLoaded', { detail: config }));
   };
 

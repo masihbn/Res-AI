@@ -631,6 +631,11 @@ body.nav-active { overflow: hidden; }
   gap: 8px;
 }
 
+.header .logo img {
+  max-width: 220px;
+  height: auto;
+}
+
 .nav-open-btn {
   padding: 12px;
   padding-inline-end: 0;
@@ -692,6 +697,11 @@ body.nav-active { overflow: hidden; }
   max-width: max-content;
   margin-inline: auto;
   margin-block-end: 60px;
+}
+
+.navbar .logo img {
+  max-width: 320px;
+  height: auto;
 }
 
 .navbar-list {
@@ -1347,6 +1357,11 @@ textarea.input-field {
   margin-block-end: 40px;
 }
 
+.footer-brand .logo img {
+  max-width: 360px;
+  height: auto;
+}
+
 .footer-brand :is(.body-4, .label-1) {
   color: var(--quick-silver);
   line-height: var(--lineHeight-3);
@@ -1569,6 +1584,11 @@ textarea.input-field {
    */
 
   .about .container { gap: 80px; }
+
+  .about .book-through-call,
+  .about .book-through-call-number {
+    margin-inline: 0;
+  }
 
   .about-banner > .w-100 { padding-inline-start: 90px; }
 
@@ -2004,6 +2024,10 @@ textarea.input-field {
 
   .header .btn { margin-inline-start: 0; }
 
+  .header .logo img {
+    max-width: 380px;
+  }
+
 
 
   /**
@@ -2108,6 +2132,10 @@ textarea.input-field {
    */
 
   .navbar { margin-inline: auto; }
+
+  .header .logo img {
+    max-width: 480px;
+  }
 
 
 

@@ -128,30 +128,20 @@
     // Support new format: data.menu_categories
     const categories = menuData.data?.menu_categories || menuData.categories || [];
 
-    // Get items with "Popular" badge or high ratings
-    const popularItems = [];
+    // Collect all items
+    const allItems = [];
     categories.forEach(category => {
       category.items.forEach(item => {
-        // Check if item has "Popular" badge or high like percentage
-        const isPopular = (item.badges && item.badges.includes('Popular')) ||
-                         (item.like_percentage && item.like_percentage >= 90);
-        if (isPopular) {
-          popularItems.push(item);
-        }
+        allItems.push(item);
       });
     });
 
-    // If no popular items found, take first items from each category
-    if (popularItems.length === 0) {
-      categories.forEach(category => {
-        if (category.items.length > 0) {
-          popularItems.push(category.items[0]);
-        }
-      });
-    }
+    // Prioritize items with images
+    const itemsWithImages = allItems.filter(item => item.image && item.image.trim() !== '');
+    const itemsWithoutImages = allItems.filter(item => !item.image || item.image.trim() === '');
 
-    // Take first 'limit' items
-    const previewItems = popularItems.slice(0, limit);
+    // Take items with images first, then fill with items without images if needed
+    const previewItems = [...itemsWithImages, ...itemsWithoutImages].slice(0, limit);
     const itemsHtml = previewItems.map(item => createMenuItem(item)).join('');
 
     container.innerHTML = itemsHtml;

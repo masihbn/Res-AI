@@ -1,45 +1,53 @@
-<svg width="160" height="50" viewBox="0 0 160 50" xmlns="http://www.w3.org/2000/svg">
+<svg width="480" height="90" viewBox="0 0 480 90" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
       .logo-text { fill: #d4af37; font-family: 'Forum', 'Georgia', serif; }
-      .logo-accent { fill: #d4af37; }
-      .logo-tagline { fill: #999; font-family: 'DM Sans', sans-serif; font-size: 4px; letter-spacing: 1.5px; }
+      .logo-accent { fill: #d4af37; stroke: #d4af37; }
+      .logo-tagline { fill: #999; font-family: 'DM Sans', sans-serif; font-size: 9px; letter-spacing: 3px; }
     </style>
   </defs>
 
-  <!-- Coffee cup icon -->
-  <g transform="translate(5, 10)">
-    <!-- Cup body -->
-    <path class="logo-accent" d="M 3 10 L 5 24 C 5 25.5 6 26.5 7.5 26.5 L 14.5 26.5 C 16 26.5 17 25.5 17 24 L 19 10 Z"
-          stroke="#d4af37" stroke-width="1.2" fill="none" stroke-linejoin="round"/>
-    <!-- Cup handle -->
-    <path class="logo-accent" d="M 19 13 Q 24 13 24 17.5 Q 24 22 19 22"
-          stroke="#d4af37" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- Pho Bowl Icon -->
+  <g transform="translate(15, 20)">
+    <!-- Bowl rim (ellipse at top) -->
+    <ellipse cx="25" cy="35" rx="23" ry="7" fill="none" stroke="#d4af37" stroke-width="2.5"/>
+
+    <!-- Bowl body -->
+    <path d="M 2 35 Q 2 48 25 50 Q 48 48 48 35" fill="none" stroke="#d4af37" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Broth inside bowl -->
+    <ellipse cx="25" cy="35" rx="20" ry="5.5" fill="#d4af37" opacity="0.15"/>
+
+    <!-- Noodles suggestion -->
+    <path d="M 12 38 Q 15 40 18 38" stroke="#d4af37" stroke-width="1.5" fill="none" opacity="0.4"/>
+    <path d="M 20 39 Q 23 41 26 39" stroke="#d4af37" stroke-width="1.5" fill="none" opacity="0.4"/>
+    <path d="M 28 38 Q 31 40 34 38" stroke="#d4af37" stroke-width="1.5" fill="none" opacity="0.4"/>
+
     <!-- Steam lines -->
-    <path class="logo-accent" d="M 7 6 Q 8 3 7 0"
-          stroke="#d4af37" stroke-width="1" fill="none" stroke-linecap="round" opacity="0.9"/>
-    <path class="logo-accent" d="M 11 7 Q 12 4 11 1"
-          stroke="#d4af37" stroke-width="1" fill="none" stroke-linecap="round" opacity="0.9"/>
-    <path class="logo-accent" d="M 15 6 Q 16 3 15 0"
-          stroke="#d4af37" stroke-width="1" fill="none" stroke-linecap="round" opacity="0.9"/>
+    <path d="M 15 20 Q 13 15 15 10" stroke="#d4af37" stroke-width="1.8" stroke-linecap="round" fill="none" opacity="0.7"/>
+    <path d="M 25 18 Q 23 13 25 8" stroke="#d4af37" stroke-width="1.8" stroke-linecap="round" fill="none" opacity="0.7"/>
+    <path d="M 35 20 Q 37 15 35 10" stroke="#d4af37" stroke-width="1.8" stroke-linecap="round" fill="none" opacity="0.7"/>
+
+    <!-- Chopsticks crossing -->
+    <line x1="36" y1="28" x2="44" y2="18" stroke="#d4af37" stroke-width="2.2" stroke-linecap="round"/>
+    <line x1="40" y1="29" x2="48" y2="19" stroke="#d4af37" stroke-width="2.2" stroke-linecap="round"/>
   </g>
 
-  <!-- Decorative separator -->
-  <line x1="32" y1="15" x2="32" y2="35" stroke="#d4af37" stroke-width="0.5" opacity="0.4"/>
+  <!-- Decorative separator line -->
+  <line x1="75" y1="45" x2="95" y2="45" stroke="#d4af37" stroke-width="1.5" opacity="0.5"/>
 
-  <!-- Main text: Café Victoria's -->
-  <text x="38" y="24" class="logo-text" font-size="13" font-weight="400" letter-spacing="0.5">Café</text>
-  <text x="38" y="37" class="logo-text" font-size="13" font-weight="400" letter-spacing="0.5">Victoria's</text>
+  <!-- Business Name - Main Text -->
+  <text x="105" y="52" class="logo-text" font-size="36" font-weight="700" letter-spacing="2">
+    PHO NGOC TUAN
+  </text>
 
-  <!-- Tagline -->
-  <text x="100" y="27" class="logo-tagline" text-transform="uppercase">Italian Café</text>
-  <text x="100" y="34" class="logo-tagline" text-transform="uppercase">&amp; Comfort Food</text>
+  <!-- Subtitle -->
+  <text x="106" y="70" class="logo-tagline" text-transform="uppercase">
+    AUTHENTIC VIETNAMESE CUISINE
+  </text>
 
-  <!-- Decorative ornament -->
-  <g transform="translate(92, 25)">
-    <circle cx="0" cy="0" r="0.8" class="logo-accent" opacity="0.6"/>
-  </g>
-  <g transform="translate(92, 32)">
-    <circle cx="0" cy="0" r="0.8" class="logo-accent" opacity="0.6"/>
-  </g>
+  <!-- Decorative dots -->
+  <circle cx="100" cy="45" r="1.5" class="logo-accent" opacity="0.6"/>
+  <circle cx="105" cy="42" r="1" class="logo-accent" opacity="0.4"/>
+  <circle cx="100" cy="39" r="1.2" class="logo-accent" opacity="0.5"/>
 </svg>

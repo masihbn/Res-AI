@@ -1,43 +1,62 @@
 {
-  "data": {
-    "business": {
-      "name": "Café Victoria's",
-      "tagline": null,
-      "description": "Italian / Café • Sandwiches • Salads • Comfort Food • Group Friendly • $"
+    "data": {
+        "name": "Pho Ngoc Tuan",
+        "tagline": "Page · Restaurant de pho",
+        "description": "Authentic Vietnamese Cuisine! Come eat at our restaurant located at 4647 Jarry Est, St-Leonard, Montreal, Quebec H1R 1X6",
+        "contact": {
+            "phone": {
+                "primary": "+1 514-374-5999",
+                "booking": "+1 514-374-5999",
+                "bookingRaw": "5143745999"
+            },
+            "email": {
+                "primary": "info@phongoctuan.com"
+            }
+        },
+        "address": {
+            "full": "4647 Jarry Est, St-Leonard, Saint-Léonard, QC H1R 1X6, Canada",
+            "fullMultiline": "4647 Jarry Est, St-Leonard,<br>Saint-Léonard, QC H1R 1X6",
+            "street": "4647 Jarry Est, St-Leonard",
+            "city": "Saint-Léonard",
+            "region": "QC",
+            "postal_code": "H1R 1X6",
+            "country": "Canada"
+        },
+        "hours": {
+            "dailyShort": "Daily: 10:00 am - 9:00 pm",
+            "sidebar": "10:00 am - 9:00 pm",
+            "lunch": {
+                "full": "Mon - Sun: 11:00 am - 2:30 pm"
+            },
+            "dinner": {
+                "full": "Mon - Sun: 5:00 pm - 9:00 pm"
+            },
+            "footer": "10:00 am - 9:00 pm"
+        },
+        "promotions": {
+            "newsletter": {
+                "subtitle": "",
+                "discountText": ""
+            }
+        },
+        "legal": {
+            "copyrightYear": "2024",
+            "copyrightHolder": "Pho Ngoc Tuan",
+            "attribution": {
+                "text": "Designed by ResAI"
+            }
+        },
+        "social": {
+            "facebook": "https://www.facebook.com/RestoPhoNgocTuan",
+            "instagram": null,
+            "twitter": null,
+            "youtube": null,
+            "google_maps": null
+        }
     },
-    "contact": {
-      "phone": "+1 514-327-7877",
-      "email": null,
-      "address": {
-        "street": "8600 Boul. Langelier",
-        "city": "Montreal (Saint-Léonard)",
-        "region": "QC",
-        "postal_code": "H1P 2Y7",
-        "country": "Canada"
-      }
-    },
-    "hours": {
-      "weekday_hours": "Mon–Fri 5:30 a.m. – 3:00 a.m.", 
-      "weekend_hours": "Sat–Sun 5:00 a.m. – 3:00 a.m.",
-      "special_hours": null
-    },
-    "social": {
-      "facebook": "https://www.facebook.com/cafevictorias/",
-      "instagram": "https://www.instagram.com/cafevictorias/",
-      "twitter": null,
-      "youtube": null,
-      "google_maps": null
-    },
-    "events": [],
-    "about": {
-      "story": null,
-      "cuisine_type": "Italian, Café, Sandwiches, Salads, Comfort Food",
-      "established_year": null
+    "metadata": {
+        "request_id": "ea2c8754-daa8-42e7-ad43-d15add56e255",
+        "generated_query": null,
+        "screenshot": null
     }
-  },
-  "metadata": {
-    "request_id": "1e58367d-bbc2-43f9-a7f7-f43eab63d8bc",
-    "generated_query": null,
-    "screenshot": null
-  }
 }
