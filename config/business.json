@@ -1,62 +1,75 @@
 {
-    "data": {
-        "name": "Pho Ngoc Tuan",
-        "tagline": "Page · Restaurant de pho",
-        "description": "Authentic Vietnamese Cuisine! Come eat at our restaurant located at 4647 Jarry Est, St-Leonard, Montreal, Quebec H1R 1X6",
-        "contact": {
-            "phone": {
-                "primary": "+1 514-374-5999",
-                "booking": "+1 514-374-5999",
-                "bookingRaw": "5143745999"
-            },
-            "email": {
-                "primary": "info@phongoctuan.com"
-            }
-        },
-        "address": {
-            "full": "4647 Jarry Est, St-Leonard, Saint-Léonard, QC H1R 1X6, Canada",
-            "fullMultiline": "4647 Jarry Est, St-Leonard,<br>Saint-Léonard, QC H1R 1X6",
-            "street": "4647 Jarry Est, St-Leonard",
-            "city": "Saint-Léonard",
-            "region": "QC",
-            "postal_code": "H1R 1X6",
-            "country": "Canada"
-        },
-        "hours": {
-            "dailyShort": "Daily: 10:00 am - 9:00 pm",
-            "sidebar": "10:00 am - 9:00 pm",
-            "lunch": {
-                "full": "Mon - Sun: 11:00 am - 2:30 pm"
-            },
-            "dinner": {
-                "full": "Mon - Sun: 5:00 pm - 9:00 pm"
-            },
-            "footer": "10:00 am - 9:00 pm"
-        },
-        "promotions": {
-            "newsletter": {
-                "subtitle": "",
-                "discountText": ""
-            }
-        },
-        "legal": {
-            "copyrightYear": "2024",
-            "copyrightHolder": "Pho Ngoc Tuan",
-            "attribution": {
-                "text": "Designed by ResAI"
-            }
-        },
-        "social": {
-            "facebook": "https://www.facebook.com/RestoPhoNgocTuan",
-            "instagram": null,
-            "twitter": null,
-            "youtube": null,
-            "google_maps": null
-        }
+  "data": {
+    "name": "TAKASHI",
+    "tagline": "SUSHI, GRILL & TAPAS",
+    "description": "Our name \"Takashi\" comes from Japan, and it is written in kanji characters as 隆 (taka) meaning \"noble\" or \"prosper,\" and 史 (shi) meaning \"history\" or \"chronicle.\"",
+
+    "contact": {
+      "phone": {
+        "primary": "+1 (514) 728-8886",
+        "booking": "+1 (514) 728-8886",
+        "bookingRaw": "5147288886"
+      },
+      "email": {
+        "primary": "info@takashi.ca"
+      }
     },
-    "metadata": {
-        "request_id": "ea2c8754-daa8-42e7-ad43-d15add56e255",
-        "generated_query": null,
-        "screenshot": null
+
+    "address": {
+      "full": "5320 rue Jean-Talon Est., Montreal, QC H1S 1L3, Canada",
+      "fullMultiline": "5320 rue Jean-Talon Est.,<br>Montreal, QC H1S 1L3",
+      "street": "5320 rue Jean-Talon Est.",
+      "city": "Montreal",
+      "region": "QC",
+      "postal_code": "H1S 1L3",
+      "country": "Canada"
+    },
+
+    "hours": {
+      "dailyShort": "Tue: 17:00–21:00; Wed–Thu: 11:30–14:00 & 17:00–21:00; Fri: 11:30–14:00 & 17:00–22:00; Sat: 17:00–22:00; Sun: 17:00–21:00",
+      "sidebar": null,
+      "lunch": {
+        "full": null
+      },
+      "dinner": {
+        "full": null
+      },
+      "footer": null
+    },
+
+    "promotions": {
+      "newsletter": {
+        "subtitle": "",
+        "discountText": ""
+      }
+    },
+
+    "legal": {
+      "copyrightYear": null,
+      "copyrightHolder": "TAKASHI",
+      "attribution": {
+        "text": "Designed by ResAI"
+      }
+    },
+
+    "social": {
+      "facebook": "https://www.facebook.com/takashicanada/",
+      "instagram": "https://www.instagram.com/restaurant_takashi/?hl=en",
+      "twitter": null,
+      "youtube": null,
+      "google_maps": null
+    },
+
+    "about": {
+      "story": "Dine with us to enjoy a rich and savory deliciousness that evokes a taste, harmony, and satisfaction.",
+      "cuisine_type": "Sushi, Grill & Tapas",
+      "established_year": 2015
     }
+  },
+
+  "metadata": {
+    "request_id": "449b9a18-6585-43dd-b372-0f584d8f5bad",
+    "generated_query": null,
+    "screenshot": null
+  }
 }

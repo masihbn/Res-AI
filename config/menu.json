@@ -2,396 +2,925 @@
     "data": {
         "menu_categories": [
             {
-                "category_name": "Nos Entrées / Our Appetizers (Món An khai vị)",
+                "category_name": "SUSHI COMBINAISON",
                 "items": [
                     {
-                        "name": "Rouleaux impériaux (3 Rouleaux) / Imperial Rolls (3 Rolls) Chả Giò",
-                        "price": 6.95,
-                        "like_percentage": 95,
-                        "rating_count": 426,
-                        "description": "Rouleaux impériaux. / Imperial rolls.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/a65b0c5ba6ac09d8f3a1d8f0f1e4e711/f47cec1eac1d3b43eccf2318d065819a.jpeg",
+                        "name": "Combo GOLDEN | 45 MCX",
+                        "price": 101.2,
+                        "like_percentage": 100,
+                        "rating_count": 8,
+                        "description": "\\tBesame mucho (8 mcx)\n\tGolden eyes (8 mcx)\n\tThon épicé hoso (6 mcx)\n\tBoston maki (5 mcx)\n\tHomard épicé maki (5 mcx)\n\tAloha maki (5 mcx)\n\tSt-Léo maki (5 mcx)\n\tDragon eyes (3 mcx)",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/700c3c7a017667741814b087a5007617/4218ca1d09174218364162cd0b1a8cc1.jpeg",
                         "badges": []
                     },
                     {
-                        "name": "Rouleau printemps au Crevettes (2 Rouleaux) / Spring roll Shrimp (2 Rolls) (Gỏi Cuốn Tôm)",
-                        "price": 6.95,
-                        "like_percentage": 93,
-                        "rating_count": 234,
-                        "description": "Rouleaux printemps crevettes. / Spring rolls with shrimps.",
+                        "name": "Combo PRESTO | 16 MCX",
+                        "price": 35.65,
+                        "like_percentage": 100,
+                        "rating_count": 11,
+                        "description": "\\tTapis rouge (8 mcx)\n\tSaumon épicé maki (5 mcx)\n\tDragon eyes (3 mcx)",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/d726a9d716b6bb96fb54ad5b49b29b17/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Combo GLUTEN FREE | 18 MCX",
+                        "price": 42.55,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "\\tSaumon hoso (6 mcx)\n\tBoston maki (5 mcx)\n\tAvocat cornet (1 mcx)\n\tEbi nigiri (2 mcx)\n\tEscolar nigiri (2mcx)\n\tThon nigiri (2 mcx)",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/d06c72009ec8e1295b3036ac2039b9c8/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Combo VÉGÉ | 18 MCX",
+                        "price": 33.35,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "\\tMaki Végé\n\tMaki Tofu frit et wakame\n\tMaki Shaoling (zucchini, asperge tempura, mangue et poivron)",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/423396834e3ce9a9b7fb28ad7275f0a8/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Combo SOLO | 21 MCX",
+                        "price": 43.7,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": " Golden eyes (8mcx)\n\tCalifornia maki (5 mcx)\n\tKamikaze maki (5 mcx)\n\tDragon eyes (3 mcx)",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/ceb365da4a59a63d4864b69b4866962f/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "badges": []
+                    }
+                ]
+            },
+            {
+                "category_name": "SUSHIS SPÉCIALITÉS",
+                "items": [
+                    {
+                        "name": "Bésamé mucho (8 mcx)",
+                        "price": 19.55,
+                        "like_percentage": 100,
+                        "rating_count": 26,
+                        "description": "Tartare de thon, crevette, flocons de tempura,\navocat, caviar avec feuille de soya/ Tuna\ntartar,shrimp, tempura flakes, avocado, caviar\nwith soya paper",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/d45801170e246cbe5589f3642ada768c/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "MK (8 mcx)",
+                        "price": 19.55,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Crevette panko, thon épicé, fraise, poivron,\nconcombre avec feuille de soya/ Shrimp panko,\ntuna, strawberry, pepper, cucumber with soya\npaper",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/190d8b9acfd817f44ceb7f49808b3fd9/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Pizza SUSHI",
+                        "price": 17.25,
+                        "like_percentage": 100,
+                        "rating_count": 5,
+                        "description": "Saumon fumé, thon rouge, goberge, échalote et\ncaviar/ Smoke salmon, red tuna, crab stick, shallot\nand caviar",
+                        "image": "https://d1ralsognjng37.cloudfront.net/2bf60bed-64fe-4b5e-84f4-d5766b2beceb.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Golden eyes (8 mcx)",
+                        "price": 19.55,
+                        "like_percentage": 100,
+                        "rating_count": 4,
+                        "description": "Crevette tempura, saumon épicé, caviar, patate\nsucrée tempura avec feuille de soya/ Shrimp\ntempura, spicy salmon, caviar, sweet patato\ntempura with soya paper",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/ad3ba1717f9e96c7a0fc9e57c2b3800a/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Tango Mango (8 mcx)",
+                        "price": 19.55,
+                        "like_percentage": 100,
+                        "rating_count": 3,
+                        "description": "Pétoncle, crevette tempura, caviar, mangue avec\nfeuille de soya/ Scallop, shrimp tempura, caviar,\nmango with soya paper",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/71226eefe060090249e0c724684ef19c/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Supreme (8 mcx)",
+                        "price": 19.55,
+                        "like_percentage": 66,
+                        "rating_count": 3,
+                        "description": "Saumon épicé, crevette tempura, feuille de shiso,\nmangue avec feuille de soya/ Spicy salmon, shrimp\ntempura, shiso leaf, mango with soya paper",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/ec286f8bc8f462f7c106dd3a2af062ce/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Soumo Thon (6 MCX)",
+                        "price": 19.55,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Saumon ou thon, goberge, caviar, flocons de\ntempura, salade mix avec feuille de riz/ Salmon or\ntuna, caviar, tempura flakes, salad mix with rice\npaper",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/fed1f1d14d92e1a888b9885a98213d85/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "The Kiss (8 mcx)",
+                        "price": 19.55,
+                        "like_percentage": 80,
+                        "rating_count": 5,
+                        "description": "Crevette tempura, feuille de shiso, avocat recouvert\nde thon rouge flambé avec feuille soya/ Shrimp\ntempura, shiso leaf, avocat flambe tuna topping with\nsoya paper",
                         "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Soup Wonton / wonton soup (Cách Hoành Thánh)",
-                        "price": 5.95,
-                        "like_percentage": 94,
-                        "rating_count": 163,
-                        "description": "Soupe maison wonton soup. / Homemade soup wonton soup.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Rouleaux de Printemps Au poulet griller  (2 Rouleaux) / Spring Rolls chicken grill  (2 Rolls) (Gỏi Cuốn)",
-                        "price": 6.95,
-                        "like_percentage": 94,
-                        "rating_count": 97,
-                        "description": "Rouleaux printemps aux poulet grillée. / Spring rolls with grilled chicken.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Rouleaux printemps Au Bœuf Griller (2 Rouleaux) / Spring roll Beef grill (2 Rolls) (Bò Cuốn)",
-                        "price": 7.95,
-                        "like_percentage": 87,
-                        "rating_count": 74,
-                        "description": "Rouleaux printemps aux poulet grillée. / Spring rolls with grilled chicken.",
+                        "name": "St-Tropez (8 mcx)",
+                        "price": 19.55,
+                        "like_percentage": 100,
+                        "rating_count": 4,
+                        "description": "Crevette tempura, thon rouge, caviar, asperge,\navocat avec feuille de soya/ Shrimp tempura, red\ntuna, caviar, aspergus, avocado with soya paper",
                         "image": null,
                         "badges": []
                     }
                 ]
             },
             {
-                "category_name": "Nos Soupes Fantastic / Our Fabuleuse Soups (Phở)",
+                "category_name": "MAKI (5 MCX)",
                 "items": [
                     {
-                        "name": "Pho Spécial / Special Pho (Phở Đặc Biệt)",
-                        "price": 19.25,
-                        "like_percentage": 90,
-                        "rating_count": 394,
-                        "description": "Bœuf saignant; boulette de bœuf, flanc bien cuit tendons et de traçage. / Rare beef; beef patty, well cooked flank tendons and tracing.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/97e1cd666813f07e4006314faff8f7e0/f47cec1eac1d3b43eccf2318d065819a.jpeg",
+                        "name": "Saint-léo",
+                        "price": 8.9,
+                        "like_percentage": 100,
+                        "rating_count": 4,
+                        "description": "Crevette tempura, fromage à la crème, poivron\ntempura et concombre/ Shrimp tempura, cream\ncheese, tempura pepper and cucumber",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/496832eb9195dc7557111962b3911156/70aa2a4db7f990373ca9c376323e3dea.jpeg",
                         "badges": []
                     },
                     {
-                        "name": "Bun Bo Hue / Bún Bò Huế",
-                        "price": 19.5,
-                        "like_percentage": 94,
-                        "rating_count": 234,
-                        "description": "Soupe de bœuf epicé imperial de hue. / Spicy beef hue  imperial noodle soup.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/13e951508d3c6a3b329dec0b6fd6ef83/f47cec1eac1d3b43eccf2318d065819a.jpeg",
+                        "name": "Kamikaze",
+                        "price": 10.35,
+                        "like_percentage": 90,
+                        "rating_count": 21,
+                        "description": "Tartare de thon épicé, flocons de tempura,\nconcombre, avocat et caviar/ Spicy tuna tartar,\ntempura flake, cucumber, avocado and caviar",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/f359bfced59892fe98b885d44d44b7bd/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Saumon épicé maki",
+                        "price": 8.65,
+                        "like_percentage": 100,
+                        "rating_count": 19,
+                        "description": "Tartare de saumon épicé, flocons de tempura,\nconcombre et caviar/ Spicy salmon tartar, tempura\nflakes, cucumber and caviar",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/f221b33e0ec22309418c65505d7ad1b7/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Crevette panko",
+                        "price": 8.05,
+                        "like_percentage": 100,
+                        "rating_count": 5,
+                        "description": "Crevette panko, mangue, concombre, flocons de\ntempura et caviar/ Shrimp panko, mango,\ncucumber, tempura flakes and caviar",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/74eb16e1cf57cc68162cc5a22c2b941d/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "California",
+                        "price": 8.35,
+                        "like_percentage": 100,
+                        "rating_count": 5,
+                        "description": "Goberge, omelette, concombre, avocat et caviar/ Crab\nstick, omelet, cucumber, avocado and caviar",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/263837a7f319766bf632353e076bc81f/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Boston",
+                        "price": 8.0,
+                        "like_percentage": 100,
+                        "rating_count": 5,
+                        "description": "Crevette, goberge, concombre, avocat et salade\nmixte/ Shrimp, crab stick, cucumber, avocado and\nmix salad",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/f534632e5bf4f678cce33a1e93dbd23c/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Aloha",
+                        "price": 9.2,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Crevette panko, ananas, flocons de tempura,\navocat, concombre and caviar/ Shrimp panko,\nananas, tempura flake, avocado, cucumber and\ncaviar",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/7fd7adf9c58d476d8655f13638c6daa1/70aa2a4db7f990373ca9c376323e3dea.jpeg",
                         "badges": [
-                            "#1 most liked"
+                            "Popular"
                         ]
                     },
                     {
-                        "name": "Pho Gai Nucing et Rao / Pho Gai Nucing & Rao (Phở Gai Nucing & Rao)",
-                        "price": 19.25,
-                        "like_percentage": 92,
-                        "rating_count": 280,
-                        "description": "Soupe au poulet grillée et légumes. / Grilled chicken soup and vegetables.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/cf7f7aca97ad523410dcfe76af787d29/f47cec1eac1d3b43eccf2318d065819a.jpeg",
-                        "badges": []
+                        "name": "Manga (nouveauté)",
+                        "price": 8.65,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Crevette tempura, patate sucrée tempura, concombre et avocat\nShrimp tempura, sweet patato tempura, cucumber and avocado",
+                        "image": null,
+                        "badges": [
+                            "Popular"
+                        ]
                     },
                     {
-                        "name": "Pho Taï / Pho Tai (Phở Tài)",
-                        "price": 19.25,
-                        "like_percentage": 90,
-                        "rating_count": 190,
-                        "description": "Bœuf saignant. / Rare beef noodle soup.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/ba66fb25e12616eebdddb56cf3122c24/f47cec1eac1d3b43eccf2318d065819a.jpeg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Pho Gai Nucing / Phở Gai Nucing",
-                        "price": 19.25,
-                        "like_percentage": 91,
-                        "rating_count": 148,
-                        "description": "Soupe de poulet grillée. / Grilled chicken noodle soup.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/0e28e0a1aada5fb56f30d0ea9bdffdef/f47cec1eac1d3b43eccf2318d065819a.jpeg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Boulet de Bœuf Pho / Beef Ball Pho (Phở Tái Bò Viên)",
-                        "price": 19.25,
-                        "like_percentage": 94,
-                        "rating_count": 72,
-                        "description": "Bœuf saignant et boulette de bœuf. / Rare beef & beef ball noodle soup.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/a17f1e6875ffb006649a73d207e1d676/f47cec1eac1d3b43eccf2318d065819a.jpeg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Pho Nam / Phở Nam",
-                        "price": 19.25,
-                        "like_percentage": 95,
-                        "rating_count": 60,
-                        "description": "Flanc bien aux bœuf. / Well done beef flank noodle soup.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/a20b18480e15472e4171d1377ade22f1/f47cec1eac1d3b43eccf2318d065819a.jpeg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Pho Nam Gan Sach / Phở Nam Gan Sách",
-                        "price": 19.25,
-                        "like_percentage": 85,
-                        "rating_count": 20,
-                        "description": "Flanc bon cuit. / Well done beef flank tondens noodle soup.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/72a2c137dc69862a3ce9830a1006102a/f47cec1eac1d3b43eccf2318d065819a.jpeg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Pho Rau / Phở Rau",
-                        "price": 15.95,
-                        "like_percentage": 81,
-                        "rating_count": 27,
-                        "description": "Soupe au légumes. / Vegetables noodle soup.",
+                        "name": "Homard épicé",
+                        "price": 13.8,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Chair de homard, caviar, salade mixte, asperge et\navocat/ Lobster meat, caviar, mix salad, aspergus\nand avocado",
                         "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Pho Ga Luoc / Phở Gà Lược",
-                        "price": 20.5,
-                        "like_percentage": 76,
-                        "rating_count": 26,
-                        "description": "Soupe au nouille au poulet à la vapeure. / Steamed chicken noodle soup.",
+                        "name": "Philadelphia",
+                        "price": 10.35,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Saumon fumé, goberge, fromage à la crème,\navocat et concombre/ Smoke salmon, crab stick,\ncream cheese, avocado and cucumber",
                         "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Bœuf Pho / Beef Pho (Phở Bò Viên)",
-                        "price": 19.25,
-                        "like_percentage": 95,
-                        "rating_count": 22,
-                        "description": "Boulette de bœuf. / Beef ball noodle soup.",
+                        "name": "Végétarien",
+                        "price": 7.75,
+                        "like_percentage": 100,
+                        "rating_count": 3,
+                        "description": "Patate sucrée tempura, concombre, avocat et\nsalade mixte/ Sweet patato tempura, cucumber,\navocado and mix salad",
                         "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Nouilles aux Boulettes de Poisson / Fish Ball Noodles (Bún Chả Cá)",
-                        "price": 21.25,
-                        "like_percentage": 88,
-                        "rating_count": 25,
-                        "description": "Poisson cha ga vermicelle soupe. / Special fish cake vermicelli soup.",
+                        "name": "Alaska épicé",
+                        "price": 9.75,
+                        "like_percentage": 100,
+                        "rating_count": 6,
+                        "description": "Chair de crabe épicé, flocons de tempura, avocat,\nsalade mixte et caviar/ Spicy crab meat, tempura\nflakes, avocado, mix salad and caviar",
                         "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Pho Tai Gan Sach / Phở Tài Sách",
-                        "price": 19.25,
-                        "like_percentage": 86,
-                        "rating_count": 23,
-                        "description": "Bœuf saignant, tendons et trascage. / Rare beef & stripes noodle soup.",
-                        "image": null,
-                        "badges": []
-                    }
-                ]
-            },
-            {
-                "category_name": "Nos Combinations Spéciale / Our Special Combos (Combo Đặc Biệt)",
-                "items": [
-                    {
-                        "name": "Combo D",
-                        "price": 27.95,
-                        "like_percentage": 94,
-                        "rating_count": 155,
-                        "description": "Soupe maison, rouleau imperiaux, poulet grillé, bœuf grillé, brochette de crevette, riz & salade. / Homemade soup, imperial rolls, grilled chicken, grilled beef, shrimp skewer, rice and salad.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/5d0d9643edaa5bd166d9706f7ebaeb63/f47cec1eac1d3b43eccf2318d065819a.jpeg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Combo A",
-                        "price": 20.95,
-                        "like_percentage": 92,
-                        "rating_count": 56,
-                        "description": "Soupe maison, rouleau imperiaux, poulet grillié, riz & salade. / Homemade soup, imperial rolls, grilled chicken, rice and salad.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/4c521f9c8f56ef4eef08b6570789ad0e/f47cec1eac1d3b43eccf2318d065819a.jpeg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Combo B",
-                        "price": 23.95,
-                        "like_percentage": 90,
-                        "rating_count": 41,
-                        "description": "Soupe maison, rouleau imperiaux, bœuf grillé, riz & salade. / Homemade soup, imperial rolls, grilled beef, rice and salad.",
+                        "name": "Rainbow",
+                        "price": 10.35,
+                        "like_percentage": 100,
+                        "rating_count": 7,
+                        "description": "Thon, saumon, goberge, avocat, concombre,\navocat et caviar/ Tuna, salmon, crab stick,\ncucumber, avocado and caviar",
                         "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Combo C",
-                        "price": 20.95,
-                        "like_percentage": 90,
-                        "rating_count": 11,
-                        "description": "Soupe maison, rouleau imperiaux, brochette de crevettes, riz & salade. / Homemade soup, imperial rolls, shrimp skewer, rice and salad.",
-                        "image": null,
-                        "badges": []
-                    }
-                ]
-            },
-            {
-                "category_name": "Nos Sau Sautées / Our Saute (Dò Xàoà)",
-                "items": [
-                    {
-                        "name": "Poulet General Tao / General Tao chicken (Gấm Gà General Tao)",
-                        "price": 20.95,
-                        "like_percentage": 71,
-                        "rating_count": 113,
-                        "description": "Poulet général tao avec riz. / General tao chicken with rice.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/b8086cf55a0450195be81a6ba38a209b/f47cec1eac1d3b43eccf2318d065819a.jpeg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Poulet Pad Thai / Pad Thai Chicken (Pad Thai Gà)",
-                        "price": 21.95,
-                        "like_percentage": 93,
-                        "rating_count": 95,
-                        "description": "Nouille sauté thaïlandaise stylé avec poulet. / Thailand style noodles with chicken.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/32b448c5c8a983ea71aadf210c0560ae/f47cec1eac1d3b43eccf2318d065819a.jpeg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Crevettes Pad Thai / Pad Thai Shrimps (Pad Thai Tom)",
-                        "price": 21.95,
-                        "like_percentage": 80,
-                        "rating_count": 42,
-                        "description": "Nouille sauté thaïlandaise stylé avec crevettes. / Thailand style noodles with shrimps.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/2bf4735d0d964a5e981d27fe5c2568ab/f47cec1eac1d3b43eccf2318d065819a.jpeg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Bœuf Pad Thai / Pad Thai Beef (Pad Thai Bò)",
-                        "price": 22.95,
-                        "like_percentage": 86,
-                        "rating_count": 22,
-                        "description": "Nouille sauté thaïlandaise stylé avec bœuf. / Thailand style noodles with beef.",
+                        "name": "Pétoncle épicé",
+                        "price": 9.2,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Pétoncle épicé, avocat, mangue, topico et flocons de tempura/ Spicy scallop, avocado, mango, topico and tempura flakes",
                         "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Nouilles de Nid d'Oiseau (Nouilles Croustillantes) Poulet / Bird's Nest Noodles (Crispy Noodles) Chicken (Mì Tổ Chim (Mì Xào Giòn) Gà)",
-                        "price": 21.95,
-                        "like_percentage": 93,
-                        "rating_count": 32,
-                        "description": "Nouille frites croustillants avec poulet. / Crispy fried noodle with chicken.",
+                        "name": "Poulet MAKI",
+                        "price": 7.15,
+                        "like_percentage": 100,
+                        "rating_count": 9,
+                        "description": "Poulet pané, avocat, salade mixte et mayo épicé/\nChicken breaded, avocado, salad mix and spicy\nmayo",
                         "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Nouilles (Nouilles Croustillantes) Tom / Noodles (Crispy Noodles) Tom (Mì Tổ Chim (Mì Xào Giòn) Tom)",
-                        "price": 21.95,
+                        "name": "New York",
+                        "price": 8.65,
                         "like_percentage": 100,
                         "rating_count": 5,
-                        "description": "Nouille frites croustillants avec crevette. / Crispy fried noodle with shrimp.",
+                        "description": "Crevette tempura, goberge, concombre, avocat et\ncaviar/ Tempura shrimp, crab stick, cucumber,\navocado and caviar",
                         "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Nouilles au Nid d'Oiseau (Nouilles Croustillantes) / Bird's Nest Noodles (Crispy Noodles) Beef (Mì Tổ Chim (Mì Xào Giòn) Bò)",
-                        "price": 22.95,
-                        "like_percentage": 94,
-                        "rating_count": 17,
-                        "description": "Nouille frites croustillants avec bœuf. / Crispy fried noodle with beef.",
+                        "name": "Spider",
+                        "price": 11.5,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Crabe à carapace molle tempura, caviar, carotte,\néchalotte, avocat et concombre/ Soft crab\ntempura, caviar, shallot, avocado and cucumber",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Pétoncle épicé",
+                        "price": 9.2,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Pétoncle épicé, avocat, mangue,caviar et flocons de tempura/ Spicy scallop, avocado, mango, caviar and tempura flakes",
                         "image": null,
                         "badges": []
                     }
                 ]
             },
             {
-                "category_name": "Nos grillades / Our grills",
+                "category_name": "MAKI FRIT TEMPURA",
                 "items": [
                     {
-                        "name": "Porc grillé avec riz / Grilled Pork with rice",
-                        "price": 18.95,
-                        "like_percentage": 96,
-                        "rating_count": 33,
-                        "description": "Porc grillé servi avec du riz et salade / Grilled pork served with riz and salade",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/ebba0a5459b22a5e03af9d4178ec4138/f47cec1eac1d3b43eccf2318d065819a.jpeg",
+                        "name": "Dragon eyes (6 MCX)",
+                        "price": 14.95,
+                        "like_percentage": 90,
+                        "rating_count": 10,
+                        "description": "Saumon, échalote et carotte/ Salmon, Shallot and\ncarrot",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/7663d1a42f57f55511f35736c7eb984e/a19bb09692310dfd41e49a96c424b3a6.jpeg",
                         "badges": []
-                    },
+                    }
+                ]
+            },
+            {
+                "category_name": "PETIT MAKI (6 MCX)",
+                "items": [
                     {
-                        "name": "Poulet grillé avec riz  / Grilled chicken with rice / Côm gà nướng",
-                        "price": 18.95,
-                        "like_percentage": 95,
-                        "rating_count": 21,
-                        "description": "Poulet grillé servi avec du rice et salade / Grilled chicken served with rice and salade",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/ccec8b11837b171c8d05d38f63daec74/f47cec1eac1d3b43eccf2318d065819a.jpeg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Porc grillé avec vermicelle / Grilled pork with vermicelli",
-                        "price": 18.95,
-                        "like_percentage": 96,
-                        "rating_count": 28,
-                        "description": "Porc grillé servi avec vermicelle et salade / Grilled pork served with vermicelli and salade",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/63f888262adc5a56f31d7d19463a6a7c/f47cec1eac1d3b43eccf2318d065819a.jpeg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Poulet grillé avec vermicelle / Grilled chicken with vermicelli",
-                        "price": 18.95,
-                        "like_percentage": 95,
-                        "rating_count": 24,
-                        "description": "Poulet grillé servi avec vermicelle et salade / grilled chicken served with vermicelli and salade",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/d61286ef72107b5fcf847e6414c31a62/f47cec1eac1d3b43eccf2318d065819a.jpeg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Poulet et boeuf grillé avec vermicelle  / Grilled chicken and beef with vermicelli",
-                        "price": 20.95,
-                        "like_percentage": 88,
-                        "rating_count": 35,
-                        "description": "Poulet et boeuf grillé servi avec vermicelle  et salade / Grilled chicken and beef served with vermicelli and salade",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Poulet et boeuf grillé avec riz  /Grilled chicken and beef with rice",
-                        "price": 20.95,
-                        "like_percentage": 97,
-                        "rating_count": 46,
-                        "description": "Poulet et boeuf grillé servi avec riz  et salade / Grilled chicken and beef served with rice and salade",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Boeuf grillé avec riz / Grilled beef with rice",
-                        "price": 20.95,
-                        "like_percentage": 95,
-                        "rating_count": 23,
-                        "description": "Boeuf grillé servi avec du riz et salade / Grilled beef served with rice and salade",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Poulet, boeuf et crevette grillé avec riz / Grilled chicken, beef and shrimp with rice",
-                        "price": 24.95,
-                        "like_percentage": 92,
-                        "rating_count": 42,
-                        "description": "Poulet, boeuf et crevette grillé servi avec riz et salade / Grilled chicken, beef and shrimp served with rice and salade",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Poulet, boeuf et crevette grillé avec vermicelle / Grilled chicken, beef and shrimp with vermicelle",
-                        "price": 24.95,
-                        "like_percentage": 94,
-                        "rating_count": 18,
-                        "description": "Poulet, boeuf et crevette grillé servi avec vermicelle et salade / Grilled chicken, beef and shrimp served with vermicelli and salade",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Boeuf grillé avec vermicelle / Grilled beef with vermicelli",
-                        "price": 20.95,
+                        "name": "Saumon/Salmon (6 MCX)",
+                        "price": 7.85,
                         "like_percentage": 100,
-                        "rating_count": 17,
-                        "description": "Boeuf grillé servi avec vermicelle et salade / Grilled beef served with vermicelli and salade",
-                        "image": null,
+                        "rating_count": 3,
+                        "description": "Fresh salmon in a delicate maki roll.",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/50b0429ccdf8ea5fc855b1e45a753256/70aa2a4db7f990373ca9c376323e3dea.jpeg",
                         "badges": []
                     },
                     {
-                        "name": "Crevette grillé avec riz / Grilled shrimp with rice",
-                        "price": 18.95,
+                        "name": "Thon rouge/Red tuna (6 MCX)",
+                        "price": 8.2,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Fresh tuna in a delicate maki roll.",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/286df273bd03e0088e2dbe1da25bcb62/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Thon rouge épicé/Spicy red tuna (6 MCX)",
+                        "price": 8.8,
                         "like_percentage": 75,
                         "rating_count": 4,
-                        "description": "Crevette grillé servi avec du riz et salade / Grilled shrimp served with rice and salade",
+                        "description": "Spicy tuna maki roll with a bold red tuna flavour.",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/a1172ee1631ad44acef8b7dd08b2b58e/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Avocat/Avocado (6 MCX)",
+                        "price": 5.75,
+                        "like_percentage": 90,
+                        "rating_count": 22,
+                        "description": null,
                         "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Crevette grillé avec vermicelle / Grilled shrimp with vermicelli",
-                        "price": 18.95,
+                        "name": "Concombre/ Cucumber 6 MCX",
+                        "price": 4.85,
+                        "like_percentage": 83,
+                        "rating_count": 6,
+                        "description": null,
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Hamachi/Yellow tail (6 MCX)",
+                        "price": 8.5,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": null,
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Saumon épicé/Spicy salmon (6 MCX)",
+                        "price": 8.5,
                         "like_percentage": 100,
+                        "rating_count": 5,
+                        "description": "Spicy salmon rolls with a bold kick.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Mangue/Mango (6 MCX)",
+                        "price": 4.85,
+                        "like_percentage": 66,
+                        "rating_count": 3,
+                        "description": null,
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Hamachi épicé/spicy yellowtail (6 MCX)",
+                        "price": 9.15,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": null,
+                        "image": null,
+                        "badges": []
+                    }
+                ]
+            },
+            {
+                "category_name": "NIGIRI & SASHIMI",
+                "items": [
+                    {
+                        "name": "Saumon / Salmon",
+                        "price": 7.45,
+                        "like_percentage": 91,
+                        "rating_count": 12,
+                        "description": null,
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/4774e100a9aee5d9246001db7632cca0/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Thon rouge/Red tuna",
+                        "price": 8.35,
+                        "like_percentage": 100,
+                        "rating_count": 14,
+                        "description": null,
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Anguille grillé/ Grilled Eel",
+                        "price": 8.3,
+                        "like_percentage": 100,
+                        "rating_count": 5,
+                        "description": null,
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Escolar",
+                        "price": 8.05,
+                        "like_percentage": 100,
+                        "rating_count": 3,
+                        "description": "Fresh escolar sashimi, a delicate and rich fish experience.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Thon jaune/Yellowtail",
+                        "price": 8.6,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": null,
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Saumon fumé/Smoked salmon",
+                        "price": 8.0,
+                        "like_percentage": 100,
+                        "rating_count": 3,
+                        "description": "Smoked salmon, a delicate and rich fish delicacy.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Crevette/Shrimp",
+                        "price": 6.6,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Fresh shrimp served as nigiri or sashimi.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Pétoncle / Scallop",
+                        "price": 7.45,
+                        "like_percentage": 66,
+                        "rating_count": 3,
+                        "description": "Fresh scallop served as nigiri or sashimi.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Pieuvre/Octopus",
+                        "price": 7.0,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Fresh octopus served as nigiri or sashimi.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Poisson éperlan/Capelin roe",
+                        "price": 6.3,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Delicate roe with a burst of ocean flavour.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Poisson volant/Flying roe fish",
+                        "price": 6.6,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Fresh flying roe fish served as nigiri or sashimi.",
+                        "image": null,
+                        "badges": []
+                    }
+                ]
+            },
+            {
+                "category_name": "POKÉ",
+                "items": [
+                    {
+                        "name": "POKÉ DELUXE",
+                        "price": 40.0,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Saumon, thon, crevette tempura, servis avec salade mixte, avocat, légumes du jardin, fruits du jour, riz de sushi et vinaigrette du chef.",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/c244d0748e241948cc4c821d677ce2e3/a19bb09692310dfd41e49a96c424b3a6.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "POKÉ SAUMON/SALMON",
+                        "price": 33.35,
+                        "like_percentage": 100,
+                        "rating_count": 4,
+                        "description": "Servis avec salade mixte, avocat, légumes du jardin, fruits du jour, riz de sushi et vinaigrette du chef.",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/45174208945a4b397cc18ced05338edf/7f4ae9ca0446cbc23e71d8d395a98428.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "POKÉ THON/TUNA",
+                        "price": 35.65,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Servis avec salade mixte, avocat, légumes du jardin, fruits du jour, riz de sushi et vinaigrette du chef.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "POKÉ POULET/CHICKEN",
+                        "price": 32.2,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Servis avec salade mixte, avocat, légumes du jardin, fruits du jour, riz de sushi et vinaigrette du chef.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "POKÉ VEGE",
+                        "price": 31.05,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Fresh, mixed vegetables in a Hawaiian-inspired bowl.",
+                        "image": null,
+                        "badges": []
+                    }
+                ]
+            },
+            {
+                "category_name": "TAPAS",
+                "items": [
+                    {
+                        "name": "Tapas Rouleau impérial",
+                        "price": 5.75,
+                        "like_percentage": 90,
+                        "rating_count": 11,
+                        "description": "Rouleau impérial au poulet et légumes. / Chicken and vegetable imperial roll.",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/7b89b526590e5b69168e5f2ba3d42336/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Tapas Lips ( 2 mcx)",
+                        "price": 17.25,
+                        "like_percentage": 93,
+                        "rating_count": 16,
+                        "description": "Tartare de thon, mangue, et salade sur une feuille de shiso tempura. / Tuna tartar, mango, and salad on a tempura shiso leaf.",
+                        "image": "https://d1ralsognjng37.cloudfront.net/a1492882-0d14-49ed-bbfb-3f3c42620508.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Tapas roulette au Boeuf et fromage / Beef and Cheese roll",
+                        "price": 20.7,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Roulette de boeuf émincé, fromage à la crème, et asperge tempura. / Beef roll tempura, cream cheese, and asparagus tempura.",
+                        "image": "https://d1ralsognjng37.cloudfront.net/7de27e46-9d3e-4b51-9768-a224c32510d0.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Tapas Calamari frit / Fried Calamari",
+                        "price": 19.55,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Rondelles de calmar panées accompagnées d’une sauce teriyaki et basilique italienne. / Breaded Calamari rings with teriyaki and basilic sauce.",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/3171e3ce8f8d71047f6f9f5143fcef28/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Tapas Dumpling frit / Fried Dumpling",
+                        "price": 13.8,
+                        "like_percentage": 80,
                         "rating_count": 10,
-                        "description": "Crevette grillé servi avec vermicelle et salade / Grilled shrimp served with vermicelli and salade",
+                        "description": "4 mcx. Dumplings frits au poulet. / 4 Pcs. Fried chicken dumpling.",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/8668568d218d1a1bd40453565f8679be/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Tapas Crevette et légumes tempura / Shrimp and veggies Tempura",
+                        "price": 18.4,
+                        "like_percentage": 100,
+                        "rating_count": 4,
+                        "description": "Crevettes (3) et légumes tempura. / Shrimp (3) and vegetable tempura.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Tapas Edamame",
+                        "price": 5.75,
+                        "like_percentage": 100,
+                        "rating_count": 4,
+                        "description": "Fèves de soya bouillis et salés. / Soya bean boiled and salted.",
+                        "image": null,
+                        "badges": []
+                    }
+                ]
+            },
+            {
+                "category_name": "LES TARTARES",
+                "items": [
+                    {
+                        "name": "Rising Sun",
+                        "price": 25.3,
+                        "like_percentage": 75,
+                        "rating_count": 4,
+                        "description": "Tartare de saumon, avocat, raisin, échalote avec\nune sauce aigre-douce/ Salmon tartar, avocado,\ngrape, shallot with sweet and sour sauce",
+                        "image": "https://d1ralsognjng37.cloudfront.net/408cc62c-5702-40a6-b8d0-02b51ad4340c.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Tartare de boeuf",
+                        "price": 27.6,
+                        "like_percentage": 66,
+                        "rating_count": 9,
+                        "description": "Tartare de bœuf, poire marinée au sirop d'érable\net kimchi/ Beef tartar, marinated pear with maple\nsirup and kimchee",
+                        "image": "https://d1ralsognjng37.cloudfront.net/bd657bc6-b04b-4d73-a696-99d10011804f.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Volcano",
+                        "price": 27.6,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Tartare de thon, poire marinée, salade mixte,\néchalote et flacons de tempura /Tuna tartar,\nmarinated pears, salad mix, shallot and tempura\nflakes",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/239258372cca0b3de81676141b4ac0f5/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Sexy sushi",
+                        "price": 28.75,
+                        "like_percentage": 80,
+                        "rating_count": 10,
+                        "description": "Tartare de thon et saumon, riz croquant et flocons\nde tempura/ Tuna and salmon tartar, crunchy rice\nand tempura flake",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/ea94c37a0bb4bfcd138c5069e9ba4d29/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "badges": []
+                    }
+                ]
+            },
+            {
+                "category_name": "PLATS PRINCIPAUX / MAINS PLATES",
+                "items": [
+                    {
+                        "name": "Tao Dynastie",
+                        "price": 33.35,
+                        "like_percentage": 66,
+                        "rating_count": 3,
+                        "description": "Poulet frit à la général tao avec une sauce aigre-douce. Servis avec légumes sautés (Extra 2.85$ Nouilles). / Fried general tao chicken with sweet sour sauce. Served with stir vegetables (Extra noodles 2.85 $).",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/133c514926f7ae18d3e9f83eb7091a67/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Crevettes tao / Tao Shrimp",
+                        "price": 39.1,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Crevettes grillées avec une sauce aigre-douce. Servis avec riz et légumes sautés (Extra nouilles 2.85$). / Grilled shrimp with sweet sour sauce. Served with rice and stir vegetables (Extra noodles 2.85$).",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/e7485ca7c4be3ee1e871d10149279778/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Saumon grillé",
+                        "price": 39.1,
+                        "like_percentage": 100,
+                        "rating_count": 3,
+                        "description": "Saumon grillé avec sauce teriyaki. Servis avec légumes sautés. / Grilled salmon with teriyaki sauce. Served with stir vegetables.",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/4362d8168d7b2f5aacb052d28c8be2dc/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Boeuf grillé aux sésames",
+                        "price": 41.4,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Tranches de bœuf marinés aux épices et citronnelle\nSlices of beef marinated with lemongrass",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Poulet grillé / Grilled Chicken",
+                        "price": 33.35,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Tranches de poulet teriyaki au saveur de citronnelle. Servis avec légumes sautés et riz jasmin. / Teriyaki chicken slice with lemongrass flavor. Served with stir vegetables and jasmin rice.",
+                        "image": null,
+                        "badges": []
+                    }
+                ]
+            },
+            {
+                "category_name": "SOUPE / SOUP",
+                "items": [
+                    {
+                        "name": "Soupe wonton / Wonton Soup",
+                        "price": 5.75,
+                        "like_percentage": 94,
+                        "rating_count": 34,
+                        "description": "Bouillon de poulet parfumé au gingembre avec wonton frit au poulet. / Chicken ginger broth with fried wonton.",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/cce306c7df8354b974e837ec33f0fb71/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Soupe takashi aux fruits de mer / Takashi Soup with Seafood",
+                        "price": 8.05,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Bouillon de poulet servit avec pétoncle, poisson, et crevette tempura. / Chicken broth served with scallop, fish, and tempura shrimp.",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/62f29eaff28451861c791af9b9dc79a4/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Soupe miso / Miso Soup",
+                        "price": 5.75,
+                        "like_percentage": 100,
+                        "rating_count": 3,
+                        "description": "Algues de mer fraîches, tofu, et échalotes émincées. / Fresh seaweed, tofu, and chopped shallots.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Soupe miso aux fruits de mer / Miso Soup with Seafood",
+                        "price": 8.05,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Crevette, pétoncle, algues de mer fraîches, tofu, et échalotes émincées. / Shrimp, scallop, fresh seaweed, tofu, and chopped shallots.",
+                        "image": null,
+                        "badges": []
+                    }
+                ]
+            },
+            {
+                "category_name": "SALADES / SALADS",
+                "items": [
+                    {
+                        "name": "Salade takashi",
+                        "price": 11.5,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Salade mixte, fruit, et légumes. / Salad mix, fruit, and vegetable.",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/e54d26fb0cc5e3f5a41684621e7f8612/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Salade homard",
+                        "price": 20.7,
+                        "like_percentage": 75,
+                        "rating_count": 8,
+                        "description": "Salade mixte, chaire de homard, mangue, carotte, et caviar. / Salad mix, lobster meat, mango, carrot, and caviar.",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/33cd5e2a2328376f2ea95bc35fe56796/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Salade méduse",
+                        "price": 18.4,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Salade mixte, méduse, pieuvre, crevette, vermicelle croquant, et caviar. / Salad mix, jellyfish, octopus, shrimp, crunchy vermicelli, and caviar.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Salade wakamé",
+                        "price": 13.8,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Algues de mer fraîche, salade mixte, mangue, carotte, et concombre. / Fresh seaweed, salad mix, mango, carots, and cucumber.",
+                        "image": null,
+                        "badges": []
+                    }
+                ]
+            },
+            {
+                "category_name": "EXTRA",
+                "items": [
+                    {
+                        "name": "Extra Wasabi",
+                        "price": 1.15,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": null,
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Extra Gingembre",
+                        "price": 2.3,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": null,
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Extra Riz blanc",
+                        "price": 3.45,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Steamed white rice.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Extra Feuille de riz",
+                        "price": 1.15,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Prix par feuille de riz\nPrice per rice paper",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Extra Feuille de soya",
+                        "price": 2.3,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Prix par feuille de soya\nPrice per soya paper",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Extra Nouille croustillante",
+                        "price": 3.45,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": null,
+                        "image": null,
+                        "badges": []
+                    }
+                ]
+            },
+            {
+                "category_name": "SAUCE",
+                "items": [
+                    {
+                        "name": "SAUCE MAYO ÉPICÉ",
+                        "price": 2.3,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Spicy mayonnaise sauce",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "SAUCE SOYA",
+                        "price": 1.75,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Savory Asian-inspired condiment.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "SAUCE SÉSAME BM",
+                        "price": 2.3,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Sesame-based sauce.",
+                        "image": null,
+                        "badges": []
+                    }
+                ]
+            },
+            {
+                "category_name": "BREUVAGES",
+                "items": [
+                    {
+                        "name": "COCA-COLA | 355 ml",
+                        "price": 4.0,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": null,
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Sprite | 355 ml",
+                        "price": 4.0,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": null,
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Coke diet | 355 ml",
+                        "price": 4.0,
+                        "like_percentage": 100,
+                        "rating_count": 12,
+                        "description": null,
                         "image": null,
                         "badges": []
                     }
@@ -400,7 +929,7 @@
         ]
     },
     "metadata": {
-        "request_id": "fded3316-4000-43b2-95b1-45bee725f8e9",
+        "request_id": "109340f3-95f8-44fa-abe8-c96eba7619a1",
         "generated_query": null,
         "screenshot": null
     }
