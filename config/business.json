@@ -27,14 +27,14 @@
 
     "hours": {
       "dailyShort": "Tue–Sat: 10:30–21:00; Sun: 12:00–21:00; Mon: Closed",
-      "sidebar": null,
+      "sidebar": "Tue–Sat: 10:30–21:00; Sun: 12:00–21:00; Mon: Closed",
       "lunch": {
         "full": "11:00–15:00 (approx, typical daily schedule)"
       },
       "dinner": {
         "full": "17:00–21:00 (approx, typical daily schedule)"
       },
-      "footer": null,
+      "footer": "Tue–Sat: 10:30–21:00<br>Sun: 12:00–21:00<br>Mon: Closed",
       "special": {
         "description": null,
         "start": null,
