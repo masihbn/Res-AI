@@ -1,44 +1,44 @@
 {
   "data": {
-    "name": "TAKASHI",
-    "tagline": "SUSHI, GRILL & TAPAS",
-    "description": "Our name \"Takashi\" comes from Japan, and it is written in kanji characters as 隆 (taka) meaning \"noble\" or \"prosper,\" and 史 (shi) meaning \"history\" or \"chronicle.\"",
+    "name": "Restaurant Thanh Thao",
+    "tagline": null,
+    "description": "Vietnamese restaurant serving traditional Vietnamese cuisine in a cozy setting.",
 
     "contact": {
       "phone": {
-        "primary": "+1 (819) 919-8385",
-        "booking": "+1 (819) 919-8385",
-        "bookingRaw": "8199198385"
+        "primary": "+1 (514) 733-1110",
+        "booking": "+1 (514) 733-1110",
+        "bookingRaw": "5147331110"
       },
       "email": {
-        "primary": "masih@takashi.ca"
+        "primary": "restott5145@gmail.com"
       }
     },
 
     "address": {
-      "full": "5320 rue Jean-Talon Est., Montreal, QC H1S 1L3, Canada",
-      "fullMultiline": "5320 rue Jean-Talon Est.,<br>Montreal, QC H1S 1L3",
-      "street": "5320 rue Jean-Talon Est.",
-      "city": "Montreal",
+      "full": "5145 Rue Jean-Talon Est, Montréal, QC H1S 1K8, Canada",
+      "fullMultiline": "5145 Rue Jean-Talon Est<br>Montréal, QC H1S 1K8",
+      "street": "5145 Rue Jean-Talon Est",
+      "city": "Montréal",
       "region": "QC",
-      "postal_code": "H1S 1L3",
+      "postal_code": "H1S 1K8",
       "country": "Canada"
     },
 
     "hours": {
-      "dailyShort": "Tue: 17:00–21:00; Wed–Thu: 11:30–14:00 & 17:00–21:00; Fri: 11:30–14:00 & 17:00–22:00; Sat: 17:00–22:00; Sun: 17:00–21:00",
+      "dailyShort": "Tue–Sat: 10:30–21:00; Sun: 12:00–21:00; Mon: Closed",
       "sidebar": null,
       "lunch": {
-        "full": null
+        "full": "11:00–15:00 (approx, typical daily schedule)"
       },
       "dinner": {
-        "full": null
+        "full": "17:00–21:00 (approx, typical daily schedule)"
       },
       "footer": null,
       "special": {
-        "description": "During winter daily from",
-        "start": "7:00 pm",
-        "end": "9:00 pm"
+        "description": null,
+        "start": null,
+        "end": null
       }
     },
 
@@ -51,33 +51,33 @@
 
     "legal": {
       "copyrightYear": null,
-      "copyrightHolder": "TAKASHI",
+      "copyrightHolder": "Restaurant Thanh Thao",
       "attribution": {
-        "text": "Designed by ResAI"
+        "text": null
       }
     },
 
     "social": {
-      "facebook": "https://www.facebook.com/takashicanada/",
-      "instagram": "https://www.instagram.com/restaurant_takashi/?hl=en",
+      "facebook": "https://www.facebook.com/RestoTT5145/",
+      "instagram": null,
       "twitter": null,
       "youtube": null,
       "google_maps": null
     },
 
     "maps": {
-      "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2793.4851586068874!2d-73.57943102334194!3d45.58556337107365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91f3e0e0e0e0f%3A0x1234567890abcdef!2sTAKASHI!5e0!3m2!1sen!2sca!4v1234567890123!5m2!1sen!2sca"
+      "embedUrl": null
     },
 
     "about": {
-      "story": "Dine with us to enjoy a rich and savory deliciousness that evokes a taste, harmony, and satisfaction.",
-      "cuisine_type": "Sushi, Grill & Tapas",
-      "established_year": 2015
+      "story": null,
+      "cuisine_type": "Vietnamese",
+      "established_year": null
     }
   },
 
   "metadata": {
-    "request_id": "449b9a18-6585-43dd-b372-0f584d8f5bad",
+    "request_id": "1f70331b-f3fa-4b22-86e3-93bdaaaffb76",
     "generated_query": null,
     "screenshot": null
   }
