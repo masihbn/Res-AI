@@ -6,12 +6,12 @@
 
     "contact": {
       "phone": {
-        "primary": "+1 (514) 728-8886",
-        "booking": "+1 (514) 728-8886",
-        "bookingRaw": "5147288886"
+        "primary": "+1 (819) 919-8385",
+        "booking": "+1 (819) 919-8385",
+        "bookingRaw": "8199198385"
       },
       "email": {
-        "primary": "info@takashi.ca"
+        "primary": "masih@takashi.ca"
       }
     },
 
@@ -34,7 +34,12 @@
       "dinner": {
         "full": null
       },
-      "footer": null
+      "footer": null,
+      "special": {
+        "description": "During winter daily from",
+        "start": "7:00 pm",
+        "end": "9:00 pm"
+      }
     },
 
     "promotions": {
@@ -58,6 +63,10 @@
       "twitter": null,
       "youtube": null,
       "google_maps": null
+    },
+
+    "maps": {
+      "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2793.4851586068874!2d-73.57943102334194!3d45.58556337107365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91f3e0e0e0e0f%3A0x1234567890abcdef!2sTAKASHI!5e0!3m2!1sen!2sca!4v1234567890123!5m2!1sen!2sca"
     },
 
     "about": {
