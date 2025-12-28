@@ -1,71 +1,85 @@
 <svg width="480" height="90" viewBox="0 0 480 90" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background subtle pattern -->
+  <!-- Background -->
   <rect width="480" height="90" fill="transparent"/>
 
-  <!-- Left decorative lotus element -->
-  <g transform="translate(30, 45)">
-    <!-- Lotus flower - Vietnamese symbol -->
-    <path d="M 0 0 Q -2 -10 0 -15 Q 2 -10 0 0" stroke="#E4C590" stroke-width="1.2" fill="none" opacity="0.8"/>
-    <path d="M -5 -8 Q -4 -12 0 -15" stroke="#E4C590" stroke-width="1" fill="none" opacity="0.7"/>
-    <path d="M 5 -8 Q 4 -12 0 -15" stroke="#E4C590" stroke-width="1" fill="none" opacity="0.7"/>
-    <ellipse cx="0" cy="-2" rx="6" ry="4" stroke="#E4C590" stroke-width="1" fill="none" opacity="0.6"/>
-    <!-- Connecting line -->
-    <line x1="10" y1="0" x2="35" y2="0" stroke="#E4C590" stroke-width="0.8" opacity="0.6"/>
+  <!-- Phở Bowl Icon (left side) -->
+  <g transform="translate(25, 20)">
+    <!-- Bowl shadow -->
+    <ellipse cx="25" cy="42" rx="24" ry="6" fill="#DC2626" opacity="0.15"/>
+
+    <!-- Bowl body -->
+    <path d="M 5 35 Q 5 27 25 27 Q 45 27 45 35 L 44 40 Q 44 47 25 47 Q 6 47 6 40 Z"
+          fill="#DC2626" opacity="0.9"/>
+
+    <!-- Bowl rim -->
+    <ellipse cx="25" cy="35" rx="20" ry="5" fill="#EF4444"/>
+    <ellipse cx="25" cy="35" rx="18" ry="4" fill="#FCA5A5" opacity="0.3"/>
+
+    <!-- Broth -->
+    <ellipse cx="25" cy="36" rx="17" ry="3.5" fill="#FEF3C7" opacity="0.6"/>
+
+    <!-- Noodles -->
+    <path d="M 14 35 Q 18 31 22 35 Q 26 31 30 35 Q 34 31 36 35"
+          stroke="#FBBF24" stroke-width="2" fill="none" opacity="0.8"/>
+    <path d="M 16 37 Q 22 33 28 37 Q 32 35 34 37"
+          stroke="#F59E0B" stroke-width="1.5" fill="none" opacity="0.7"/>
+
+    <!-- Herbs/garnish -->
+    <circle cx="20" cy="34" r="1.5" fill="#10B981"/>
+    <circle cx="30" cy="33" r="1.5" fill="#10B981"/>
+    <circle cx="25" cy="36" r="1" fill="#10B981"/>
+
+    <!-- Chopsticks -->
+    <line x1="33" y1="18" x2="38" y2="36" stroke="#8B4513" stroke-width="1.8" stroke-linecap="round"/>
+    <line x1="36" y1="17" x2="41" y2="35" stroke="#A0522D" stroke-width="1.8" stroke-linecap="round"/>
+
+    <!-- Steam wisps -->
+    <path d="M 12 22 Q 13 16 15 22" stroke="#DC2626" stroke-width="1.8" fill="none" opacity="0.5" stroke-linecap="round"/>
+    <path d="M 19 19 Q 20 13 22 19" stroke="#EF4444" stroke-width="1.8" fill="none" opacity="0.5" stroke-linecap="round"/>
+    <path d="M 28 21 Q 29 15 31 21" stroke="#DC2626" stroke-width="1.8" fill="none" opacity="0.5" stroke-linecap="round"/>
+    <path d="M 35 23 Q 36 18 38 23" stroke="#EF4444" stroke-width="1.5" fill="none" opacity="0.4" stroke-linecap="round"/>
   </g>
 
-  <!-- Main restaurant name -->
-  <text x="240" y="35" font-family="Georgia, serif" font-size="28" font-weight="500"
-        fill="#FFFFFF" text-anchor="middle" letter-spacing="5">
-    RESTAURANT
+  <!-- Main Restaurant Name -->
+  <text x="90" y="48" font-family="'Playfair Display', Georgia, serif" font-size="40" font-weight="700"
+        fill="#F9FAFB" letter-spacing="1">
+    Phở Khánh Hoà
   </text>
 
-  <!-- Business name - larger and prominent -->
-  <text x="240" y="62" font-family="Georgia, serif" font-size="34" font-weight="600"
-        fill="#E4C590" text-anchor="middle" letter-spacing="8">
-    THANH THAO
+  <!-- Decorative line accent -->
+  <rect x="90" y="54" width="280" height="2" fill="#DC2626" opacity="0.6" rx="1"/>
+  <rect x="90" y="54" width="120" height="2" fill="#EF4444" rx="1"/>
+
+  <!-- Tagline -->
+  <text x="90" y="70" font-family="'Inter', 'Segoe UI', sans-serif" font-size="10"
+        fill="#D1D5DB" letter-spacing="2.5" font-weight="300">
+    LA QUINTESSENCE DE LA CUISINE VIETNAMIENNE
   </text>
 
-  <!-- Decorative underline with Vietnamese pattern -->
-  <g transform="translate(240, 70)">
-    <line x1="-110" y1="0" x2="110" y2="0" stroke="#E4C590" stroke-width="0.6" opacity="0.5"/>
-    <!-- Small decorative elements -->
-    <circle cx="-115" cy="0" r="2" fill="none" stroke="#E4C590" stroke-width="0.6" opacity="0.6"/>
-    <circle cx="115" cy="0" r="2" fill="none" stroke="#E4C590" stroke-width="0.6" opacity="0.6"/>
+  <!-- Vietnamese decorative pattern (right side) -->
+  <g transform="translate(420, 45)" opacity="0.15">
+    <!-- Traditional Vietnamese circular pattern -->
+    <circle cx="0" cy="-15" r="12" stroke="#DC2626" stroke-width="1.5" fill="none"/>
+    <circle cx="0" cy="-15" r="8" stroke="#EF4444" stroke-width="1" fill="none"/>
+    <circle cx="0" cy="-15" r="4" fill="#DC2626"/>
+
+    <circle cx="0" cy="15" r="12" stroke="#DC2626" stroke-width="1.5" fill="none"/>
+    <circle cx="0" cy="15" r="8" stroke="#EF4444" stroke-width="1" fill="none"/>
+    <circle cx="0" cy="15" r="4" fill="#DC2626"/>
+
+    <circle cx="20" cy="0" r="10" stroke="#EF4444" stroke-width="1.5" fill="none"/>
+    <circle cx="20" cy="0" r="6" stroke="#DC2626" stroke-width="1" fill="none"/>
+    <circle cx="20" cy="0" r="3" fill="#EF4444"/>
   </g>
 
-  <!-- Right decorative lotus element (mirrored) -->
-  <g transform="translate(450, 45) scale(-1, 1)">
-    <!-- Lotus flower -->
-    <path d="M 0 0 Q -2 -10 0 -15 Q 2 -10 0 0" stroke="#E4C590" stroke-width="1.2" fill="none" opacity="0.8"/>
-    <path d="M -5 -8 Q -4 -12 0 -15" stroke="#E4C590" stroke-width="1" fill="none" opacity="0.7"/>
-    <path d="M 5 -8 Q 4 -12 0 -15" stroke="#E4C590" stroke-width="1" fill="none" opacity="0.7"/>
-    <ellipse cx="0" cy="-2" rx="6" ry="4" stroke="#E4C590" stroke-width="1" fill="none" opacity="0.6"/>
-    <!-- Connecting line -->
-    <line x1="10" y1="0" x2="35" y2="0" stroke="#E4C590" stroke-width="0.8" opacity="0.6"/>
-  </g>
+  <!-- Corner accent elements -->
+  <g opacity="0.3">
+    <!-- Top left accent -->
+    <rect x="8" y="8" width="3" height="15" fill="#DC2626" rx="1.5"/>
+    <rect x="8" y="8" width="15" height="3" fill="#DC2626" rx="1.5"/>
 
-  <!-- Vietnamese cuisine tagline -->
-  <text x="240" y="82" font-family="Georgia, serif" font-size="9" font-weight="300"
-        fill="#E4C590" text-anchor="middle" letter-spacing="3" opacity="0.85">
-    VIETNAMESE CUISINE
-  </text>
-
-  <!-- Decorative bamboo-inspired corner accents -->
-  <g opacity="0.4">
-    <!-- Top left bamboo segment -->
-    <line x1="15" y1="12" x2="15" y2="22" stroke="#E4C590" stroke-width="1.5"/>
-    <line x1="12" y1="15" x2="18" y2="15" stroke="#E4C590" stroke-width="0.5"/>
-
-    <!-- Top right bamboo segment -->
-    <line x1="465" y1="12" x2="465" y2="22" stroke="#E4C590" stroke-width="1.5"/>
-    <line x1="462" y1="15" x2="468" y2="15" stroke="#E4C590" stroke-width="0.5"/>
-
-    <!-- Bottom left bamboo segment -->
-    <line x1="15" y1="68" x2="15" y2="78" stroke="#E4C590" stroke-width="1.5"/>
-    <line x1="12" y1="75" x2="18" y2="75" stroke="#E4C590" stroke-width="0.5"/>
-
-    <!-- Bottom right bamboo segment -->
-    <line x1="465" y1="68" x2="465" y2="78" stroke="#E4C590" stroke-width="1.5"/>
-    <line x1="462" y1="75" x2="468" y2="75" stroke="#E4C590" stroke-width="0.5"/>
+    <!-- Bottom right accent -->
+    <rect x="469" y="67" width="3" height="15" fill="#DC2626" rx="1.5"/>
+    <rect x="457" y="79" width="15" height="3" fill="#DC2626" rx="1.5"/>
   </g>
 </svg>

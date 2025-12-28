@@ -1,65 +1,29 @@
 {
   "data": {
-    "name": "Restaurant Thanh Thao",
-    "tagline": null,
-    "description": "Vietnamese restaurant serving traditional Vietnamese cuisine in a cozy setting.",
+    "name": "Phở Khánh Hoà",
+    "tagline": "La quintessence de la cuisine vietnamienne",
+    "description": "Nous proposons des plats vietnamiens caractérisés par la fraîcheur et la richesse des saveurs. Nous utilisons uniquement des produits frais de première qualité pour préparer nos nourritures.",
 
     "contact": {
-      "phone": {
-        "primary": "+1 (514) 733-1110",
-        "booking": "+1 (514) 733-1110",
-        "bookingRaw": "5147331110"
-      },
-      "email": {
-        "primary": "restott5145@gmail.com"
-      }
+      "phone": "+1 514-727-9898",
+      "email": null
     },
 
     "address": {
-      "full": "5145 Rue Jean-Talon Est, Montréal, QC H1S 1K8, Canada",
-      "fullMultiline": "5145 Rue Jean-Talon Est<br>Montréal, QC H1S 1K8",
-      "street": "5145 Rue Jean-Talon Est",
-      "city": "Montréal",
+      "full": "5110 Rue Jean-Talon E, Saint-Léonard, QC H1S 1K7, Canada",
+      "fullMultiline": "5110 Rue Jean-Talon E<br>Saint-Léonard, QC H1S 1K7<br>Canada",
+      "street": "5110 Rue Jean-Talon E",
+      "city": "Saint-Léonard",
       "region": "QC",
-      "postal_code": "H1S 1K8",
+      "postal_code": "H1S 1K7",
       "country": "Canada"
     },
 
-    "hours": {
-      "dailyShort": "Tue–Sat: 10:30–21:00; Sun: 12:00–21:00; Mon: Closed",
-      "sidebar": "Tue–Sat: 10:30–21:00; Sun: 12:00–21:00; Mon: Closed",
-      "lunch": {
-        "full": "11:00–15:00 (approx, typical daily schedule)"
-      },
-      "dinner": {
-        "full": "17:00–21:00 (approx, typical daily schedule)"
-      },
-      "footer": "Tue–Sat: 10:30–21:00<br>Sun: 12:00–21:00<br>Mon: Closed",
-      "special": {
-        "description": null,
-        "start": null,
-        "end": null
-      }
-    },
-
-    "promotions": {
-      "newsletter": {
-        "subtitle": "",
-        "discountText": ""
-      }
-    },
-
-    "legal": {
-      "copyrightYear": null,
-      "copyrightHolder": "Restaurant Thanh Thao",
-      "attribution": {
-        "text": null
-      }
-    },
+    "hours": "Sun–Sat: 11:00–20:00",
 
     "social": {
-      "facebook": "https://www.facebook.com/RestoTT5145/",
-      "instagram": null,
+      "facebook": "https://www.facebook.com/phokhanhhoa5110/", 
+      "instagram": "https://www.instagram.com/pho_khanh_hoa/", 
       "twitter": null,
       "youtube": null,
       "google_maps": null
@@ -67,18 +31,6 @@
 
     "maps": {
       "embedUrl": null
-    },
-
-    "about": {
-      "story": null,
-      "cuisine_type": "Vietnamese",
-      "established_year": null
     }
-  },
-
-  "metadata": {
-    "request_id": "1f70331b-f3fa-4b22-86e3-93bdaaaffb76",
-    "generated_query": null,
-    "screenshot": null
   }
 }

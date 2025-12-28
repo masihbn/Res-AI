@@ -50,11 +50,18 @@
       const configPath = element.getAttribute('data-config');
       const value = getNestedValue(config, configPath);
       if (value !== null) {
+        let displayValue = value;
+        // Check if element is in topbar (inline display, keep semicolons)
+        const isInTopbar = element.closest('.topbar');
+        // Convert semicolons to <br> tags for better formatting (except in topbar)
+        if (!isInTopbar && typeof value === 'string' && value.includes(';')) {
+          displayValue = value.replace(/;\s*/g, '<br>');
+        }
         // Check if value should be inserted as HTML (contains <br> or other HTML)
-        if (typeof value === 'string' && value.includes('<')) {
-          element.innerHTML = value;
+        if (typeof displayValue === 'string' && displayValue.includes('<')) {
+          element.innerHTML = displayValue;
         } else {
-          element.textContent = value;
+          element.textContent = displayValue;
         }
       }
     });
@@ -73,7 +80,9 @@
       const configPath = element.getAttribute('data-config-tel');
       const value = getNestedValue(config, configPath);
       if (value !== null) {
-        element.setAttribute('href', `tel:${value}`);
+        // Strip formatting: keep only digits and leading '+'
+        const cleanValue = value.replace(/(?!^\+)[^\d]/g, '');
+        element.setAttribute('href', `tel:${cleanValue}`);
       }
     });
 

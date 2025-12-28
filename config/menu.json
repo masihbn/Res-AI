@@ -2,941 +2,549 @@
     "data": {
         "menu_categories": [
             {
-                "category_name": "Appetizers (Entrees)",
+                "category_name": "Entrées / Appetizers (Delivery)",
                 "items": [
                     {
-                        "name": "Wonton Sauce Aux Arachides",
+                        "name": "Wonton Chiên",
+                        "price": 4,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Wonton Frits / Fried Wonton6 mcx / 6 pcs.",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/0a545ae75a7eb0108898a381b0474cdb/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Chả Giò",
+                        "price": 4,
+                        "like_percentage": 93,
+                        "rating_count": 551,
+                        "description": "Rouleaux Impériaux / Imperial Roll2 rouls. / 2 Rolls.",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/ada28e02a864707d15a0ea520705128c/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Soupe du Jour",
+                        "price": 5,
+                        "like_percentage": 100,
+                        "rating_count": 37,
+                        "description": "Daily soup selection.",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Gỏi Cuốn Tôm",
+                        "price": 6,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Rouleaux Printanier (Crevettes) / Spring Roll (Shrimp)",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Wonton Soup",
+                        "price": 6,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Soupe Wonton / Wonton Soup",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Gỏi Cuốn Bò",
                         "price": 8,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Wonton au Poulet salés servis avec une sauce aux arachides riche et crémeuse.Savory wontons served with a rich, creamy peanut sauce.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/17747b91a7d018076aca543402da160c/70aa2a4db7f990373ca9c376323e3dea.jpeg",
-                        "badges": [
-                            "Contains Nuts"
-                        ]
-                    },
-                    {
-                        "name": "Rouleaux Impériaux (4)",
-                        "price": 8,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Rouleaux impériaux vietnamiens croustillantsCrispy Vietnamese imperial rolls, perfect as an appetizer.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/07fba42537e49f50ab57b165d915ddd6/70aa2a4db7f990373ca9c376323e3dea.jpeg",
-                        "badges": [
-                            "Popular"
-                        ]
-                    },
-                    {
-                        "name": "Rouleaux De Printemps (2)",
-                        "price": 8,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Rouleaux de printemps vietnamiens frais avec crevettes, herbes et vermicelles, enroulés dans du papier de riz.Fresh Vietnamese spring rolls with shrimp, herbs, and vermicelli, wrapped in rice paper.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/b9b545454ddf3aec29b7b0153ca60847/70aa2a4db7f990373ca9c376323e3dea.jpeg",
-                        "badges": [
-                            "Popular"
-                        ]
-                    },
-                    {
-                        "name": "Galettes De Riz Frit Avec Ceuf",
-                        "price": 10,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Gâteaux de farine de riz frits salés, accompagnés d'œufs, offrant une texture croustillante délicieuse.Savory fried rice flour cakes paired with eggs, offering a delightful crispy texture.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/7c12635bbc088afa6553c46c07d33cc4/70aa2a4db7f990373ca9c376323e3dea.jpeg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Wontons Frits (8)",
-                        "price": 8,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Crispy fried wontons, perfect for a savory start to your meal.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/8ba690f86a64d81d958792a7b893c440/70aa2a4db7f990373ca9c376323e3dea.jpeg",
-                        "badges": [
-                            "Popular"
-                        ]
-                    },
-                    {
-                        "name": "Crevettes Tempura (4)",
-                        "price": 9,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Crevettes croustillantes en tempura, parfaites pour une entrée légère et savoureuse.Crispy tempura-battered shrimps, perfect for a light and savory start to your meal.",
-                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/00a6190b6c92d8e20e48fe768fd12a49/70aa2a4db7f990373ca9c376323e3dea.jpeg",
-                        "badges": []
-                    },
-                    {
-                        "name": "Combo Entrée Thanh Thao",
-                        "price": 23,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "(wontons frits (8), crevettes tempura (4), rouleaux impériaux (4), calmars frits (4) Combo Appetizer Thanh Thao (fried wontons (8), tempura shrimps (4),imperial rolls (4), fried squids (4) Combo Khai vị Thanh Thảo (hoành thánh chiên (8), Tôm tempura (4), chả giò (4), mực chiên (4).",
+                        "like_percentage": 92,
+                        "rating_count": 65,
+                        "description": "Rouleaux Printanier (Boeuf) / Spring Roll (Beef)",
                         "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Crevettes Frites Au Sel Et Poivre",
-                        "price": 19,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Fried shrimps with salt and pepper. Tôm rang muối tiêu.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Ailes De Poulet Frites À La Sauce De Poisson (6)",
-                        "price": 10,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Ailes de poulet croustillantes en sauce de poisson, une explosion de saveurs umami.Crispy chicken wings in fish sauce, an explosion of umami flavors.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Ailes De Poulet Frites À La Sauce De Poisson (12)",
-                        "price": 19,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Deep fried chicken wings in fish sauce (12). Cánh gà chiên nước mắm (12).",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Calmars Frits Au Sel Et Poivre",
-                        "price": 19,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Fried calamari with salt and pepper. Mực rang muối.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Tofus Frits Au Sel Et Poivre",
-                        "price": 16,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Fried tofu with salt and pepper. Đậu hũ rang muối.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Mini Crêpes Vietnamiennes Au Porc Et Crevettes",
-                        "price": 11,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Vietnamese Savory Mini Pancakes. Bánh khọt.",
-                        "image": null,
-                        "badges": []
-                    }
-                ]
-            },
-            {
-                "category_name": "Soups and Salad (Soupes Et Salades)",
-                "items": [
-                    {
-                        "name": "Soupe Wonton",
+                        "name": "Gỏi Cuốn Gà",
                         "price": 7,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Wonton soup. Soupe hoành thánh.",
-                        "image": null,
-                        "badges": [
-                            "Popular"
-                        ]
-                    },
-                    {
-                        "name": "Soupe Tom Yum",
-                        "price": 7,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Tom yum soup.Soupe Tom Yum.",
+                        "description": "Rouleaux Printanier (Poulet) / Spring Roll (Chicken)",
                         "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Soupe Miso Aux Fruits De Mer",
-                        "price": 7,
+                        "name": "Tempura",
+                        "price": 8,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Seafood Miso soup. Soupe miso đồ biển",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Salade De Mangue",
-                        "price": 22,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Mango salad. Gỏi xoài.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Salade De Canard",
-                        "price": 27,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Vietnamese Duck salad. Gỏi vịt.",
+                        "description": "3 mcx / 3 pcs.",
                         "image": null,
                         "badges": []
                     }
                 ]
             },
             {
-                "category_name": "Meal Soups (Soupes Repas)",
+                "category_name": "Phở / Soupe Tonkinoise / Tonkinese Soup (Delivery)",
                 "items": [
                     {
-                        "name": "R1 Soupe Poulardine Spéciale Thanh Thao",
-                        "price": 17,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Thanh Thao special chicken soup with vegetables. Soupe gà rau Thanh Thảo.",
-                        "image": null,
+                        "name": "Phở Tái",
+                        "price": 19,
+                        "like_percentage": 96,
+                        "rating_count": 386,
+                        "description": "Soupe Tonkinoise au Boeuf Saignant / Rare Beef Tonkinese Soup",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/b315ff6e934e6a72920585a14f2d74b2/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
                         "badges": [
-                            "Popular"
+                            "#3 most liked"
                         ]
                     },
                     {
-                        "name": "R2 Soupe Tom Yum Avec Vermicelles",
-                        "price": 17,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Tom yum soup with vermicelli. Soupe Tom Yum.",
-                        "image": null,
+                        "name": "Phở Đặc Biệt Đồ Biển",
+                        "price": 19,
+                        "like_percentage": 100,
+                        "rating_count": 25,
+                        "description": "Soupe Tonkinoise aux Fruits de Mer / Seafood Tonkinese Soup",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/908a3f0563fce787aa1663ebc06f915a/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
                         "badges": []
                     },
                     {
-                        "name": "R3 Soupe Tonkinoise Au Boeuf Saignant, Flanc Bien Cuit Et Boulettes De Boeuf",
-                        "price": 17,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Flank & rare steak and beef meatballs. Phở đặc biệt.",
-                        "image": null,
+                        "name": "Phở Tái Nạm Gân",
+                        "price": 19,
+                        "like_percentage": 100,
+                        "rating_count": 24,
+                        "description": "Soupe Tonkinoise au Boeuf Saignant, Flanc Bien Cuit et Tendons / Rare Beef Tonkinese Soup with Well-Done Flank and Soft Tendons",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/4481d288784ef23fa4bf74fcf552ec6e/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
                         "badges": []
                     },
                     {
-                        "name": "R4 Soupe Tonkinoise Au Boeuf Saignant",
-                        "price": 17,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Rare beef tonkinese. Phở tái.",
-                        "image": null,
-                        "badges": [
-                            "Popular"
-                        ]
-                    },
-                    {
-                        "name": "R5 Soupe Au Boeuf Épicée Style Hué",
-                        "price": 17,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Spicy Huế style vermicelli soup with beef. Bún bò Huế.",
-                        "image": null,
-                        "badges": [
-                            "Spicy"
-                        ]
-                    },
-                    {
-                        "name": "R6 Soupe Aux Nouilles Raviolis Wonton",
-                        "price": 17,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Wonton & Egg noodles soup. Mì Hoành Thánh.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "R7 Soupe Wonton",
-                        "price": 15,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Wonton soup. Hoành Thánh.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "R8 Soupe Kuy Teav Phnom Penh",
+                        "name": "Phở Gà Nướng",
                         "price": 19,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Soup Kuy teav Phnom Penh. Hủ tiếu Nam Vang.",
-                        "image": null,
+                        "description": "Soupe Tonkinoise au Poulet Grillé au Citronnelle / Grilled Chicken with Lemon Grass Tonkinese Soup",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/7f66476268f88a3b0cd8a2ddd0a54ac6/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+                        "badges": [
+                            "#2 most liked"
+                        ]
+                    },
+                    {
+                        "name": "Phở Chín",
+                        "price": 19,
+                        "like_percentage": 97,
+                        "rating_count": 189,
+                        "description": "Soupe Tonkinoise au Boeuf Bien Cuit / Well-done Beef Tonkinese Soup",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/ae46560545f6a455cf08d91dc5b6a722/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
                         "badges": []
                     },
                     {
-                        "name": "R9 Soupe Vietnamienne De Nouilles Au Crabe",
-                        "price": 18,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Vietnamese Crab Noodle soup. Bún riêu.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "R10 Soupe À Base De Poisson Et Fruits De Mer",
+                        "name": "Phở Tái Bò Viên",
                         "price": 19,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Fish and Seafood Noodle soup. Bún cá đặc biệt.",
-                        "image": null,
-                        "badges": []
-                    }
-                ]
-            },
-            {
-                "category_name": "Goat Specialities (Specialites Chevre)",
-                "items": [
-                    {
-                        "name": "Chèvre Grillée Au Saté",
-                        "price": 19,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Sate grilled goat meat. Dê nướng sa tế.",
-                        "image": null,
+                        "description": "Soupe Tonkinoise au Boeuf Saignant et Boulettes de Boeuf / Rare Beef Tonkinese Soup with Beefballs",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/f5d9bf33dcb1b652b26b00963efe9ed8/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
                         "badges": []
                     },
                     {
-                        "name": "Chèvre À La Vapeur À La Citronnelle",
-                        "price": 27,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Steamed Goat in lemongrass. Dê hấp sả.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Chèvre Sautée Au Curry",
-                        "price": 27,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Goat Curry. Dê xào lăn.",
-                        "image": null,
-                        "badges": [
-                            "Popular"
-                        ]
-                    },
-                    {
-                        "name": "Fondue À La Chèvre (pour 2 Personnes)",
-                        "price": 52,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Goat hot pot (for 2 people). Lẩu dê (Cho 2 người)",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Fondue À La Chèvre (pour 4 Personnes)",
-                        "price": 102,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Goat hot pot (for 4 people). Lẩu dê (Cho 4 người)",
-                        "image": null,
-                        "badges": []
-                    }
-                ]
-            },
-            {
-                "category_name": "Our Specialities (Nos Specialites)",
-                "items": [
-                    {
-                        "name": "Porc Haché Grillé Servi Avec Vermicelles & Rouleaux Impériaux",
-                        "price": 18,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Grilled pork patties with vermicelli and imperial rolls. Bún nem nướng chả giò.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Porc Grillé Servi Avec Vermicelles & Rouleaux Impériaux",
-                        "price": 18,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Grilled pork with vermicelli and imperial rolls. Bún thịt nướng chả giò.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Bœuf Sauté À La Citronnelle Servi Avec Vermicelles",
-                        "price": 18,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Sauteed beef with lemongrass served with vermicelli. Bún bò xào.",
-                        "image": null,
-                        "badges": [
-                            "Popular"
-                        ]
-                    },
-                    {
-                        "name": "Vermicelles Au Porc Grillé Spécialement Condiments D'hanoi Servis Avec Salade",
-                        "price": 22,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Hanoi style grilled pork served with vermicelli and salad. Bún chả Hà Nội.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Tofu Frit Et Porc Servi Avec Une Sauce De Crevettes, Vermicelles Et Salade",
-                        "price": 24,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Fried tofu and pork served with shrimp sauce, vermicelli and salad. Bún đậu mắm tôm.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Soupe Au Poisson Fermenté Et Fruits De Mer",
-                        "price": 18,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Fermented Fish & Seafood Soup. Bún mắm.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Soupe Vietnamienne Au Canard Et Pousses De Bambou",
-                        "price": 18,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Vietnamese Duck noodle soup with bamboo shoots. Bún măng vịt",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Crêpes Vietnamiennes Farcies Aux Crevettes Et Au Porc",
-                        "price": 19,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Vietnamese Sizzling & Crispy Crêpes stuffed with shrimps and pork. Bánh xèo.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Filet De Poisson Aux Fines Herbes Grillés Servis Avec Vermicelle Et Salade De Style “la Vong”",
-                        "price": 21,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "La Vong flavoured fish filet with vermicelli and salad. Chả cá Lã Vọng.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Riz Cassé Avec Côtelette De Porc Grillé, Porc Émincé, Pain De Viande Et Oeuf Frit",
-                        "price": 18,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Broken rice with pork chops, shredded pork skin, Vietnamese meatloaf and a fried egg.Cơm tấm sườn bì chả và trứng Ốp La.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Rouleaux De Bœuf À La Citronnelle Et Porc Haché Grillés",
-                        "price": 32,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Lemongrass beef wrapped in betel leaf and grilled pork patties. Bò lá lốt nem nướng.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Rouleaux De Bœuf À La Citronnelle Grillés",
-                        "price": 23,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Lemongrass beef wrapped in betel leaf. Bò lá lốt",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Nouilles Aux Oeufs Avec Crevettes Grillées",
-                        "price": 18,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Egg noodles with grilled shrimps. Mì khô tôm nướng.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Nouilles Aux Oeufs Avec Poulet Grillé",
-                        "price": 18,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Egg noodles with grilled chicken. Mì khô gà nướng",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Nouilles Aux Oeufs Avec Porc Grillé",
-                        "price": 18,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Egg noodles with grilled pork. Mì khô thịt nướng.",
-                        "image": null,
-                        "badges": []
-                    }
-                ]
-            },
-            {
-                "category_name": "Sauteed Plates (Plates Sautes)",
-                "items": [
-                    {
-                        "name": "Poulet Général Tao",
-                        "price": 17,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "General Thao. Gà Thao.",
-                        "image": null,
-                        "badges": [
-                            "Popular"
-                        ]
-                    },
-                    {
-                        "name": "Pad Thai",
-                        "price": 18,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": null,
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Nouilles Udon / Stir-Fried Udon / Mì Udon",
-                        "price": 18,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": null,
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Nouilles Style Singapour",
-                        "price": 18,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": null,
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Nouilles croustillantes / Crispy Noodles / Mì xào giòn",
-                        "price": 18,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": null,
-                        "image": null,
-                        "badges": [
-                            "Popular"
-                        ]
-                    },
-                    {
-                        "name": "Nouilles Pad See Ew Sautées Au Boeuf Et Brocoli Chinois",
-                        "price": 18,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Pad sew with beef and Chinese broccoli. Hủ tiếu xào cải làng.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Nouilles De Riz Sautées Avec Boeuf Et Fèves Germées",
-                        "price": 18,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Sauteed rice noodles with beef and bean sprouts. Hủ tiếu xào bò khô.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Riz Frit Au Poisson Salé",
-                        "price": 18,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Salted Fish fried rice. Cơm chiên cá mặn.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Riz Frit Au Saumon",
-                        "price": 18,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Salmon fried rice. Cơm chiên cá hồi.",
-                        "image": null,
-                        "badges": []
-                    }
-                ]
-            },
-            {
-                "category_name": "Sauteed Chicken (Poulet saute)",
-                "items": [
-                    {
-                        "name": "Poulet Sauté aux Légumes",
-                        "price": 17,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Sautéed chicken with vegetable. Gà xào rau.",
-                        "image": null,
-                        "badges": [
-                            "Popular"
-                        ]
-                    },
-                    {
-                        "name": "Poulet Sauté aux Ananas",
-                        "price": 17,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Sautéed chicken with pineapple. Gà xào khóm.",
-                        "image": null,
-                        "badges": []
-                    }
-                ]
-            },
-            {
-                "category_name": "Boeuf saute (Sauteed Beef)",
-                "items": [
-                    {
-                        "name": "Boeuf Loc Lac Découpé en Cube",
-                        "price": 17,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Vietnamese shaking beef. Bò lúc lắc.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Boeuf Sauté au Saté",
-                        "price": 17,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Sautéed beef with saté. Bò xào sate.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Boeuf Sauté au Cari",
-                        "price": 17,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Sautéed beef with curry. Bò xào cà ri.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Bœuf Mongolien",
-                        "price": 17,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Mongolian's beef. Bò Mongolien.",
-                        "image": null,
-                        "badges": []
-                    }
-                ]
-            },
-            {
-                "category_name": "Teriyaki (Teriyaki)",
-                "items": [
-                    {
-                        "name": "Poulet Teriyaki",
+                        "name": "Phở Đặc Biệt",
                         "price": 20,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Teriyaki chicken. Gà Teriyaki.",
+                        "description": "Soupe Tonkinoise Spéciale (Boeuf saignant, boulette de boeuf, flnac bien cuit, tendons et tripes.) / Special Tonkinese Soup (Rare beef, beefballs, well-done flank, soft tendons, and trips.)",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/5479b1ea33006019292870e56f8eae09/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Phở Tái Nạm",
+                        "price": 19,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Soupe Tonkinoise au Boeuf Saignant et Flanc Bien Cuit / Rare Beef Tonkinese Soup with Well-done Flank",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/c1dce6f7540b588844a50e01f5fe9776/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Bún Bò Huế",
+                        "price": 19,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Soup Piquante Style Hue / Spicy Soup Hue's Style",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/ed8459d2ae851d3dc07845a8ac90b523/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Phở Tái Gân",
+                        "price": 19,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Soupe Tonkinoise au Boeuf Saignant et Tendons / Rare Beef Tonkinese Soup with Soft Tendons",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/27e4089ff94d627167f3902098b89e55/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Phở Tái Sách",
+                        "price": 19,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Soupe Tonkinoise au Boeuf Saignant et Tripes / Rare Beef Tonkinese Soup with Beef Trips",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/2f7d4b44c77cb171f06e41077655d9e5/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Phở Tái Gân Sách",
+                        "price": 19,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Soupe Tonkinoise au Boeuf Saignant, Tendons et Tripes / Rare Beef Tonkinese Soup with Soft Tendons And Trips",
                         "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Boeuf Teriyaki",
-                        "price": 21,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Teriyaki beef. Bò Teriyaki.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Saumon Teriyaki",
-                        "price": 22,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Teriyaki salmon. Cá Saumon Teriyaki.",
+                        "name": "Phở Rau",
+                        "price": 18,
+                        "like_percentage": 96,
+                        "rating_count": 191,
+                        "description": "Soupe Tonkinoise aux Légumes / Vegetable Tonkinese Soup",
                         "image": null,
                         "badges": []
                     }
                 ]
             },
             {
-                "category_name": "Combo (Les Repas Combines)",
+                "category_name": "Grillades / Grill (Delivery)",
                 "items": [
                     {
-                        "name": "Boeuf Loc Lac Découpé en Cube",
+                        "name": "Tôm Nướng",
+                        "price": 16,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Crevette Grillées / Grilled Shrimp",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/457b786024df7cd00757938bacb599cd/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Bò Gà Nướng",
+                        "price": 17,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Poulet et Boeuf Grillés / Grilled Chicken and Beef",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/177e638dfe84206508a0f34e04255c9a/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Bún Thịt Nướng Chả Giò",
+                        "price": 17,
+                        "like_percentage": 98,
+                        "rating_count": 131,
+                        "description": "Grillade de porc / Grilled Pork (Servi avec vermicelle, rouleau imperial et salade / Served with vermicelli, imperial roll, and salad.)",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/3391c6cf87c634b52586ac08a41122fb/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Sườn Gà Nướng",
+                        "price": 17,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Côtelettes de Porc et Poulet Grillés / Grilled Pork and Chicken",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/e88945286c13f93ade3b663d726a0e30/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Tôm Gà Nướng",
+                        "price": 17,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Crevette et Poulet Grillés / Grilled Shrimp and Chicken",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/225d4ede8730269705aa9971fe1b5b2f/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Bò Nướng",
+                        "price": 16,
+                        "like_percentage": 95,
+                        "rating_count": 101,
+                        "description": "Flanc de Boeuf Grillé / Grilled Beef",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/b8bc8e233be2b3998195315c8cb44d47/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Thịt Nướng",
+                        "price": 14,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Porc Grillé / Grilled Pork",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/42edd4c0b1a99ccb259efde8df357e4f/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Sườn Nướng",
+                        "price": 16,
+                        "like_percentage": 96,
+                        "rating_count": 55,
+                        "description": "Côtelettes de Porc Grillées / Grilled Pork Chops",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/4c323a0c8469f5d40c7720356448c515/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Gà Nướng",
+                        "price": 15,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Poulet Grillé / Grilled Chicken",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/ee918766ae2d6c52374261363f07ecd2/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Sườn Bò Nướng",
+                        "price": 17,
+                        "like_percentage": 100,
+                        "rating_count": 36,
+                        "description": "Côtelettes de Porc et Boeuf Grillés / Grilled Pork and Beef",
+                        "image": null,
+                        "badges": []
+                    },
+                    {
+                        "name": "Bò Gà Tôm Nướng",
                         "price": 19,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Vietnamese shaking beef. Bò lúc lắc.",
+                        "description": "Crevette, Poulet et Boeuf Grillés / Grilled Shrimp, Chicken and Beef",
                         "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Boeuf Sauté au Saté",
+                        "name": "Tôm Bò Nướng",
+                        "price": 17,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Crevette et Boeuf Grillés / Grilled Shrimp and Beef",
+                        "image": null,
+                        "badges": []
+                    }
+                ]
+            },
+            {
+                "category_name": "Combinaisons / Combo Meals (Delivery)",
+                "items": [
+                    {
+                        "name": "Combo C",
+                        "price": 18,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Brochette de crevette grillées, soupe du jour, rouleau impérial, riz, et salade. / Grilled shrimp skewer, soup of the day, imperial rolls, rice, and salad.",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/43e40df162dce822a429f3dba5fbf550/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Combo I",
+                        "price": 17,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Pad thai au poulet, soupe du jour, rouleau impérial, riz, et salade. / Chicken pad Thai, soup of the day, imperial rolls, rice, and salad.",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/c7b5e3091511445e02c51edd7ebca66b/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Combo D",
                         "price": 19,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Sautéed beef with saté. Bò xào sate.",
-                        "image": null,
+                        "description": "Poulet et brochette de cervettes grillés, soupe du jour, rouleaux impérial, riz, et salade. / Grilled chicken and shrimp skewer, soup of the day, imperial rolls, rice, and salad.",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/155daff0ea9659266551739397061559/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
                         "badges": []
                     },
                     {
-                        "name": "Boeuf Sauté au Cari",
+                        "name": "Combo A",
+                        "price": 17,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Poulet grillé, soupe du jour, rouleau impérial, riz, et salade. / Grilled chicken, soup of the day, imperial rolls, rice, and salad.",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/7542c0ede21cebc6e98ef701efebf639/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Combo E",
+                        "price": 18,
+                        "like_percentage": 95,
+                        "rating_count": 119,
+                        "description": "Boeuf et brochette de cervettes grillés, soupe du jour, rouleau impérial, riz, et salade. / Grilled beef and shrimp skewer, soup of the day, imperial rolls, rice, and salad.",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/c9511ef00504739f21e8ed556d2a92c9/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Combo F",
                         "price": 19,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Sautéed beef with curry. Bò xào cà ri.",
-                        "image": null,
+                        "like_percentage": 94,
+                        "rating_count": 503,
+                        "description": "Poulet et boeuf grillés, soupe du jour, rouleau impérial, riz, et salade. / Grilled chicken and beef, soup of the day, imperial rolls, rice, and salad.",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/caab107b227ad92b1c97d2fcc5d8a387/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+                        "badges": [
+                            "#1 most liked"
+                        ]
+                    },
+                    {
+                        "name": "Combo B",
+                        "price": 18,
+                        "like_percentage": 97,
+                        "rating_count": 155,
+                        "description": "Boeuf grillé, soupe du jour, rouleau impérial, riz, et salade. / Grilled beef, soup of the day, imperial rolls, rice, and salad.",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/9e7b2930b8b045fabb84e7561084a594/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
                         "badges": []
                     },
                     {
-                        "name": "Bœuf Mongolien",
-                        "price": 19,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Mongolian's beef. Bò Mongolien.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Poulet Teriyaki",
-                        "price": 21,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Teriyaki chicken. Gà Teriyaki.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Boeuf Teriyaki",
+                        "name": "Combo G",
                         "price": 23,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Teriyaki beef. Bò Teriyaki.",
-                        "image": null,
+                        "like_percentage": 98,
+                        "rating_count": 268,
+                        "description": "Poulet, boeuf et brochette de cervettes grillés, soupe du jour, rouleau impérial, riz, et salade. / Grilled chciken, beef and shrimp skewer, soup of the day, imperial rolls, rice, and salad.",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/ee41f795c64d7e286fb19018aa6dd31d/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
                         "badges": []
                     },
                     {
-                        "name": "Saumon Teriyaki",
-                        "price": 23,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Teriyaki salmon. Cá Saumon Teriyaki.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Poulet Grillé Servi Avec Riz et Salade",
-                        "price": 24,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Grilled chicken served with rice and salad. Cơm gà nướng và salad.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Bœuf Grillé Servi Avec Riz et Salade",
-                        "price": 26,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Grilled beef served with rice and salad. Bò nướng và salad.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Poulet et Bœuf Grillés Servis Avec Riz et Salade",
-                        "price": 27,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Grilled chicken and beef served with rice and salad. Cơm gà bò nướng và salad.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Poulet et Crevettes Grillés Servis Avec Riz et Salade",
-                        "price": 26,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Grilled chicken and shrimps served with rice and salad. Cơm gà tôm nướng và salad.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Bœuf et Crevettes Grillés Servis Avec Riz et Salade",
-                        "price": 26,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Grilled beef and shrimps served with rice and salad. Cơm bò tôm và salade.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Poulet, Bœuf et Crevettes Grillés Servis Avec Riz et Salade",
-                        "price": 29,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Grilled chicken, beef and shrimps served with rice and salad. Cơm gà bò tôm và salade.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Riz Frit au Poulet",
+                        "name": "Combo J",
                         "price": 19,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Chicken fried rice. Cơm chiên gà.",
+                        "description": "Pad Thai aux crevettes, soupe du jour, rouleau impérial, riz, et salade. / Shrimp Pad Thai, soup of the day, imperial rolls, rice, and salad.",
                         "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Riz Frit au Bœuf",
-                        "price": 21,
+                        "name": "Combo H",
+                        "price": 20,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Beef fried rice. Cơm chiên bò.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Riz Frit aux Fruits de Mer",
-                        "price": 21,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Seafood fried rice. Cơm chiên đồ biển.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Nouilles Croustillantes au Poulet",
-                        "price": 24,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Crispy noodles with chicken. Mì xào giòn gà.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Nouilles Croustillantes aux Fruits de Mer",
-                        "price": 27,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Crispy noodles with seafood. Mì xào giòn đồ biển.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Nouilles Croustillantes au Bœuf",
-                        "price": 25,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Crispy noodles with beef. Mì xào giòn bò.",
+                        "description": "Poulet général tao, soupe du jour, rouleau impérial. / General Tao chicken, soup of the day, imperial rolls.",
                         "image": null,
                         "badges": []
                     }
                 ]
             },
             {
-                "category_name": "Les Desserts",
+                "category_name": "Sautés / Sauteed (Delivery)",
                 "items": [
                     {
-                        "name": "Fried Banana",
-                        "price": 8,
+                        "name": "Gà Xào Rau",
+                        "price": 16,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Banane frite. Chuối chiên.",
+                        "description": "Poulet Sauté aux Légumes / Sauteed Chicken with Vegetables",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/01503fe4a33cc6efd44e51215026c21a/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Mì Xào Giòn Gà",
+                        "price": 18,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Nouilles Croustillantes avec Poulet et Légumes / Crispy Noodles with Chicken and Vegetables",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/5db885375bb928a36fdb563332fe40e4/f47cec1eac1d3b43eccf2318d065819a.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Cơm Chiên Thập Cẩm",
+                        "price": 16,
+                        "like_percentage": 93,
+                        "rating_count": 76,
+                        "description": "Riz Frit Spécial / Special Fried Rice",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/40d6e97e6fa8d0c7c4ed40fd70e81791/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Mì Xào Giòn Bò",
+                        "price": 18,
+                        "like_percentage": 93,
+                        "rating_count": 46,
+                        "description": "Nouilles Croustillantes avec Boeuf et Légumes / Crispy Noodles with Beef and Vegetables",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/8b1b36b695057b8252ecd5908ec0b0c6/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Gà Tao",
+                        "price": 18,
+                        "like_percentage": 96,
+                        "rating_count": 190,
+                        "description": "Poulet Général Tao / General Tao Chicken",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/3d0dac7956a92d977df4cebfbd9c85a5/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Pad Thái Tôm",
+                        "price": 18,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Pad Thai au Crevette / Shrimp Pad Thai",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/e2a47ab0b6056287207778781db89d51/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Pad Thái Gà",
+                        "price": 16,
+                        "like_percentage": null,
+                        "rating_count": null,
+                        "description": "Pad Thai au Poulet / Chicken Pad Thai",
+                        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/626642f8291f79a7409aad7f27a10165/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+                        "badges": []
+                    },
+                    {
+                        "name": "Mì Xào Giòn Tôm",
+                        "price": 19,
+                        "like_percentage": 95,
+                        "rating_count": 47,
+                        "description": "Nouilles Croustillantes avec Crevette et Légumes / Crispy Noodles with Shrimp and Vegetables",
                         "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Fried Pineapple",
-                        "price": 8,
+                        "name": "Tôm Xào Rau",
+                        "price": 18,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Ananas fruits. Khóm chiên.",
+                        "description": "Crevettes Sautées aux Légumes / Sauteed Shrimp with Vegetables",
                         "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Fresh Lemonade",
-                        "price": 7,
+                        "name": "Bò Xào Rau",
+                        "price": 16,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": "Limonade à la lime. Nước chanh tươi.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Vietnamese Iced Coffee",
-                        "price": 9,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Café glacé Vietnamien. Cà phê sữa đá.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Soft Drink",
-                        "price": 4.5,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Boisson gazeuse. Nước ngọt.",
-                        "image": null,
-                        "badges": []
-                    },
-                    {
-                        "name": "Salted Chinese Plum",
-                        "price": 8,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": "Prune Chinoise salée. Nước xí muội.",
+                        "description": "Boeuf Sauté aux Légumes / Sauteed Beef with Vegetables",
                         "image": null,
                         "badges": []
                     }
                 ]
             },
             {
-                "category_name": "Banh Mi - Sous Marin V.",
+                "category_name": "Nos desserts et breuvages / Desserts and Drinks (Delivery)",
                 "items": [
                     {
-                        "name": "Banh Mi au Poulet - Chicken Banh Mi",
-                        "price": 10,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": null,
+                        "name": "Cafe Sữa Đá",
+                        "price": 8,
+                        "like_percentage": 90,
+                        "rating_count": 43,
+                        "description": "Café Filtre au Lait Concentré Noir Froid / Iced Condensed Milk Filtered Coffee",
                         "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Banh Mi au Boeuf - Beef Banh Mi",
-                        "price": 10,
+                        "name": "Cafe Đen Đá",
+                        "price": 6,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": null,
+                        "description": "Café Filtre Noir Froid / Iced Black Filtered Coffee",
                         "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Banh Mi au Porc BBQ - Cha Xiu Banh Mi",
-                        "price": 10,
-                        "like_percentage": null,
-                        "rating_count": null,
-                        "description": null,
+                        "name": "Liqueur douce / Soft Drink",
+                        "price": 3,
+                        "like_percentage": 91,
+                        "rating_count": 219,
+                        "description": "Sweet and refreshing drink.",
                         "image": null,
                         "badges": []
                     },
                     {
-                        "name": "Banh Mi Vegetarien - Vegetarian Banh mi",
-                        "price": 10,
+                        "name": "Chuối Chiên",
+                        "price": 5,
                         "like_percentage": null,
                         "rating_count": null,
-                        "description": null,
+                        "description": "Banane Frite / Fried Banana",
                         "image": null,
                         "badges": []
                     }
@@ -945,7 +553,7 @@
         ]
     },
     "metadata": {
-        "request_id": "9e9f8d09-ab2c-48d8-b839-d4e8c1f6f341",
+        "request_id": "b87a1267-6d34-4267-b74b-2916dc6583c9",
         "generated_query": null,
         "screenshot": null
     }
