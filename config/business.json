@@ -1,29 +1,29 @@
 {
   "data": {
-    "name": "Resto Café Time Square",
-    "tagline": "Sandwich • Mediterranean • Salads • Healthy • Group Friendly",
+    "name": "BAHJA BURGER",
+    "tagline": "Burgers • American • Sandwiches",
     "description": null,
 
     "contact": {
-      "phone": "+1 514-658-0999",
+      "phone": "+1 514-374-2044",
       "email": null
     },
 
     "address": {
-      "full": "4871 Rue Jarry E, Saint-Léonard, QC H1R 1Y1, Canada",
-      "fullMultiline": "4871 Rue Jarry E<br>Saint-Léonard, QC H1R 1Y1<br>Canada",
-      "street": "4871 Rue Jarry E",
-      "city": "Saint-Léonard",
+      "full": "6314 Rue Jean-Talon E, Montréal, QC H1S 1M8, Canada",
+      "fullMultiline": "6314 Rue Jean-Talon E<br>Montréal, QC H1S 1M8<br>Canada",
+      "street": "6314 Rue Jean-Talon E",
+      "city": "Montréal",
       "region": "QC",
-      "postal_code": "H1R 1Y1",
+      "postal_code": "H1S 1M8",
       "country": "Canada"
     },
 
-    "hours": "Mon–Sat: 08:00–18:00 (closed Sunday)",
+    "hours": "Mon–Sun: 11:00 a.m. - 11:59 p.m",
 
     "social": {
-      "facebook": "https://www.facebook.com/timesquarestleonard/",
-      "instagram": "https://www.instagram.com/cateringtakeouttimesquare/",
+      "facebook": "https://www.facebook.com/BAHJA-BURGER-61555896510832/",
+      "instagram": "https://www.instagram.com/bahjaburger/",
       "twitter": null,
       "youtube": null,
       "google_maps": null
