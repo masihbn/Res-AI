@@ -1,71 +1,125 @@
 <svg width="480" height="90" viewBox="0 0 480 90" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background subtle pattern -->
+  <!-- Background for better visibility -->
   <rect width="480" height="90" fill="transparent"/>
 
-  <!-- Left decorative lotus element -->
-  <g transform="translate(30, 45)">
-    <!-- Lotus flower - Vietnamese symbol -->
-    <path d="M 0 0 Q -2 -10 0 -15 Q 2 -10 0 0" stroke="#E4C590" stroke-width="1.2" fill="none" opacity="0.8"/>
-    <path d="M -5 -8 Q -4 -12 0 -15" stroke="#E4C590" stroke-width="1" fill="none" opacity="0.7"/>
-    <path d="M 5 -8 Q 4 -12 0 -15" stroke="#E4C590" stroke-width="1" fill="none" opacity="0.7"/>
-    <ellipse cx="0" cy="-2" rx="6" ry="4" stroke="#E4C590" stroke-width="1" fill="none" opacity="0.6"/>
-    <!-- Connecting line -->
-    <line x1="10" y1="0" x2="35" y2="0" stroke="#E4C590" stroke-width="0.8" opacity="0.6"/>
+  <!-- Decorative burger icon on left -->
+  <g transform="translate(35, 45)">
+    <!-- Burger icon -->
+    <!-- Top bun -->
+    <path d="M -18 -15 Q -18 -20, -12 -22 Q -6 -24, 0 -24 Q 6 -24, 12 -22 Q 18 -20, 18 -15 L 18 -13 L -18 -13 Z"
+          fill="#E4C590" stroke="#E4C590" stroke-width="0.5"/>
+    <!-- Sesame seeds -->
+    <circle cx="-8" cy="-18" r="0.8" fill="#FFFFFF" opacity="0.9"/>
+    <circle cx="2" cy="-19" r="0.8" fill="#FFFFFF" opacity="0.9"/>
+    <circle cx="10" cy="-17" r="0.8" fill="#FFFFFF" opacity="0.9"/>
+    <circle cx="-14" cy="-16" r="0.8" fill="#FFFFFF" opacity="0.9"/>
+
+    <!-- Lettuce -->
+    <path d="M -18 -13 L -17 -9 L -15 -11 L -12 -8 L -10 -10 L -7 -7 L -4 -9 L 0 -6 L 4 -9 L 7 -7 L 10 -10 L 12 -8 L 15 -11 L 17 -9 L 18 -13 Z"
+          fill="#7CB342" opacity="0.85"/>
+
+    <!-- Cheese -->
+    <path d="M -19 -9 L -19 -5 L 19 -5 L 19 -9 Z"
+          fill="#FFB300"/>
+    <!-- Cheese holes -->
+    <circle cx="-10" cy="-7" r="1" fill="#FFA000" opacity="0.6"/>
+    <circle cx="5" cy="-7" r="1.2" fill="#FFA000" opacity="0.6"/>
+
+    <!-- Patty -->
+    <ellipse cx="0" cy="0" rx="19" ry="5"
+             fill="#6D4C41" stroke="#5D4037" stroke-width="0.5"/>
+    <!-- Grill marks -->
+    <line x1="-12" y1="-1" x2="-8" y2="1" stroke="#4E342E" stroke-width="0.8" opacity="0.5"/>
+    <line x1="-4" y1="-1" x2="0" y2="1" stroke="#4E342E" stroke-width="0.8" opacity="0.5"/>
+    <line x1="6" y1="-1" x2="10" y2="1" stroke="#4E342E" stroke-width="0.8" opacity="0.5"/>
+
+    <!-- Tomato -->
+    <ellipse cx="0" cy="6" rx="17" ry="3"
+             fill="#D32F2F" opacity="0.85"/>
+
+    <!-- Bottom bun -->
+    <path d="M -18 9 L -18 13 Q -18 16, -12 17 Q -6 18, 0 18 Q 6 18, 12 17 Q 18 16, 18 13 L 18 9 Z"
+          fill="#D4A574" stroke="#C9985E" stroke-width="0.5"/>
   </g>
 
-  <!-- Main restaurant name -->
-  <text x="240" y="35" font-family="Georgia, serif" font-size="28" font-weight="500"
-        fill="#FFFFFF" text-anchor="middle" letter-spacing="5">
-    RESTAURANT
-  </text>
+  <!-- Decorative line from burger to text -->
+  <line x1="60" y1="45" x2="85" y2="45" stroke="#E4C590" stroke-width="0.8" opacity="0.5"/>
 
-  <!-- Business name - larger and prominent -->
-  <text x="240" y="62" font-family="Georgia, serif" font-size="34" font-weight="600"
-        fill="#E4C590" text-anchor="middle" letter-spacing="8">
-    THANH THAO
-  </text>
+  <!-- Main business name "BAHJA BURGER" -->
+  <g transform="translate(240, 45)">
+    <!-- BAHJA text -->
+    <text x="0" y="-8"
+          font-family="Georgia, serif"
+          font-size="32"
+          font-weight="700"
+          fill="#E4C590"
+          text-anchor="middle"
+          letter-spacing="6">
+      BAHJA
+    </text>
 
-  <!-- Decorative underline with Vietnamese pattern -->
-  <g transform="translate(240, 70)">
-    <line x1="-110" y1="0" x2="110" y2="0" stroke="#E4C590" stroke-width="0.6" opacity="0.5"/>
-    <!-- Small decorative elements -->
-    <circle cx="-115" cy="0" r="2" fill="none" stroke="#E4C590" stroke-width="0.6" opacity="0.6"/>
-    <circle cx="115" cy="0" r="2" fill="none" stroke="#E4C590" stroke-width="0.6" opacity="0.6"/>
+    <!-- BURGER text -->
+    <text x="0" y="22"
+          font-family="Georgia, serif"
+          font-size="28"
+          font-weight="600"
+          fill="#FFFFFF"
+          text-anchor="middle"
+          letter-spacing="8">
+      BURGER
+    </text>
+
+    <!-- Decorative separator line between BAHJA and BURGER -->
+    <line x1="-70" y1="2" x2="70" y2="2" stroke="#E4C590" stroke-width="0.8" opacity="0.4"/>
+    <circle cx="-74" cy="2" r="1.5" fill="none" stroke="#E4C590" stroke-width="0.6" opacity="0.5"/>
+    <circle cx="74" cy="2" r="1.5" fill="none" stroke="#E4C590" stroke-width="0.6" opacity="0.5"/>
   </g>
 
-  <!-- Right decorative lotus element (mirrored) -->
-  <g transform="translate(450, 45) scale(-1, 1)">
-    <!-- Lotus flower -->
-    <path d="M 0 0 Q -2 -10 0 -15 Q 2 -10 0 0" stroke="#E4C590" stroke-width="1.2" fill="none" opacity="0.8"/>
-    <path d="M -5 -8 Q -4 -12 0 -15" stroke="#E4C590" stroke-width="1" fill="none" opacity="0.7"/>
-    <path d="M 5 -8 Q 4 -12 0 -15" stroke="#E4C590" stroke-width="1" fill="none" opacity="0.7"/>
-    <ellipse cx="0" cy="-2" rx="6" ry="4" stroke="#E4C590" stroke-width="1" fill="none" opacity="0.6"/>
-    <!-- Connecting line -->
-    <line x1="10" y1="0" x2="35" y2="0" stroke="#E4C590" stroke-width="0.8" opacity="0.6"/>
+  <!-- Decorative burger icon on right (mirrored) -->
+  <g transform="translate(445, 45) scale(-1, 1)">
+    <!-- Burger icon (same as left) -->
+    <path d="M -18 -15 Q -18 -20, -12 -22 Q -6 -24, 0 -24 Q 6 -24, 12 -22 Q 18 -20, 18 -15 L 18 -13 L -18 -13 Z"
+          fill="#E4C590" stroke="#E4C590" stroke-width="0.5"/>
+    <circle cx="-8" cy="-18" r="0.8" fill="#FFFFFF" opacity="0.9"/>
+    <circle cx="2" cy="-19" r="0.8" fill="#FFFFFF" opacity="0.9"/>
+    <circle cx="10" cy="-17" r="0.8" fill="#FFFFFF" opacity="0.9"/>
+    <circle cx="-14" cy="-16" r="0.8" fill="#FFFFFF" opacity="0.9"/>
+    <path d="M -18 -13 L -17 -9 L -15 -11 L -12 -8 L -10 -10 L -7 -7 L -4 -9 L 0 -6 L 4 -9 L 7 -7 L 10 -10 L 12 -8 L 15 -11 L 17 -9 L 18 -13 Z"
+          fill="#7CB342" opacity="0.85"/>
+    <path d="M -19 -9 L -19 -5 L 19 -5 L 19 -9 Z"
+          fill="#FFB300"/>
+    <circle cx="-10" cy="-7" r="1" fill="#FFA000" opacity="0.6"/>
+    <circle cx="5" cy="-7" r="1.2" fill="#FFA000" opacity="0.6"/>
+    <ellipse cx="0" cy="0" rx="19" ry="5"
+             fill="#6D4C41" stroke="#5D4037" stroke-width="0.5"/>
+    <line x1="-12" y1="-1" x2="-8" y2="1" stroke="#4E342E" stroke-width="0.8" opacity="0.5"/>
+    <line x1="-4" y1="-1" x2="0" y2="1" stroke="#4E342E" stroke-width="0.8" opacity="0.5"/>
+    <line x1="6" y1="-1" x2="10" y2="1" stroke="#4E342E" stroke-width="0.8" opacity="0.5"/>
+    <ellipse cx="0" cy="6" rx="17" ry="3"
+             fill="#D32F2F" opacity="0.85"/>
+    <path d="M -18 9 L -18 13 Q -18 16, -12 17 Q -6 18, 0 18 Q 6 18, 12 17 Q 18 16, 18 13 L 18 9 Z"
+          fill="#D4A574" stroke="#C9985E" stroke-width="0.5"/>
   </g>
 
-  <!-- Vietnamese cuisine tagline -->
-  <text x="240" y="82" font-family="Georgia, serif" font-size="9" font-weight="300"
-        fill="#E4C590" text-anchor="middle" letter-spacing="3" opacity="0.85">
-    VIETNAMESE CUISINE
-  </text>
+  <!-- Decorative line from text to right burger -->
+  <line x1="395" y1="45" x2="420" y2="45" stroke="#E4C590" stroke-width="0.8" opacity="0.5"/>
 
-  <!-- Decorative bamboo-inspired corner accents -->
-  <g opacity="0.4">
-    <!-- Top left bamboo segment -->
-    <line x1="15" y1="12" x2="15" y2="22" stroke="#E4C590" stroke-width="1.5"/>
-    <line x1="12" y1="15" x2="18" y2="15" stroke="#E4C590" stroke-width="0.5"/>
+  <!-- Decorative corner elements -->
+  <g opacity="0.3">
+    <!-- Top left -->
+    <line x1="8" y1="8" x2="8" y2="20" stroke="#E4C590" stroke-width="1.5"/>
+    <line x1="8" y1="8" x2="20" y2="8" stroke="#E4C590" stroke-width="1.5"/>
 
-    <!-- Top right bamboo segment -->
-    <line x1="465" y1="12" x2="465" y2="22" stroke="#E4C590" stroke-width="1.5"/>
-    <line x1="462" y1="15" x2="468" y2="15" stroke="#E4C590" stroke-width="0.5"/>
+    <!-- Top right -->
+    <line x1="472" y1="8" x2="472" y2="20" stroke="#E4C590" stroke-width="1.5"/>
+    <line x1="472" y1="8" x2="460" y2="8" stroke="#E4C590" stroke-width="1.5"/>
 
-    <!-- Bottom left bamboo segment -->
-    <line x1="15" y1="68" x2="15" y2="78" stroke="#E4C590" stroke-width="1.5"/>
-    <line x1="12" y1="75" x2="18" y2="75" stroke="#E4C590" stroke-width="0.5"/>
+    <!-- Bottom left -->
+    <line x1="8" y1="82" x2="8" y2="70" stroke="#E4C590" stroke-width="1.5"/>
+    <line x1="8" y1="82" x2="20" y2="82" stroke="#E4C590" stroke-width="1.5"/>
 
-    <!-- Bottom right bamboo segment -->
-    <line x1="465" y1="68" x2="465" y2="78" stroke="#E4C590" stroke-width="1.5"/>
-    <line x1="462" y1="75" x2="468" y2="75" stroke="#E4C590" stroke-width="0.5"/>
+    <!-- Bottom right -->
+    <line x1="472" y1="82" x2="472" y2="70" stroke="#E4C590" stroke-width="1.5"/>
+    <line x1="472" y1="82" x2="460" y2="82" stroke="#E4C590" stroke-width="1.5"/>
   </g>
 </svg>
